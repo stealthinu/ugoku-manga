@@ -1,0 +1,40 @@
+# Licence and provenance of the sample works
+
+The three sample works (`shonen-rooftop`, `shojo-afterschool`, `koma-morning`) are original fiction. The stories, characters, names and dialogue were written for this
+repository; they depict no existing work or person.
+
+## Licence
+
+Everything under `samples/` (page images, scripts, ground truth, direction files) is dedicated to the public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+Raw output of an image model may not be protected by copyright; CC0 is used so that nothing is left unclear. The lettering, layout and effects are code-drawn and are dedicated with it.
+
+A machine-readable list of the works, their pages and licence is in `samples/manifest.json`; checksums are in `samples/MANIFEST.sha256`
+(that file also lists the demo media under `docs/media/`, which have their own note in `docs/media/README.md`).
+
+## How the pages were made (`tools/sample_gen/`)
+
+- Panel art: Qwen-Image (Alibaba / Qwen team), licence Apache-2.0, https://huggingface.co/Qwen/Qwen-Image (revision 75e0b4be04 read on 2026-10-22; licence file and model card state Apache-2.0).
+  Weights used: the ComfyUI repackaging https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI (Apache-2.0, revision 1f12b17be1): `qwen_image_fp8_e4m3fn.safetensors`,
+  `qwen_image_vae.safetensors`, and the text encoder `qwen_2.5_vl_7b_fp8_scaled.safetensors` (Qwen2.5-VL-7B, Apache-2.0).
+  Sampler: euler, simple scheduler, 20 steps, CFG 2.5, AuraFlow shift 3.1, through ComfyUI. Each panel's prompt and seed are in `<work>/script.yaml`. No prompt names an artist, franchise or character; a test checks this.
+- Everything else is drawn by `tools/sample_gen/render.py`: panel layout, borders, halftone tone from the generated gray values, balloons, tails, lettering, sound effects and manpu.
+  `<work>/truth.json` holds the exact panel polygons, unit boxes, label masks (`truth/*_units.png`), text and reading order.
+- Fonts (SIL Open Font License 1.1, downloaded at build time and not redistributed here; only rendered glyphs appear in the pages):
+
+| family | source | sha256 of the file used |
+|---|---|---|
+| Noto Sans JP | https://github.com/google/fonts/tree/main/ofl/notosansjp | c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f |
+| Noto Serif JP | https://github.com/google/fonts/tree/main/ofl/notoserifjp | 2fd527ba12b6a44ec30d796d633360da0aeba6c5d4af1304ce12bb4dc15a7dfc |
+| Zen Maru Gothic | https://github.com/google/fonts/tree/main/ofl/zenmarugothic | fe24426b9c8b5523a0146a8235c8674eccf0493af354a53ec895c3596d9eb745 |
+| Dela Gothic One | https://github.com/google/fonts/tree/main/ofl/delagothicone | 4ff87a0965f1b0505e5a2c58424bc6ad3cff27e56a82f21c2fc9d6b0e3857ee2 |
+| Rampart One | https://github.com/google/fonts/tree/main/ofl/rampartone | a4c60ee835175fa147eb483fac0dd8ff9007c37884ef77af86b0a868fa554d49 |
+| Reggae One | https://github.com/google/fonts/tree/main/ofl/reggaeone | aebe62598732d76036f30ec11bb0ec5f68938e373a06d1b4ceb6b9cf1abf3db2 |
+| Mochiy Pop One | https://github.com/google/fonts/tree/main/ofl/mochiypopone | 9e009430e1316c271a5f34759c6b65fc343c4e806f193042528887e7235a92c6 |
+| Yusei Magic | https://github.com/google/fonts/tree/main/ofl/yuseimagic | 82098615f39ed9da6a8ccc674b9006e49c70dd5b775a7a1697f6bedd22ce25a2 |
+
+Not used: fonts whose licence restricts redistribution of rendered text or the font itself.
+
+## Regenerating
+
+`python -m tools.sample_gen.build art <work>...` writes the art stage for the GPU runner; `python -m tools.sample_gen.build render <work>... --art DIR` assembles pages and truth.

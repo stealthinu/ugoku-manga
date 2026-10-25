@@ -1,0 +1,33 @@
+{
+ "type": "object",
+ "properties": {
+  "panels": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "panel_id": {
+      "type": "string"
+     },
+     "unit_ids": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     }
+    },
+    "required": [
+     "panel_id",
+     "unit_ids"
+    ],
+    "additionalProperties": false
+   }
+  }
+ },
+ "required": [
+  "panels"
+ ],
+ "additionalProperties": false,
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "ugoku-order"
+}

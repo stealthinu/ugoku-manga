@@ -1,0 +1,119 @@
+{
+ "type": "object",
+ "properties": {
+  "panels": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "type": {
+      "enum": [
+       "h3_full",
+       "static"
+      ]
+     },
+     "role": {
+      "enum": [
+       "lead",
+       "support",
+       "hold"
+      ]
+     },
+     "action": {
+      "type": "string"
+     },
+     "magnitude": {
+      "enum": [
+       "medium",
+       "large",
+       "none"
+      ]
+     },
+     "mode": {
+      "enum": [
+       "f",
+       "fl",
+       "none"
+      ]
+     },
+     "emotion_source": {
+      "type": "string"
+     },
+     "reason": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "id",
+     "type",
+     "role",
+     "action",
+     "magnitude",
+     "mode",
+     "emotion_source",
+     "reason"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "units": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "anim": {
+      "enum": [
+       "pop",
+       "fade",
+       "shake",
+       "slide",
+       "none"
+      ]
+     },
+     "preset": {
+      "enum": [
+       "impact",
+       "jolt",
+       "tremble",
+       "pulse",
+       "sway",
+       "creep",
+       "slide",
+       "drop",
+       "repeat_pop",
+       "rhythm",
+       "tick",
+       "drip",
+       "pop",
+       "stretch",
+       "line_stretch",
+       "sparkle_blink",
+       "flicker",
+       "mail_slide",
+       "none"
+      ]
+     }
+    },
+    "required": [
+     "id",
+     "anim",
+     "preset"
+    ],
+    "additionalProperties": false
+   }
+  }
+ },
+ "required": [
+  "panels",
+  "units"
+ ],
+ "additionalProperties": false,
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "ugoku-direct"
+}

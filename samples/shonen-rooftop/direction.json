@@ -1,0 +1,1324 @@
+{
+ "format": "ugoku-direction/1",
+ "work": "shonen-rooftop",
+ "reading": "rtl",
+ "pages": [
+  {
+   "page": "p01",
+   "image": "p01.png",
+   "w": 850,
+   "h": 1200,
+   "story": "At sunset a boy with a scarf stands on a rooftop and says the rooftops are his road (P1). He vows \"I'll deliver it, no matter what!\" (P2). A masked man in a long coat blocks his way, saying \"You won't pass here, kid.\" (P3). The boy crouches low on the roof tiles to brace himself (P4), then dashes forward with a big \"ダッ!!\" (P5).",
+   "total_s": 10.3,
+   "must": [
+    {
+     "item": "P5 ダッ!! SFX split into U14, U16, U15 and U13",
+     "how": "Treat the four pieces as one SFX, ダッ!!, and animate them together with an impact preset."
+    },
+    {
+     "item": "P4 empty speech balloon at the left",
+     "how": "It is a blank (silent) balloon added as manpu. Show it with a pop and do not put text in it."
+    }
+   ],
+   "panels": [
+    {
+     "id": "p01-p1",
+     "order": 1,
+     "rect": [
+      0.04353,
+      0.03083,
+      0.91294,
+      0.26
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "Wide sunset rooftop view with water tanks and antennas; the boy stands at the ledge with his scarf blowing behind him, looking off to the right.",
+     "reason": "The drawn flapping scarf is natural motion, and a small head turn adds quiet resolve to the opening shot. The narration fades in over a moving character, not a frozen one. The sky and city stay still.",
+     "timing_s": [
+      0.0,
+      2.4
+     ],
+     "action": "The boy at the ledge starts nearly still, turns his head slightly further to the right as both ends of his scarf flap to the left behind him, then returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Narration 日没の街。屋根の上がおれの道だ。 and the drawn scarf ends flapping to the left",
+     "seed": 74750
+    },
+    {
+     "id": "p01-p2",
+     "order": 2,
+     "rect": [
+      0.50471,
+      0.2975,
+      0.45176,
+      0.3325
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "Close-up of the boy facing forward, his right fist raised and clenched near his chest.",
+     "reason": "A close-up vow: squeezing the clenched fist turns his determination into a visible gesture that matches the balloon.",
+     "timing_s": [
+      1.8,
+      4.2
+     ],
+     "action": "The boy starts nearly still, tightens the raised fist on screen-right and pulls it slightly closer to his chest while his gaze hardens, then returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Line 届けるぞ、必ず！ with the stern stare and the clenched fist",
+     "seed": 214
+    },
+    {
+     "id": "p01-p3",
+     "order": 3,
+     "rect": [
+      0.04353,
+      0.29167,
+      0.45176,
+      0.33833
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "Low-angle shot of a masked man in a long coat, arms crossed, standing on a rooftop structure.",
+     "reason": "The threat lands harder if the blocker leans in while he speaks. The coat hem is already drawn flaring. The balloon animates, so the figure has to move too.",
+     "timing_s": [
+      3.6,
+      6.0
+     ],
+     "action": "The masked man starts nearly still, leans his upper body slightly forward with his arms still crossed as the hem of his long coat sways out to the left, then returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Line ここは通さんぞ、小僧。 with the low-angle pose and the drawn flaring coat hem",
+     "seed": 78161
+    },
+    {
+     "id": "p01-p4",
+     "order": 4,
+     "rect": [
+      0.59412,
+      0.63667,
+      0.36235,
+      0.3325
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The boy crouches low on the roof tiles with one hand on the tiles, bracing his legs to spring.",
+     "reason": "This is the wind-up before the dash. Visibly gathering strength builds tension and matches the animated グッ and the emphasis marks.",
+     "timing_s": [
+      5.4,
+      7.8
+     ],
+     "action": "The crouching boy starts nearly still, sinks his hips lower and presses the hand on the roof tiles at the bottom center harder against them, while the hand near his face on screen-left tightens and his shoulders tense, then returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "SFX グッ and the emphasis marks near his face",
+     "seed": 65263
+    },
+    {
+     "id": "p01-p5",
+     "order": 5,
+     "rect": [
+      0.04353,
+      0.63667,
+      0.54,
+      0.3325
+     ],
+     "type": "h3_full",
+     "role": "lead",
+     "content": "The boy runs to the left across the roof tiles, both fists pumping and his scarf streaming behind him.",
+     "reason": "The page's climax: a one-way dash with drawn speed lines. It is a run, so it must not reverse, which means mode f.",
+     "timing_s": [
+      7.2,
+      9.9
+     ],
+     "poly": [
+      [
+       0.04470588235294118,
+       0.6375
+      ],
+      [
+       0.04470588235294118,
+       0.9675
+      ],
+      [
+       0.5164705882352941,
+       0.9683333333333334
+      ],
+      [
+       0.5023529411764706,
+       0.9375
+      ],
+      [
+       0.45529411764705885,
+       0.9391666666666667
+      ],
+      [
+       0.5023529411764706,
+       0.9325
+      ],
+      [
+       0.5188235294117647,
+       0.8941666666666667
+      ],
+      [
+       0.4682352941176471,
+       0.9091666666666667
+      ],
+      [
+       0.5658823529411765,
+       0.8475
+      ],
+      [
+       0.5823529411764706,
+       0.8766666666666667
+      ],
+      [
+       0.5823529411764706,
+       0.6375
+      ]
+     ],
+     "action": "The boy runs to the left across the roof tiles, pumping both fists and pushing off with his legs, while his scarf streams back to the right behind him. He keeps moving forward to the left the whole time.",
+     "magnitude": "large",
+     "mode": "f",
+     "emotion_source": "SFX ダッ!! and the drawn speed lines at the upper right with the streaming scarf",
+     "seed": 83945
+    }
+   ],
+   "bubbles": [
+    {
+     "id": "p01-b1",
+     "unit": "U3",
+     "panel": "p01-p1",
+     "rect": [
+      0.76471,
+      0.07417,
+      0.15765,
+      0.17167
+     ],
+     "text": "日没の街。屋根の上がおれの道だ。",
+     "order": 1,
+     "t_in": 0.6,
+     "anim": "fade"
+    },
+    {
+     "id": "p01-b2",
+     "unit": "U2",
+     "panel": "p01-p2",
+     "rect": [
+      0.52,
+      0.3,
+      0.15176,
+      0.19333
+     ],
+     "text": "届けるぞ、必ず！",
+     "order": 2,
+     "t_in": 2.4,
+     "anim": "pop"
+    },
+    {
+     "id": "p01-b3",
+     "unit": "U1",
+     "panel": "p01-p3",
+     "rect": [
+      0.29529,
+      0.28917,
+      0.19765,
+      0.19167
+     ],
+     "text": "ここは通さんぞ、小僧。",
+     "order": 3,
+     "t_in": 4.2,
+     "anim": "pop"
+    },
+    {
+     "id": "p01-b4",
+     "unit": "A2",
+     "panel": "p01-p4",
+     "rect": [
+      0.6,
+      0.73,
+      0.06,
+      0.07
+     ],
+     "text": "",
+     "order": 4,
+     "t_in": 6.0,
+     "anim": "pop"
+    }
+   ],
+   "fx": [
+    {
+     "id": "p01-f1",
+     "unit": "U11",
+     "panel": "p01-p4",
+     "rect": [
+      0.64588,
+      0.64667,
+      0.10706,
+      0.06083
+     ],
+     "text": "グッ",
+     "kind": "sfx",
+     "preset": "tremble",
+     "t_in": 5.7
+    },
+    {
+     "id": "p01-f2",
+     "unit": "A1",
+     "panel": "p01-p4",
+     "rect": [
+      0.66,
+      0.71,
+      0.08,
+      0.06
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "jolt",
+     "t_in": 6.1
+    },
+    {
+     "id": "p01-f3",
+     "unit": "U13",
+     "panel": "p01-p5",
+     "rect": [
+      0.32471,
+      0.84417,
+      0.29765,
+      0.12583
+     ],
+     "text": "!!",
+     "kind": "sfx",
+     "preset": "impact",
+     "t_in": 7.5
+    },
+    {
+     "id": "p01-f4",
+     "unit": "U14",
+     "panel": "p01-p5",
+     "rect": [
+      0.11059,
+      0.8475,
+      0.08588,
+      0.02917
+     ],
+     "text": "ダ",
+     "kind": "sfx",
+     "preset": "impact",
+     "t_in": 7.9
+    },
+    {
+     "id": "p01-f5",
+     "unit": "U15",
+     "panel": "p01-p5",
+     "rect": [
+      0.20353,
+      0.85667,
+      0.14588,
+      0.07917
+     ],
+     "text": "ッ",
+     "kind": "sfx",
+     "preset": "impact",
+     "t_in": 8.3
+    },
+    {
+     "id": "p01-f6",
+     "unit": "U16",
+     "panel": "p01-p5",
+     "rect": [
+      0.10824,
+      0.885,
+      0.04353,
+      0.0275
+     ],
+     "text": "ダ",
+     "kind": "sfx",
+     "preset": "impact",
+     "t_in": 8.7
+    },
+    {
+     "id": "p01-f7",
+     "unit": "A3",
+     "panel": "p01-p5",
+     "rect": [
+      0.43,
+      0.66,
+      0.15,
+      0.13
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "line_stretch",
+     "t_in": 9.1
+    }
+   ]
+  },
+  {
+   "page": "p02",
+   "image": "p02.png",
+   "w": 850,
+   "h": 1200,
+   "story": "The boy leaps at the masked brute shouting \"くらえっ!\" and their fists meet with a huge \"トンッ!!\". The brute throws another punch and groans \"ぬうっ!?\", but the boy dodges with \"遅いっ!\". The brute's cracked mask shows his shock (\"なん…だと?\") as the grinning boy skids to a landing on the rooftop edge with \"ザザッ\".",
+   "total_s": 10.0,
+   "must": [
+    {
+     "item": "P1 SFX トンッ!!",
+     "how": "The big impact SFX spans the whole panel in several pieces: U16 (トンッ) plus U17 and U20 (the two !). U22 sits on the ト stroke and is marked noise so it is not counted twice. Animate U16, U17 and U20 together as one impact."
+    }
+   ],
+   "panels": [
+    {
+     "id": "p02-p1",
+     "order": 1,
+     "rect": [
+      0.04353,
+      0.03083,
+      0.91294,
+      0.37583
+     ],
+     "type": "h3_full",
+     "role": "lead",
+     "content": "The boy leaps in from the left and punches; his fist hits the masked brute's fist on the right, with debris flying and radial speed lines.",
+     "reason": "This is the main clash of the page. The impact is drawn, so the attack and the recoil play out one way in the same panel.",
+     "timing_s": [
+      0.0,
+      2.4
+     ],
+     "poly": [
+      [
+       0.04470588235294118,
+       0.03166666666666667
+      ],
+      [
+       0.04470588235294118,
+       0.3983333333333333
+      ],
+      [
+       0.9541176470588235,
+       0.3983333333333333
+      ],
+      [
+       0.9541176470588235,
+       0.03166666666666667
+      ],
+      [
+       0.25058823529411767,
+       0.030833333333333334
+      ],
+      [
+       0.2576470588235294,
+       0.12333333333333334
+      ],
+      [
+       0.3564705882352941,
+       0.19166666666666668
+      ],
+      [
+       0.2611764705882353,
+       0.14666666666666667
+      ],
+      [
+       0.20941176470588235,
+       0.225
+      ],
+      [
+       0.15411764705882353,
+       0.155
+      ],
+      [
+       0.16941176470588235,
+       0.030833333333333334
+      ]
+     ],
+     "action": "The boy on the left drives his right fist forward into the masked man's fist on the right, and the masked man's arm and upper body jolt back from the hit. Debris bursts outward from the point where the fists meet.",
+     "magnitude": "large",
+     "mode": "f",
+     "emotion_source": "Shout \"くらえっ!\", the huge \"トンッ!!\" SFX, and the radial speed lines from the point of impact",
+     "seed": 74167
+    },
+    {
+     "id": "p02-p2",
+     "order": 2,
+     "rect": [
+      0.50471,
+      0.40917,
+      0.45176,
+      0.28167
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The masked brute thrusts his huge right fist toward the viewer, and his mask and chest are cracked.",
+     "reason": "The follow-up punch is drawn coming toward the camera. A one-way thrust sells the attack before the dodge in the next panel.",
+     "timing_s": [
+      1.8,
+      4.2
+     ],
+     "action": "The masked man thrusts his huge right fist straight toward the viewer, and his shoulders and torso lunge forward behind the punch.",
+     "magnitude": "large",
+     "mode": "f",
+     "emotion_source": "Grunt \"ぬうっ!?\" and the cracked mask and chest show strain and surprise",
+     "seed": 7879
+    },
+    {
+     "id": "p02-p3",
+     "order": 3,
+     "rect": [
+      0.04353,
+      0.40917,
+      0.45176,
+      0.275
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The boy twists his body and ducks aside with his guard up, and his scarf trails behind him.",
+     "reason": "A dodge is one-way body motion, and the drawn twist and trailing scarf call for motion. The shouted balloon also needs the character to move.",
+     "timing_s": [
+      3.6,
+      6.0
+     ],
+     "action": "The boy twists his torso and ducks his head down and to the left with his fists raised in guard. The scarf trails out behind him to the left.",
+     "magnitude": "large",
+     "mode": "f",
+     "emotion_source": "The calm, sharp-eyed face and the shout \"遅いっ!\"",
+     "seed": 11994
+    },
+    {
+     "id": "p02-p4",
+     "order": 4,
+     "rect": [
+      0.41647,
+      0.69333,
+      0.54,
+      0.27583
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The brute's mask is half shattered, showing a wide-eyed face with an open mouth as he lurches forward with his arms out.",
+     "reason": "The lurch and the change to shock are drawn. Motion makes his disbelief land, and the balloon needs the character to move.",
+     "timing_s": [
+      5.4,
+      7.8
+     ],
+     "action": "The brute lurches forward with both arms swinging out at his sides, his eyes widening and his mouth falling open.",
+     "magnitude": "medium",
+     "mode": "f",
+     "emotion_source": "The wide eyes and gaping mouth under the half-shattered mask, and the line \"なん…だと?\"",
+     "seed": 32362
+    },
+    {
+     "id": "p02-p5",
+     "order": 5,
+     "rect": [
+      0.04353,
+      0.69167,
+      0.36235,
+      0.2775
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The boy grins as he skids to a landing on the rooftop ledge with one hand down, while his scarf flies and debris scatters.",
+     "reason": "The skidding landing is drawn one-way motion with SFX. It closes the exchange on the boy's cocky confidence.",
+     "timing_s": [
+      7.2,
+      9.6
+     ],
+     "action": "The boy skids down onto the rooftop ledge, pressing the hand on screen-left onto the ledge while his other arm swings out toward screen-right for balance. His scarf whips upward and debris scatters near his feet as he grins.",
+     "magnitude": "large",
+     "mode": "f",
+     "emotion_source": "The wide, confident grin, the skid SFX \"ザザッ\", and the motion lines on the scarf",
+     "seed": 6890
+    }
+   ],
+   "bubbles": [
+    {
+     "id": "p02-b1",
+     "unit": "U1",
+     "panel": "p02-p1",
+     "rect": [
+      0.14,
+      0.0,
+      0.13294,
+      0.22333
+     ],
+     "text": "くらえっ!",
+     "order": 1,
+     "t_in": 0.6,
+     "anim": "shake"
+    },
+    {
+     "id": "p02-b2",
+     "unit": "U4",
+     "panel": "p02-p2",
+     "rect": [
+      0.81294,
+      0.37333,
+      0.10235,
+      0.19083
+     ],
+     "text": "ぬうっ!?",
+     "order": 2,
+     "t_in": 2.4,
+     "anim": "shake"
+    },
+    {
+     "id": "p02-b3",
+     "unit": "U5",
+     "panel": "p02-p3",
+     "rect": [
+      0.12824,
+      0.38417,
+      0.10353,
+      0.15917
+     ],
+     "text": "遅いっ!",
+     "order": 3,
+     "t_in": 4.2,
+     "anim": "shake"
+    },
+    {
+     "id": "p02-b4",
+     "unit": "U2",
+     "panel": "p02-p4",
+     "rect": [
+      0.78235,
+      0.65167,
+      0.10471,
+      0.22167
+     ],
+     "text": "なん…だと?",
+     "order": 4,
+     "t_in": 6.0,
+     "anim": "pop"
+    }
+   ],
+   "fx": [
+    {
+     "id": "p02-f1",
+     "unit": "U16",
+     "panel": "p02-p1",
+     "rect": [
+      0.37059,
+      0.175,
+      0.23294,
+      0.10167
+     ],
+     "text": "トンッ",
+     "kind": "sfx",
+     "preset": "impact",
+     "t_in": 0.3
+    },
+    {
+     "id": "p02-f2",
+     "unit": "U17",
+     "panel": "p02-p1",
+     "rect": [
+      0.61059,
+      0.1775,
+      0.12353,
+      0.12917
+     ],
+     "text": "!",
+     "kind": "sfx",
+     "preset": "jolt",
+     "t_in": 0.7
+    },
+    {
+     "id": "p02-f3",
+     "unit": "U20",
+     "panel": "p02-p1",
+     "rect": [
+      0.79765,
+      0.19167,
+      0.14941,
+      0.1275
+     ],
+     "text": "!",
+     "kind": "sfx",
+     "preset": "jolt",
+     "t_in": 1.1
+    },
+    {
+     "id": "p02-f4",
+     "unit": "U3",
+     "panel": "p02-p5",
+     "rect": [
+      0.24,
+      0.81833,
+      0.11647,
+      0.18167
+     ],
+     "text": "ザザッ",
+     "kind": "sfx",
+     "preset": "slide",
+     "t_in": 7.5
+    },
+    {
+     "id": "p02-f5",
+     "unit": "A1",
+     "panel": "p02-p5",
+     "rect": [
+      0.1,
+      0.715,
+      0.06,
+      0.03
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "line_stretch",
+     "t_in": 7.9
+    }
+   ]
+  },
+  {
+   "page": "p03",
+   "image": "p03.png",
+   "w": 850,
+   "h": 1200,
+   "story": "On a rooftop the spiky-haired youth leaps in with a flying kick (\"Seryaa!\") and the masked brute gasps \"Shima…\". The youth's punch lands on the cracked mask with a huge BAKII!!, but the brute swings back, shouting \"Don't block my path!\", and something smashes into the water-tank housing with a GASHAAN!",
+   "total_s": 10.3,
+   "must": [
+    {
+     "item": "BAKII!! SFX in P3 is split across U16 (バ), U12 (キィッ), U10 (!) and U11 (!)",
+     "how": "Treat them as one SFX and animate them together with one impact preset."
+    },
+    {
+     "item": "Speed-line fragments U6–U9 and U20–U22 in P3",
+     "how": "These are speed lines that were detected as SFX. Leave them out as lettering; the added P3 speed-line manpu unit covers them."
+    },
+    {
+     "item": "GASHAAN! SFX in P5 is split into U26 (ガ) and U25 (シャーン!)",
+     "how": "Animate them together as one impact SFX."
+    },
+    {
+     "item": "U2's balloon crosses the P3/P4 border",
+     "how": "Assign it to P4, where the masked brute is speaking."
+    }
+   ],
+   "panels": [
+    {
+     "id": "p03-p1",
+     "order": 1,
+     "rect": [
+      0.50471,
+      0.03333,
+      0.45176,
+      0.275
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "A spiky-haired youth in gloves flies through the air in a horizontal leaping kick, one sole thrust toward the viewer.",
+     "reason": "A drawn flying kick is one-way motion, and the shout balloon animates, so the youth must move.",
+     "timing_s": [
+      0.0,
+      2.4
+     ],
+     "poly": [
+      [
+       0.5047058823529412,
+       0.03333333333333333
+      ],
+      [
+       0.5058823529411764,
+       0.3075
+      ],
+      [
+       0.9541176470588235,
+       0.3075
+      ],
+      [
+       0.9552941176470588,
+       0.03333333333333333
+      ],
+      [
+       0.6705882352941176,
+       0.03333333333333333
+      ],
+      [
+       0.6776470588235294,
+       0.1325
+      ],
+      [
+       0.7270588235294118,
+       0.18
+      ],
+      [
+       0.6847058823529412,
+       0.15833333333333333
+      ],
+      [
+       0.6317647058823529,
+       0.25666666666666665
+      ],
+      [
+       0.58,
+       0.16333333333333333
+      ],
+      [
+       0.5941176470588235,
+       0.03333333333333333
+      ]
+     ],
+     "action": "The airborne youth thrusts his extended leg forward toward the upper right, driving the sole of his shoe at the viewer as his whole body flies left to right through the air. His gloved fists stay cocked at his sides.",
+     "magnitude": "large",
+     "mode": "f",
+     "emotion_source": "The jagged shout balloon \"せりゃあっ!\" and the drawn leaping kick pose",
+     "seed": 16157
+    },
+    {
+     "id": "p03-p2",
+     "order": 2,
+     "rect": [
+      0.04353,
+      0.02417,
+      0.45176,
+      0.28417
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "Low-angle shot of the masked, bare-chested brute in a long coat, mouth open in surprise.",
+     "reason": "A change of expression (being caught off guard) that sets up the hit, and the balloon appears here.",
+     "timing_s": [
+      1.8,
+      4.2
+     ],
+     "action": "The masked man jerks his head and upper body slightly back in surprise, his mouth opening wider. His arms tense at his sides.",
+     "magnitude": "medium",
+     "mode": "f",
+     "emotion_source": "Open mouth under the cracked mask and the cut-off line \"しまっ…\"",
+     "seed": 55821
+    },
+    {
+     "id": "p03-p3",
+     "order": 3,
+     "rect": [
+      0.04353,
+      0.31583,
+      0.95647,
+      0.38667
+     ],
+     "type": "h3_full",
+     "role": "lead",
+     "content": "The youth drives his fist into the brute's mask and debris bursts from the point of impact, while the brute twists with his own fist cocked back.",
+     "reason": "The page's main impact, with drawn speed lines and debris. The attacker and the reaction are shown in the same panel.",
+     "timing_s": [
+      3.6,
+      6.3
+     ],
+     "poly": [
+      [
+       0.04352941176470588,
+       0.3175
+      ],
+      [
+       0.047058823529411764,
+       0.7016666666666667
+      ],
+      [
+       0.8835294117647059,
+       0.7016666666666667
+      ],
+      [
+       0.6258823529411764,
+       0.5908333333333333
+      ],
+      [
+       0.8870588235294118,
+       0.6741666666666667
+      ],
+      [
+       0.94,
+       0.6183333333333333
+      ],
+      [
+       0.9988235294117647,
+       0.64
+      ],
+      [
+       0.9552941176470588,
+       0.6141666666666666
+      ],
+      [
+       0.9541176470588235,
+       0.31583333333333335
+      ]
+     ],
+     "action": "The youth on the left drives his right fist forward into the mask of the man on the right, and the man's head snaps back toward the right as fragments burst from the point of impact. The man's cocked right fist pulls further back as his body twists.",
+     "magnitude": "large",
+     "mode": "f",
+     "emotion_source": "Huge SFX バキィッ!! with radiating speed lines and the debris burst at the mask",
+     "seed": 92743
+    },
+    {
+     "id": "p03-p4",
+     "order": 4,
+     "rect": [
+      0.50471,
+      0.70917,
+      0.49529,
+      0.26
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The masked brute lunges forward with his right fist extended, debris scattering off the fist, rooftops behind him.",
+     "reason": "The counter-swing is a drawn one-way action, and the shout balloon animates, so the character must move.",
+     "timing_s": [
+      5.7,
+      8.1
+     ],
+     "poly": [
+      [
+       0.5058823529411764,
+       0.71
+      ],
+      [
+       0.5058823529411764,
+       0.9675
+      ],
+      [
+       0.9541176470588235,
+       0.9675
+      ],
+      [
+       0.9552941176470588,
+       0.8008333333333333
+      ],
+      [
+       0.9988235294117647,
+       0.7758333333333334
+      ],
+      [
+       0.9635294117647059,
+       0.7975
+      ],
+      [
+       0.9247058823529412,
+       0.7908333333333334
+      ],
+      [
+       0.8835294117647059,
+       0.7091666666666666
+      ]
+     ],
+     "action": "The masked man lunges forward and swings his right fist outward toward the right, with debris shards scattering off the knuckles. His coat swings with the motion of his body.",
+     "magnitude": "large",
+     "mode": "f",
+     "emotion_source": "The shout \"おれの道を塞ぐなっ!\" and the debris flying off the fist",
+     "seed": 46629
+    },
+    {
+     "id": "p03-p5",
+     "order": 5,
+     "rect": [
+      0.04353,
+      0.70917,
+      0.45176,
+      0.26
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The concrete wall below a rooftop water tank shatters on impact, with rubble and dust flying.",
+     "reason": "No character is in the panel, but there is drawn destruction (rubble, dust, a spreading crack) that shows the impact's result as one-way motion.",
+     "timing_s": [
+      7.5,
+      9.9
+     ],
+     "action": "The concrete wall under the water tank cracks open at the center, and chunks of rubble fly outward in all directions. A dust cloud billows up from the break.",
+     "magnitude": "large",
+     "mode": "f",
+     "emotion_source": "SFX ガシャーン! with flying rubble, dust cloud and radiating impact lines",
+     "seed": 54010,
+     "no_character": true
+    }
+   ],
+   "bubbles": [
+    {
+     "id": "p03-b1",
+     "unit": "U1",
+     "panel": "p03-p1",
+     "rect": [
+      0.56353,
+      0.0,
+      0.13294,
+      0.25333
+     ],
+     "text": "せりゃあっ!",
+     "order": 1,
+     "t_in": 0.6,
+     "anim": "shake"
+    },
+    {
+     "id": "p03-b2",
+     "unit": "U3",
+     "panel": "p03-p2",
+     "rect": [
+      0.34118,
+      0.01917,
+      0.10588,
+      0.16167
+     ],
+     "text": "しまっ…",
+     "order": 2,
+     "t_in": 2.4,
+     "anim": "pop"
+    },
+    {
+     "id": "p03-b3",
+     "unit": "U2",
+     "panel": "p03-p4",
+     "rect": [
+      0.87765,
+      0.61167,
+      0.12235,
+      0.19167
+     ],
+     "text": "おれの道を塞ぐなっ!",
+     "order": 3,
+     "t_in": 6.3,
+     "anim": "shake"
+    }
+   ],
+   "fx": [
+    {
+     "id": "p03-f1",
+     "unit": "U10",
+     "panel": "p03-p3",
+     "rect": [
+      0.68471,
+      0.43083,
+      0.06824,
+      0.1025
+     ],
+     "text": "!",
+     "kind": "sfx",
+     "preset": "jolt",
+     "t_in": 3.9
+    },
+    {
+     "id": "p03-f2",
+     "unit": "U11",
+     "panel": "p03-p3",
+     "rect": [
+      0.83176,
+      0.43,
+      0.08,
+      0.1425
+     ],
+     "text": "!",
+     "kind": "sfx",
+     "preset": "jolt",
+     "t_in": 4.3
+    },
+    {
+     "id": "p03-f3",
+     "unit": "U12",
+     "panel": "p03-p3",
+     "rect": [
+      0.18235,
+      0.4575,
+      0.45412,
+      0.11917
+     ],
+     "text": "キィッ",
+     "kind": "sfx",
+     "preset": "impact",
+     "t_in": 4.7
+    },
+    {
+     "id": "p03-f4",
+     "unit": "U16",
+     "panel": "p03-p3",
+     "rect": [
+      0.09412,
+      0.55167,
+      0.08588,
+      0.04
+     ],
+     "text": "バ",
+     "kind": "sfx",
+     "preset": "impact",
+     "t_in": 5.1
+    },
+    {
+     "id": "p03-f5",
+     "unit": "A1",
+     "panel": "p03-p3",
+     "rect": [
+      0.43,
+      0.4,
+      0.1,
+      0.08
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "pop",
+     "t_in": 5.5
+    },
+    {
+     "id": "p03-f6",
+     "unit": "A2",
+     "panel": "p03-p4",
+     "rect": [
+      0.82,
+      0.78,
+      0.11,
+      0.12
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "pop",
+     "t_in": 6.0
+    },
+    {
+     "id": "p03-f7",
+     "unit": "U25",
+     "panel": "p03-p5",
+     "rect": [
+      0.14706,
+      0.77667,
+      0.30235,
+      0.0875
+     ],
+     "text": "シャーン!",
+     "kind": "sfx",
+     "preset": "impact",
+     "t_in": 7.8
+    },
+    {
+     "id": "p03-f8",
+     "unit": "U26",
+     "panel": "p03-p5",
+     "rect": [
+      0.07882,
+      0.79917,
+      0.06588,
+      0.045
+     ],
+     "text": "ガ",
+     "kind": "sfx",
+     "preset": "impact",
+     "t_in": 8.2
+    }
+   ]
+  },
+  {
+   "page": "p04",
+   "image": "p04.png",
+   "w": 850,
+   "h": 1200,
+   "story": "The beaten masked man lies back in the rubble and admits defeat. The grinning boy holds out his hand and asks if he wants to keep going. The man tells him to go, and the boy runs off across the rooftops because his delivery isn't done yet.",
+   "total_s": 8.2,
+   "must": [],
+   "panels": [
+    {
+     "id": "p04-p1",
+     "order": 1,
+     "rect": [
+      0.04353,
+      0.03083,
+      0.91294,
+      0.32167
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "A large masked man in a long coat lies back against broken rubble on a rooftop, with a water tower behind him and small debris flying.",
+     "reason": "His balloon animates, so he has to move too. A slow defeated exhale fits the resignation, and the drawn debris gives a small extra motion.",
+     "timing_s": [
+      0.0,
+      2.4
+     ],
+     "action": "The masked man lying back against the rubble lets his chest rise and fall in one slow, heavy exhale while his head sinks a little further back. The arm stretched out on the right side of the panel stays limp. Starts nearly still, breathes out, returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "The line '…おれの負けか。' and his head tilted back with eyes closed show quiet, resigned defeat.",
+     "seed": 32190
+    },
+    {
+     "id": "p04-p2",
+     "order": 2,
+     "rect": [
+      0.50471,
+      0.355,
+      0.45176,
+      0.31083
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "A spiky-haired boy in a scarf and vest grins and stretches his gloved hand toward the viewer while his scarf flutters.",
+     "reason": "An offered hand is a clear action and the scarf flutter is drawn, so reaching and returning sells the invitation.",
+     "timing_s": [
+      1.8,
+      4.2
+     ],
+     "action": "The grinning boy pushes his outstretched gloved hand on the right a little further toward the viewer, fingers spreading, while his scarf flutters out to the right. Starts nearly still, reaches forward, returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "His wide confident grin, the line 'まだやるか?' and the hand held out toward the reader show cocky but friendly challenge.",
+     "seed": 76202
+    },
+    {
+     "id": "p04-p3",
+     "order": 3,
+     "rect": [
+      0.04353,
+      0.355,
+      0.45176,
+      0.31083
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The masked man, shown from below with a scarred bare chest and open coat, looks at the boy with wide eyes.",
+     "reason": "His balloon animates, so he has to move too. A small nod turns his surprise into acceptance without overdoing it.",
+     "timing_s": [
+      3.6,
+      6.0
+     ],
+     "action": "The masked man's wide eyes ease and his head dips forward in one small nod while his shoulders drop slightly inside the open coat. Starts nearly still, nods, returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "His wide-eyed surprise and the reply 'いや…行け、小僧。' show grudging acceptance.",
+     "seed": 72199
+    },
+    {
+     "id": "p04-p4",
+     "order": 4,
+     "rect": [
+      0.04353,
+      0.67333,
+      0.91294,
+      0.29583
+     ],
+     "type": "h3_full",
+     "role": "lead",
+     "content": "The boy runs to the right across tiled rooftops, fists pumping and scarf streaming behind him, with a caption box on the right.",
+     "reason": "A one-way departure with drawn running motion and footstep SFX. It is the main motion of the page and should not reverse, so it uses f mode.",
+     "timing_s": [
+      5.4,
+      7.8
+     ],
+     "action": "The boy runs toward the right across the tiled rooftops, his arms pumping and his legs striding forward. His scarf streams back to the left behind him as he moves on.",
+     "magnitude": "large",
+     "mode": "f",
+     "emotion_source": "His determined side profile, the running pose, the streaming scarf, the タタタッ footsteps and the caption '配達はまだ途中だ。'.",
+     "seed": 76358
+    }
+   ],
+   "bubbles": [
+    {
+     "id": "p04-b1",
+     "unit": "U2",
+     "panel": "p04-p1",
+     "rect": [
+      0.15059,
+      0.04333,
+      0.15294,
+      0.16333
+     ],
+     "text": "…おれの負けか。",
+     "order": 1,
+     "t_in": 0.6,
+     "anim": "fade"
+    },
+    {
+     "id": "p04-b2",
+     "unit": "U3",
+     "panel": "p04-p2",
+     "rect": [
+      0.56471,
+      0.32083,
+      0.10471,
+      0.22083
+     ],
+     "text": "まだやるか?",
+     "order": 2,
+     "t_in": 2.4,
+     "anim": "pop"
+    },
+    {
+     "id": "p04-b3",
+     "unit": "U1",
+     "panel": "p04-p3",
+     "rect": [
+      0.30471,
+      0.32,
+      0.15412,
+      0.2225
+     ],
+     "text": "いや…行け、小僧。",
+     "order": 3,
+     "t_in": 4.2,
+     "anim": "pop"
+    },
+    {
+     "id": "p04-b4",
+     "unit": "U4",
+     "panel": "p04-p4",
+     "rect": [
+      0.8,
+      0.705,
+      0.12471,
+      0.17167
+     ],
+     "text": "配達はまだ途中だ。",
+     "order": 4,
+     "t_in": 6.0,
+     "anim": "fade"
+    }
+   ],
+   "fx": [
+    {
+     "id": "p04-f1",
+     "unit": "U7",
+     "panel": "p04-p4",
+     "rect": [
+      0.25294,
+      0.69333,
+      0.07176,
+      0.06417
+     ],
+     "text": "タ",
+     "kind": "sfx",
+     "preset": "rhythm",
+     "t_in": 5.7
+    },
+    {
+     "id": "p04-f2",
+     "unit": "U8",
+     "panel": "p04-p4",
+     "rect": [
+      0.33529,
+      0.70833,
+      0.06941,
+      0.05333
+     ],
+     "text": "タ",
+     "kind": "sfx",
+     "preset": "rhythm",
+     "t_in": 6.1
+    },
+    {
+     "id": "p04-f3",
+     "unit": "U9",
+     "panel": "p04-p4",
+     "rect": [
+      0.41529,
+      0.7125,
+      0.15176,
+      0.05583
+     ],
+     "text": "タッ",
+     "kind": "sfx",
+     "preset": "pop",
+     "t_in": 6.5
+    }
+   ]
+  }
+ ],
+ "provenance": {
+  "llm": "claude_cli:claude-opus-5-5",
+  "prompt_version": "p3",
+  "detector_versions": {
+   "panels": "classical-1",
+   "units": "segment-1"
+  }
+ }
+}

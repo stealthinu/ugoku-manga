@@ -1,0 +1,87 @@
+[
+ {
+  "page": "p01",
+  "repairs": 0,
+  "critic_rounds": 2,
+  "critic_changes": [
+   {
+    "issues": 2,
+    "panels_changed": 2,
+    "rules": [
+     "action first sentence must name the main",
+     "one_way_fl validator warning (fl wording"
+    ]
+   },
+   {
+    "issues": 2,
+    "panels_changed": 2,
+    "rules": [
+     "fl is for motion that returns to the sta",
+     "the action must start from the drawn fir"
+    ]
+   }
+  ],
+  "degraded": [],
+  "issues": [
+   "warn rect_in_panel [p01-b4] bubble rect not inside its panel (5% tolerance)"
+  ],
+  "redirect": false,
+  "panel_log": [],
+  "order_overrides": 0,
+  "valid": true,
+  "valid_without_degrade": true
+ },
+ {
+  "page": "p02",
+  "repairs": 0,
+  "critic_rounds": 2,
+  "critic_changes": [
+   {
+    "issues": 1,
+    "panels_changed": 1,
+    "rules": [
+     "action: first sentence must name body pa"
+    ]
+   },
+   {
+    "issues": 1,
+    "panels_changed": 1,
+    "rules": [
+     "Does the action's first sentence name th"
+    ]
+   }
+  ],
+  "degraded": [],
+  "issues": [],
+  "redirect": false,
+  "panel_log": [
+   "merge P1+P2"
+  ],
+  "order_overrides": 0,
+  "valid": true,
+  "valid_without_degrade": true
+ },
+ {
+  "page": "p03",
+  "repairs": 0,
+  "critic_rounds": 2,
+  "critic_changes": [
+   {
+    "issues": 1,
+    "panels_changed": 1,
+    "rules": [
+     "one_way_fl"
+    ]
+   }
+  ],
+  "degraded": [],
+  "issues": [],
+  "redirect": false,
+  "panel_log": [
+   "merge P2+P3"
+  ],
+  "order_overrides": 0,
+  "valid": true,
+  "valid_without_degrade": true
+ }
+]

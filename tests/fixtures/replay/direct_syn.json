@@ -1,0 +1,51 @@
+{
+ "panels": [
+  {
+   "id": "P1",
+   "type": "h3_full",
+   "role": "lead",
+   "action": "The person raises the right arm and lowers it again, starting nearly still and returning to the starting pose.",
+   "magnitude": "medium",
+   "mode": "fl",
+   "emotion_source": "the first line",
+   "reason": "visible arm motion"
+  },
+  {
+   "id": "P2",
+   "type": "h3_full",
+   "role": "support",
+   "action": "The figure on the left walks past the figure on the right toward the screen-right edge.",
+   "magnitude": "large",
+   "mode": "fl",
+   "emotion_source": "calm posture",
+   "reason": "walking past"
+  },
+  {
+   "id": "P3",
+   "type": "static",
+   "role": "hold",
+   "action": "",
+   "magnitude": "none",
+   "mode": "none",
+   "emotion_source": "",
+   "reason": "empty scenery"
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "anim": "pop",
+   "preset": "none"
+  },
+  {
+   "id": "U2",
+   "anim": "shake",
+   "preset": "none"
+  },
+  {
+   "id": "U3",
+   "anim": "none",
+   "preset": "impact"
+  }
+ ]
+}

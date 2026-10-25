@@ -1,0 +1,118 @@
+[
+ {
+  "page": "p01",
+  "repairs": 0,
+  "critic_rounds": 2,
+  "critic_changes": [
+   {
+    "issues": 3,
+    "panels_changed": 1,
+    "rules": [
+     "action: left/right must be screen-relati",
+     "every drawn SFX listed once",
+     "validator rect_in_panel"
+    ]
+   },
+   {
+    "issues": 4,
+    "panels_changed": 1,
+    "rules": [
+     "action_left_right_screen",
+     "kind_mismatch",
+     "rect_in_panel",
+     "sfx_listed_once"
+    ]
+   }
+  ],
+  "degraded": [],
+  "issues": [
+   "warn rect_in_panel [p01-f3] fx rect not inside its panel (5% tolerance)"
+  ],
+  "redirect": false,
+  "panel_log": [],
+  "order_overrides": 0,
+  "valid": true,
+  "valid_without_degrade": true
+ },
+ {
+  "page": "p02",
+  "repairs": 0,
+  "critic_rounds": 2,
+  "critic_changes": [
+   {
+    "issues": 2,
+    "panels_changed": 1,
+    "rules": [
+     "action_left_right_on_screen",
+     "every_drawn_sfx_listed"
+    ]
+   }
+  ],
+  "degraded": [],
+  "issues": [
+   "warn rect_in_panel [p02-b1] bubble rect not inside its panel (5% tolerance)",
+   "warn rect_in_panel [p02-b2] bubble rect not inside its panel (5% tolerance)",
+   "warn rect_in_panel [p02-b3] bubble rect not inside its panel (5% tolerance)",
+   "warn rect_in_panel [p02-b4] bubble rect not inside its panel (5% tolerance)",
+   "warn rect_in_panel [p02-f4] fx rect not inside its panel (5% tolerance)"
+  ],
+  "redirect": false,
+  "panel_log": [],
+  "order_overrides": 0,
+  "valid": true,
+  "valid_without_degrade": true
+ },
+ {
+  "page": "p03",
+  "repairs": 0,
+  "critic_rounds": 2,
+  "critic_changes": [
+   {
+    "issues": 3,
+    "panels_changed": 1,
+    "rules": [
+     "action_direction",
+     "sfx_preset_fit",
+     "reading_order"
+    ]
+   }
+  ],
+  "degraded": [],
+  "issues": [
+   "warn rect_in_panel [p03-b1] bubble rect not inside its panel (5% tolerance)",
+   "warn rect_in_panel [p03-b3] bubble rect not inside its panel (5% tolerance)"
+  ],
+  "redirect": false,
+  "panel_log": [],
+  "order_overrides": 0,
+  "valid": true,
+  "valid_without_degrade": true
+ },
+ {
+  "page": "p04",
+  "repairs": 0,
+  "critic_rounds": 2,
+  "critic_changes": [
+   {
+    "issues": 1,
+    "panels_changed": 1,
+    "rules": [
+     "fl must only carry motion that returns t"
+    ]
+   }
+  ],
+  "degraded": [],
+  "issues": [
+   "warn one_way_fl [p04-p1] one-way verb 'fall' with mode fl (the clip returns to the start pose)",
+   "warn rect_in_panel [p04-b2] bubble rect not inside its panel (5% tolerance)",
+   "warn rect_in_panel [p04-b3] bubble rect not inside its panel (5% tolerance)"
+  ],
+  "redirect": false,
+  "panel_log": [
+   "merge P5+P4"
+  ],
+  "order_overrides": 0,
+  "valid": true,
+  "valid_without_degrade": true
+ }
+]

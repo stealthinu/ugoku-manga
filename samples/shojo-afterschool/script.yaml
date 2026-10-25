@@ -1,0 +1,87 @@
+work: shojo-afterschool
+title: 雨のち、ひなた
+reading: rtl
+seed: 22
+style:
+  font: maru
+  fs: 25
+  border: 2
+  margin: 44
+  gutter: 16
+  pitch: 4.2
+  black: 0.28
+  white: 0.86
+  gamma: 1.0
+art:
+  prefix: "black and white shoujo manga illustration, delicate thin ink lines, large sparkling eyes, soft flowers and sparkles, light screentone shading, elegant and airy, clean line art on white paper, "
+  suffix: ", no text, no letters, no speech bubbles, no captions"
+  negative: "text, letters, words, numbers, speech bubble, caption, watermark, signature, logo, color, photograph, 3d render, blurry, dark heavy shading"
+characters:
+  mio: "Mio, a high school girl with long straight dark hair, a small hair clip, big sparkling eyes and a sailor school uniform"
+  sora: "Sora, a tall high school boy with slightly messy hair, gentle eyes, a school blazer and a loose tie"
+pages:
+  - id: p01
+    rows: [{h: 0.34, cols: [1]}, {h: 0.33, cols: [1, 1]}, {h: 0.33, cols: [3, 2]}]
+    panels:
+      - {id: a, seed: 1101, space: left, fade: 50, border: false, prompt: "a school entrance on a rainy afternoon, rain falling, wet ground, students' umbrellas, soft mood"}
+      - {id: b, seed: 1102, space: top, prompt: "<mio> standing under the entrance roof looking up at the rain with a worried face, holding her school bag"}
+      - {id: c, seed: 1103, space: top, prompt: "<sora> walking toward the viewer holding a plain umbrella, calm smile, rain behind him"}
+      - {id: d, seed: 1104, space: top, prompt: "close-up of <mio>'s surprised face, eyes wide, cheeks slightly flushed"}
+      - {id: e, seed: 1105, space: top, prompt: "<sora> holding out his umbrella toward <mio>, gentle expression, seen from the side"}
+    items:
+      - {kind: balloon, panel: a, id: n1, shape: box, at: [0.9, 0.5], font: serif, text: "放課後、\n突然の雨。"}
+      - {kind: balloon, panel: b, id: b1, shape: thought, at: [0.3, 0.2], tail: [0.4, 0.5], text: "傘、\n忘れた…"}
+      - {kind: balloon, panel: c, id: b2, shape: oval, at: [0.75, 0.2], text: "あれ、\n水瀬さん？"}
+      - {kind: balloon, panel: d, id: b3, shape: none, at: [0.8, 0.3], text: "えっ…\n日向くん！？"}
+      - {kind: manpu, panel: d, id: m1, type: sweat, at: [0.18, 0.2], size: 26, n: 2}
+      - {kind: manpu, panel: e, id: m2, type: sparkle, at: [0.2, 0.25], size: 26, n: 3}
+      - {kind: balloon, panel: e, id: b4, shape: none, at: [0.75, 0.25], text: "入って。\n駅まで送る。"}
+  - id: p02
+    rows: [{h: 0.3, cols: [1, 1]}, {h: 0.4, cols: [1]}, {h: 0.3, cols: [1, 1]}]
+    panels:
+      - {id: a, seed: 1201, space: top, prompt: "<mio> and <sora> walking close together under one umbrella in the rain, seen from behind, her bag in hand"}
+      - {id: b, seed: 1202, space: top, prompt: "<mio> glancing sideways at <sora> with a blushing face, hair damp, small smile"}
+      - {id: c, seed: 1203, space: left, fade: 60, border: false, prompt: "romantic scene of <mio> and <sora> standing under a shared umbrella on a quiet street at dusk, puddles reflecting the lights, flower petals, sparkles"}
+      - {id: d, seed: 1204, space: top, prompt: "<sora> with one shoulder wet from the rain, not noticing, looking ahead with a gentle face"}
+      - {id: e, seed: 1205, space: top, prompt: "<mio> noticing his wet shoulder, her eyes wide, hand to her mouth"}
+    items:
+      - {kind: balloon, panel: a, id: b1, shape: none, at: [0.2, 0.2], text: "………"}
+      - {kind: sfx, panel: a, id: s1, at: [0.75, 0.75], font: yusei, size: 36, vertical: true, text: "ザーッ", outline: white}
+      - {kind: balloon, panel: b, id: b2, shape: thought, at: [0.7, 0.25], tail: [0.55, 0.52], text: "近い…！\n心臓の音、\n聞こえそう"}
+      - {kind: balloon, panel: c, id: n1, shape: box, at: [0.92, 0.2], font: serif, text: "ひとつの傘の下、\n時間がゆっくり\n流れていく。"}
+      - {kind: manpu, panel: c, id: m1, type: sparkle, at: [0.15, 0.2], size: 30, n: 3}
+      - {kind: balloon, panel: d, id: b3, shape: none, at: [0.2, 0.25], text: "雨、\nやまないな。"}
+      - {kind: balloon, panel: e, id: b4, shape: oval, at: [0.78, 0.25], tail: [0.55, 0.5], text: "肩、\n濡れてる！"}
+      - {kind: manpu, panel: e, id: m2, type: sweat, at: [0.12, 0.4], size: 22, n: 1}
+  - id: p03
+    rows: [{h: 0.4, cols: [2, 3]}, {h: 0.3, cols: [1]}, {h: 0.3, cols: [1, 1]}]
+    panels:
+      - {id: a, seed: 1301, space: top, prompt: "<mio> pulling <sora>'s sleeve and tilting the umbrella toward him, flustered, tiny tears at the corners of her eyes from embarrassment"}
+      - {id: b, seed: 1302, space: right, prompt: "<sora> looking back at <mio>, surprised, his face close to hers under the umbrella, a faint blush"}
+      - {id: c, seed: 1303, space: left, fade: 60, border: false, prompt: "a train station platform in the evening rain, soft light, empty bench, quiet atmosphere"}
+      - {id: d, seed: 1304, space: top, prompt: "close-up of <sora> smiling shyly and looking away, scratching his cheek"}
+      - {id: e, seed: 1305, space: top, prompt: "close-up of <mio> smiling brightly with sparkling eyes, hands clasped"}
+    items:
+      - {kind: balloon, panel: a, id: b1, shape: oval, at: [0.5, 0.18], tail: [0.5, 0.5], text: "日向くんが\n濡れちゃう！"}
+      - {kind: manpu, panel: a, id: m1, type: tears, at: [0.25, 0.4], size: 18, n: 1}
+      - {kind: balloon, panel: b, id: b2, shape: oval, at: [0.4, 0.2], text: "え…！"}
+      - {kind: manpu, panel: b, id: m2, type: anger, at: [0.85, 0.18], size: 22}
+      - {kind: balloon, panel: c, id: n1, shape: box, at: [0.9, 0.5], font: serif, text: "駅に着くまで、\nあと三分。"}
+      - {kind: balloon, panel: d, id: b3, shape: none, at: [0.78, 0.3], text: "…ありがとな。"}
+      - {kind: balloon, panel: e, id: b4, shape: none, at: [0.78, 0.3], text: "こちらこそ！"}
+      - {kind: manpu, panel: e, id: m3, type: sparkle, at: [0.2, 0.25], size: 28, n: 3}
+  - id: p04
+    rows: [{h: 0.36, cols: [1, 1]}, {h: 0.32, cols: [1]}, {h: 0.32, cols: [1, 1]}]
+    panels:
+      - {id: a, seed: 1401, space: top, prompt: "<mio> waving goodbye on the station platform, a bright smile, rain stopping"}
+      - {id: b, seed: 1402, space: top, prompt: "<sora> smiling and waving back from the other side, closed umbrella in his hand"}
+      - {id: c, seed: 1403, space: left, fade: 60, border: false, prompt: "a rainbow over the town after the rain, clouds opening, light rays, flowers and sparkles"}
+      - {id: d, seed: 1404, space: top, prompt: "<mio> holding her hands over her cheeks with a blissful face, hearts and flowers floating"}
+      - {id: e, seed: 1405, space: top, prompt: "the plain umbrella leaning against a bench, sunlight on it, water drops sparkling"}
+    items:
+      - {kind: balloon, panel: a, id: b1, shape: none, at: [0.75, 0.25], text: "また明日ね！"}
+      - {kind: balloon, panel: b, id: b2, shape: none, at: [0.25, 0.25], text: "うん、\nまた明日。"}
+      - {kind: balloon, panel: c, id: n1, shape: box, at: [0.9, 0.5], font: serif, text: "雨のち、ひなた。"}
+      - {kind: manpu, panel: c, id: m1, type: sparkle, at: [0.2, 0.3], size: 34, n: 3}
+      - {kind: balloon, panel: d, id: b3, shape: thought, at: [0.72, 0.22], tail: [0.55, 0.5], text: "明日も\n降らないかな…"}
+      - {kind: manpu, panel: d, id: m2, type: sweat, at: [0.15, 0.22], size: 20, n: 1}

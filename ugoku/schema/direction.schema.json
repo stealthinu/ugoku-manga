@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ugoku-direction/1",
+  "type": "object",
+  "required": ["format", "pages"],
+  "properties": {
+    "format": { "const": "ugoku-direction/1" },
+    "work": { "type": "string" },
+    "reading": { "enum": ["rtl", "ltr"] },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["page", "panels"],
+        "properties": {
+          "page": { "type": "string" },
+          "image": { "type": "string" },
+          "w": { "type": "integer" },
+          "h": { "type": "integer" },
+          "story": { "type": "string" },
+          "total_s": { "type": "number" },
+          "must": { "type": "array", "items": { "type": "object", "properties": { "item": { "type": "string" }, "how": { "type": "string" } } } },
+          "panels": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "rect", "type"],
+              "properties": {
+                "id": { "type": "string" },
+                "order": { "type": "integer" },
+                "rect": { "type": "array", "items": { "type": "number" }, "minItems": 4, "maxItems": 4 },
+                "poly": { "type": "array" },
+                "type": { "enum": ["h3_full", "static", "keep"] },
+                "role": { "enum": ["lead", "support", "hold"] },
+                "content": { "type": "string" },
+                "reason": { "type": "string" },
+                "action": { "type": "string" },
+                "magnitude": { "enum": ["medium", "large"] },
+                "mode": { "enum": ["f", "fl"] },
+                "timing_s": { "type": "array", "items": { "type": "number" }, "minItems": 2, "maxItems": 2 },
+                "emotion_source": { "type": "string" },
+                "seed": { "type": "integer" },
+                "no_character": { "type": "boolean" }
+              }
+            }
+          },
+          "bubbles": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "panel", "rect", "order", "t_in", "anim"],
+              "properties": {
+                "id": { "type": "string" },
+                "unit": { "type": "string" },
+                "panel": { "type": "string" },
+                "rect": { "type": "array", "items": { "type": "number" }, "minItems": 4, "maxItems": 4 },
+                "text": { "type": "string" },
+                "order": { "type": "integer" },
+                "t_in": { "type": "number" },
+                "anim": { "enum": ["pop", "fade", "shake", "slide"] },
+                "layer_mode": { "enum": ["full", "text"] }
+              }
+            }
+          },
+          "fx": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "panel", "rect", "kind", "preset", "t_in"],
+              "properties": {
+                "id": { "type": "string" },
+                "unit": { "type": "string" },
+                "panel": { "type": "string" },
+                "rect": { "type": "array", "items": { "type": "number" }, "minItems": 4, "maxItems": 4 },
+                "text": { "type": "string" },
+                "kind": { "enum": ["sfx", "manpu", "screen"] },
+                "preset": { "type": "string" },
+                "t_in": { "type": "number" },
+                "baked": { "type": "boolean", "description": "leave this element in the panel image (the video model animates it); no layer is made" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": { "type": "object" }
+  }
+}

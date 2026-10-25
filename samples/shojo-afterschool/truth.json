@@ -1,0 +1,958 @@
+{
+ "format": "ugoku-truth/1",
+ "work": "shojo-afterschool",
+ "title": "雨のち、ひなた",
+ "reading": "rtl",
+ "pages": [
+  {
+   "page": "p01",
+   "image": "pages/p01.png",
+   "w": 850,
+   "h": 1200,
+   "color": false,
+   "panels": [
+    {
+     "id": "p01-a",
+     "order": 1,
+     "poly": [
+      [
+       44,
+       44
+      ],
+      [
+       806.0,
+       44
+      ],
+      [
+       806.0,
+       411.2
+      ],
+      [
+       44,
+       411.2
+      ]
+     ]
+    },
+    {
+     "id": "p01-b",
+     "order": 2,
+     "poly": [
+      [
+       433.0,
+       427.2
+      ],
+      [
+       806.0,
+       427.2
+      ],
+      [
+       806.0,
+       783.6
+      ],
+      [
+       433.0,
+       783.6
+      ]
+     ]
+    },
+    {
+     "id": "p01-c",
+     "order": 3,
+     "poly": [
+      [
+       44,
+       427.2
+      ],
+      [
+       417.0,
+       427.2
+      ],
+      [
+       417.0,
+       783.6
+      ],
+      [
+       44,
+       783.6
+      ]
+     ]
+    },
+    {
+     "id": "p01-d",
+     "order": 4,
+     "poly": [
+      [
+       507.6,
+       799.6
+      ],
+      [
+       806.0,
+       799.6
+      ],
+      [
+       806.0,
+       1156.0
+      ],
+      [
+       507.6,
+       1156.0
+      ]
+     ]
+    },
+    {
+     "id": "p01-e",
+     "order": 5,
+     "poly": [
+      [
+       44,
+       799.6
+      ],
+      [
+       491.6,
+       799.6
+      ],
+      [
+       491.6,
+       1156.0
+      ],
+      [
+       44,
+       1156.0
+      ]
+     ]
+    }
+   ],
+   "units": [
+    {
+     "id": "p01-n1",
+     "kind": "bubble",
+     "shape": "box",
+     "text": "放課後、\n突然の雨。",
+     "vertical": true,
+     "panel": "p01-a",
+     "label": 1,
+     "bbox": [
+      684,
+      148,
+      776,
+      308
+     ]
+    },
+    {
+     "id": "p01-b1",
+     "kind": "bubble",
+     "shape": "thought",
+     "text": "傘、\n忘れた…",
+     "vertical": true,
+     "panel": "p01-b",
+     "label": 2,
+     "bbox": [
+      470,
+      397,
+      620,
+      610
+     ]
+    },
+    {
+     "id": "p01-b2",
+     "kind": "bubble",
+     "shape": "oval",
+     "text": "あれ、\n水瀬さん？",
+     "vertical": true,
+     "panel": "p01-c",
+     "label": 3,
+     "bbox": [
+      267,
+      394,
+      382,
+      603
+     ]
+    },
+    {
+     "id": "p01-b3",
+     "kind": "bubble",
+     "shape": "none",
+     "text": "えっ…\n日向くん！？",
+     "vertical": true,
+     "panel": "p01-d",
+     "label": 4,
+     "bbox": [
+      717,
+      829,
+      776,
+      988
+     ]
+    },
+    {
+     "id": "p01-m1",
+     "kind": "manpu",
+     "shape": "sweat",
+     "text": "",
+     "vertical": false,
+     "panel": "p01-d",
+     "label": 5,
+     "bbox": [
+      548,
+      859,
+      598,
+      914
+     ]
+    },
+    {
+     "id": "p01-m2",
+     "kind": "manpu",
+     "shape": "sparkle",
+     "text": "",
+     "vertical": false,
+     "panel": "p01-e",
+     "label": 6,
+     "bbox": [
+      88,
+      861,
+      216,
+      944
+     ]
+    },
+    {
+     "id": "p01-b4",
+     "kind": "bubble",
+     "shape": "none",
+     "text": "入って。\n駅まで送る。",
+     "vertical": true,
+     "panel": "p01-e",
+     "label": 7,
+     "bbox": [
+      348,
+      810,
+      411,
+      958
+     ]
+    }
+   ],
+   "unit_order": [
+    "p01-n1",
+    "p01-b1",
+    "p01-b2",
+    "p01-b3",
+    "p01-b4"
+   ],
+   "mask": "truth/p01_units.png"
+  },
+  {
+   "page": "p02",
+   "image": "pages/p02.png",
+   "w": 850,
+   "h": 1200,
+   "color": false,
+   "panels": [
+    {
+     "id": "p02-a",
+     "order": 1,
+     "poly": [
+      [
+       433.0,
+       44
+      ],
+      [
+       806.0,
+       44
+      ],
+      [
+       806.0,
+       368.0
+      ],
+      [
+       433.0,
+       368.0
+      ]
+     ]
+    },
+    {
+     "id": "p02-b",
+     "order": 2,
+     "poly": [
+      [
+       44,
+       44
+      ],
+      [
+       417.0,
+       44
+      ],
+      [
+       417.0,
+       368.0
+      ],
+      [
+       44,
+       368.0
+      ]
+     ]
+    },
+    {
+     "id": "p02-c",
+     "order": 3,
+     "poly": [
+      [
+       44,
+       384.0
+      ],
+      [
+       806.0,
+       384.0
+      ],
+      [
+       806.0,
+       816.0
+      ],
+      [
+       44,
+       816.0
+      ]
+     ]
+    },
+    {
+     "id": "p02-d",
+     "order": 4,
+     "poly": [
+      [
+       433.0,
+       832.0
+      ],
+      [
+       806.0,
+       832.0
+      ],
+      [
+       806.0,
+       1156.0
+      ],
+      [
+       433.0,
+       1156.0
+      ]
+     ]
+    },
+    {
+     "id": "p02-e",
+     "order": 5,
+     "poly": [
+      [
+       44,
+       832.0
+      ],
+      [
+       417.0,
+       832.0
+      ],
+      [
+       417.0,
+       1156.0
+      ],
+      [
+       44,
+       1156.0
+      ]
+     ]
+    }
+   ],
+   "units": [
+    {
+     "id": "p02-b1",
+     "kind": "bubble",
+     "shape": "none",
+     "text": "………",
+     "vertical": true,
+     "panel": "p02-a",
+     "label": 1,
+     "bbox": [
+      492,
+      70,
+      505,
+      148
+     ]
+    },
+    {
+     "id": "p02-s1",
+     "kind": "sfx",
+     "shape": "sfx",
+     "text": "ザーッ",
+     "vertical": true,
+     "panel": "p02-a",
+     "label": 2,
+     "bbox": [
+      693,
+      233,
+      733,
+      339
+     ]
+    },
+    {
+     "id": "p02-b2",
+     "kind": "bubble",
+     "shape": "thought",
+     "text": "近い…！\n心臓の音、\n聞こえそう",
+     "vertical": true,
+     "panel": "p02-b",
+     "label": 3,
+     "bbox": [
+      204,
+      0,
+      406,
+      251
+     ]
+    },
+    {
+     "id": "p02-n1",
+     "kind": "bubble",
+     "shape": "box",
+     "text": "ひとつの傘の下、\n時間がゆっくり\n流れていく。",
+     "vertical": true,
+     "panel": "p02-c",
+     "label": 4,
+     "bbox": [
+      685,
+      352,
+      806,
+      590
+     ]
+    },
+    {
+     "id": "p02-m1",
+     "kind": "manpu",
+     "shape": "sparkle",
+     "text": "",
+     "vertical": false,
+     "panel": "p02-c",
+     "label": 5,
+     "bbox": [
+      107,
+      439,
+      253,
+      534
+     ]
+    },
+    {
+     "id": "p02-b3",
+     "kind": "bubble",
+     "shape": "none",
+     "text": "雨、\nやまないな。",
+     "vertical": true,
+     "panel": "p02-d",
+     "label": 6,
+     "bbox": [
+      476,
+      835,
+      539,
+      982
+     ]
+    },
+    {
+     "id": "p02-b4",
+     "kind": "bubble",
+     "shape": "oval",
+     "text": "肩、\n濡れてる！",
+     "vertical": true,
+     "panel": "p02-e",
+     "label": 7,
+     "bbox": [
+      246,
+      809,
+      393,
+      1018
+     ]
+    },
+    {
+     "id": "p02-m2",
+     "kind": "manpu",
+     "shape": "sweat",
+     "text": "",
+     "vertical": false,
+     "panel": "p02-e",
+     "label": 8,
+     "bbox": [
+      77,
+      951,
+      100,
+      987
+     ]
+    }
+   ],
+   "unit_order": [
+    "p02-b1",
+    "p02-b2",
+    "p02-n1",
+    "p02-b3",
+    "p02-b4"
+   ],
+   "mask": "truth/p02_units.png"
+  },
+  {
+   "page": "p03",
+   "image": "pages/p03.png",
+   "w": 850,
+   "h": 1200,
+   "color": false,
+   "panels": [
+    {
+     "id": "p03-a",
+     "order": 1,
+     "poly": [
+      [
+       358.4,
+       44
+      ],
+      [
+       806.0,
+       44
+      ],
+      [
+       806.0,
+       476.0
+      ],
+      [
+       358.4,
+       476.0
+      ]
+     ]
+    },
+    {
+     "id": "p03-b",
+     "order": 2,
+     "poly": [
+      [
+       44,
+       44
+      ],
+      [
+       342.4,
+       44
+      ],
+      [
+       342.4,
+       476.0
+      ],
+      [
+       44,
+       476.0
+      ]
+     ]
+    },
+    {
+     "id": "p03-c",
+     "order": 3,
+     "poly": [
+      [
+       44,
+       492.0
+      ],
+      [
+       806.0,
+       492.0
+      ],
+      [
+       806.0,
+       816.0
+      ],
+      [
+       44,
+       816.0
+      ]
+     ]
+    },
+    {
+     "id": "p03-d",
+     "order": 4,
+     "poly": [
+      [
+       433.0,
+       832.0
+      ],
+      [
+       806.0,
+       832.0
+      ],
+      [
+       806.0,
+       1156.0
+      ],
+      [
+       433.0,
+       1156.0
+      ]
+     ]
+    },
+    {
+     "id": "p03-e",
+     "order": 5,
+     "poly": [
+      [
+       44,
+       832.0
+      ],
+      [
+       417.0,
+       832.0
+      ],
+      [
+       417.0,
+       1156.0
+      ],
+      [
+       44,
+       1156.0
+      ]
+     ]
+    }
+   ],
+   "units": [
+    {
+     "id": "p03-b1",
+     "kind": "bubble",
+     "shape": "oval",
+     "text": "日向くんが\n濡れちゃう！",
+     "vertical": true,
+     "panel": "p03-a",
+     "label": 1,
+     "bbox": [
+      525,
+      1,
+      640,
+      263
+     ]
+    },
+    {
+     "id": "p03-m1",
+     "kind": "manpu",
+     "shape": "tears",
+     "text": "",
+     "vertical": false,
+     "panel": "p03-a",
+     "label": 2,
+     "bbox": [
+      461,
+      208,
+      480,
+      238
+     ]
+    },
+    {
+     "id": "p03-b2",
+     "kind": "bubble",
+     "shape": "oval",
+     "text": "え…！",
+     "vertical": true,
+     "panel": "p03-b",
+     "label": 3,
+     "bbox": [
+      126,
+      61,
+      202,
+      201
+     ]
+    },
+    {
+     "id": "p03-m2",
+     "kind": "manpu",
+     "shape": "anger",
+     "text": "",
+     "vertical": false,
+     "panel": "p03-b",
+     "label": 4,
+     "bbox": [
+      284,
+      109,
+      311,
+      136
+     ]
+    },
+    {
+     "id": "p03-n1",
+     "kind": "bubble",
+     "shape": "box",
+     "text": "駅に着くまで、\nあと三分。",
+     "vertical": true,
+     "panel": "p03-c",
+     "label": 5,
+     "bbox": [
+      684,
+      548,
+      776,
+      760
+     ]
+    },
+    {
+     "id": "p03-b3",
+     "kind": "bubble",
+     "shape": "none",
+     "text": "…ありがとな。",
+     "vertical": true,
+     "panel": "p03-d",
+     "label": 6,
+     "bbox": [
+      708,
+      838,
+      740,
+      1011
+     ]
+    },
+    {
+     "id": "p03-b4",
+     "kind": "bubble",
+     "shape": "none",
+     "text": "こちらこそ！",
+     "vertical": true,
+     "panel": "p03-e",
+     "label": 7,
+     "bbox": [
+      320,
+      853,
+      348,
+      1011
+     ]
+    },
+    {
+     "id": "p03-m3",
+     "kind": "manpu",
+     "shape": "sparkle",
+     "text": "",
+     "vertical": false,
+     "panel": "p03-e",
+     "label": 8,
+     "bbox": [
+      70,
+      884,
+      207,
+      973
+     ]
+    }
+   ],
+   "unit_order": [
+    "p03-b1",
+    "p03-b2",
+    "p03-n1",
+    "p03-b3",
+    "p03-b4"
+   ],
+   "mask": "truth/p03_units.png"
+  },
+  {
+   "page": "p04",
+   "image": "pages/p04.png",
+   "w": 850,
+   "h": 1200,
+   "color": false,
+   "panels": [
+    {
+     "id": "p04-a",
+     "order": 1,
+     "poly": [
+      [
+       433.0,
+       44
+      ],
+      [
+       806.0,
+       44
+      ],
+      [
+       806.0,
+       432.8
+      ],
+      [
+       433.0,
+       432.8
+      ]
+     ]
+    },
+    {
+     "id": "p04-b",
+     "order": 2,
+     "poly": [
+      [
+       44,
+       44
+      ],
+      [
+       417.0,
+       44
+      ],
+      [
+       417.0,
+       432.8
+      ],
+      [
+       44,
+       432.8
+      ]
+     ]
+    },
+    {
+     "id": "p04-c",
+     "order": 3,
+     "poly": [
+      [
+       44,
+       448.8
+      ],
+      [
+       806.0,
+       448.8
+      ],
+      [
+       806.0,
+       794.4
+      ],
+      [
+       44,
+       794.4
+      ]
+     ]
+    },
+    {
+     "id": "p04-d",
+     "order": 4,
+     "poly": [
+      [
+       433.0,
+       810.4
+      ],
+      [
+       806.0,
+       810.4
+      ],
+      [
+       806.0,
+       1156.0
+      ],
+      [
+       433.0,
+       1156.0
+      ]
+     ]
+    },
+    {
+     "id": "p04-e",
+     "order": 5,
+     "poly": [
+      [
+       44,
+       810.4
+      ],
+      [
+       417.0,
+       810.4
+      ],
+      [
+       417.0,
+       1156.0
+      ],
+      [
+       44,
+       1156.0
+      ]
+     ]
+    }
+   ],
+   "units": [
+    {
+     "id": "p04-b1",
+     "kind": "bubble",
+     "shape": "none",
+     "text": "また明日ね！",
+     "vertical": true,
+     "panel": "p04-a",
+     "label": 1,
+     "bbox": [
+      697,
+      62,
+      728,
+      223
+     ]
+    },
+    {
+     "id": "p04-b2",
+     "kind": "bubble",
+     "shape": "none",
+     "text": "うん、\nまた明日。",
+     "vertical": true,
+     "panel": "p04-b",
+     "label": 2,
+     "bbox": [
+      107,
+      75,
+      167,
+      197
+     ]
+    },
+    {
+     "id": "p04-n1",
+     "kind": "bubble",
+     "shape": "box",
+     "text": "雨のち、ひなた。",
+     "vertical": true,
+     "panel": "p04-c",
+     "label": 3,
+     "bbox": [
+      699,
+      503,
+      761,
+      741
+     ]
+    },
+    {
+     "id": "p04-m1",
+     "kind": "manpu",
+     "shape": "sparkle",
+     "text": "",
+     "vertical": false,
+     "panel": "p04-c",
+     "label": 4,
+     "bbox": [
+      138,
+      517,
+      304,
+      625
+     ]
+    },
+    {
+     "id": "p04-b3",
+     "kind": "bubble",
+     "shape": "thought",
+     "text": "明日も\n降らないかな…",
+     "vertical": true,
+     "panel": "p04-d",
+     "label": 5,
+     "bbox": [
+      627,
+      739,
+      777,
+      1035
+     ]
+    },
+    {
+     "id": "p04-m2",
+     "kind": "manpu",
+     "shape": "sweat",
+     "text": "",
+     "vertical": false,
+     "panel": "p04-d",
+     "label": 6,
+     "bbox": [
+      478,
+      877,
+      499,
+      909
+     ]
+    }
+   ],
+   "unit_order": [
+    "p04-b1",
+    "p04-b2",
+    "p04-n1",
+    "p04-b3"
+   ],
+   "mask": "truth/p04_units.png"
+  }
+ ]
+}

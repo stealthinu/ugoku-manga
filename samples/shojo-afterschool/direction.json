@@ -1,0 +1,1339 @@
+{
+ "format": "ugoku-direction/1",
+ "work": "shojo-afterschool",
+ "reading": "rtl",
+ "pages": [
+  {
+   "page": "p01",
+   "image": "p01.png",
+   "w": 850,
+   "h": 1200,
+   "story": "After school a sudden rain falls; the girl under the eaves realises she forgot her umbrella. A boy with an umbrella calls her name, she turns in surprise, and he offers to share his umbrella and walk her to the station.",
+   "total_s": 10.0,
+   "must": [],
+   "panels": [
+    {
+     "id": "p01-p1",
+     "order": 1,
+     "rect": [
+      0.42,
+      0.06417,
+      0.52941,
+      0.26417
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "A borderless establishing shot: a light-haired girl under a clear umbrella in the foreground, with the school building and two students with umbrellas behind her as rain falls.",
+     "reason": "Opening shot with drawn rain and a large face. A gentle blink and head tilt set the quiet after-school mood without overdoing it. Only her head and the looping rain move, so no hand has to be invented on the umbrella shaft.",
+     "timing_s": [
+      0.0,
+      2.4
+     ],
+     "action": "The girl on the right starts nearly still, slowly blinks and tilts her head slightly to the left, then returns to the starting pose. The thin rain streaks in front of the school building repeat steadily as a continuous loop throughout.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Narration 放課後、突然の雨。 and her calm, quiet gaze framed by the drawn rain streaks",
+     "seed": 74750
+    },
+    {
+     "id": "p01-p2",
+     "order": 2,
+     "rect": [
+      0.50824,
+      0.3025,
+      0.44118,
+      0.35167
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "A long-haired schoolgirl stands under the eaves, holding her bag strap and looking up at the rain, with a cloud-shaped thought balloon.",
+     "reason": "Her upward look at the dripping eaves is the moment she realises she forgot her umbrella. A small look-up and a tighter grip on the strap make the mild dismay readable, and the looping drips match the drawn detail.",
+     "timing_s": [
+      1.8,
+      4.2
+     ],
+     "poly": [
+      [
+       0.508235294117647,
+       0.355
+      ],
+      [
+       0.5094117647058823,
+       0.6533333333333333
+      ],
+      [
+       0.9482352941176471,
+       0.6525
+      ],
+      [
+       0.9482352941176471,
+       0.355
+      ],
+      [
+       0.7,
+       0.355
+      ],
+      [
+       0.6623529411764706,
+       0.3375
+      ],
+      [
+       0.6882352941176471,
+       0.3025
+      ],
+      [
+       0.5823529411764706,
+       0.355
+      ]
+     ],
+     "action": "The girl on the right starts nearly still, lifts her chin a little to look further up at the eaves while her hand on the bag strap at chest height tightens slightly, then lowers her head back to the starting pose. Small water drops keep coming off the edge of the eaves above her as a steady repeating loop.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Thought balloon 傘、忘れた… and her blank upward look with the sweat drop on her cheek",
+     "seed": 214
+    },
+    {
+     "id": "p01-p3",
+     "order": 3,
+     "rect": [
+      0.05059,
+      0.32833,
+      0.44118,
+      0.32583
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "A boy in a blazer holds a clear umbrella and smiles as he speaks to someone off-panel.",
+     "reason": "He is calling out to her. A head turn and a smile tie the motion to his speech balloon, so the lettering does not move over a frozen figure.",
+     "timing_s": [
+      3.6,
+      6.0
+     ],
+     "poly": [
+      [
+       0.49058823529411766,
+       0.355
+      ],
+      [
+       0.43058823529411766,
+       0.355
+      ],
+      [
+       0.3835294117647059,
+       0.3283333333333333
+      ],
+      [
+       0.33176470588235296,
+       0.355
+      ],
+      [
+       0.05058823529411765,
+       0.355
+      ],
+      [
+       0.05058823529411765,
+       0.6525
+      ],
+      [
+       0.4894117647058824,
+       0.6533333333333333
+      ]
+     ],
+     "action": "The boy in the center starts nearly still, turns his head slightly to the right toward someone off-panel and widens his smile, while the hand holding the umbrella handle tips the umbrella a little, then returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Line あれ、水瀬さん？ and his light, friendly smile",
+     "seed": 78161
+    },
+    {
+     "id": "p01-p4",
+     "order": 4,
+     "rect": [
+      0.59529,
+      0.665,
+      0.35412,
+      0.29917
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "A close-up of the long-haired girl, eyes wide and mouth open, with surprise symbols and small sparkles around her.",
+     "reason": "This is a change of expression into startled surprise. The shout and the surprise marks need the face to react.",
+     "timing_s": [
+      5.4,
+      7.8
+     ],
+     "action": "The girl starts nearly still, then her head jerks back slightly as her eyes widen and her mouth opens in surprise, and she slowly returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Shouted line えっ…日向くん！？ with the drawn surprise marks and her wide eyes",
+     "seed": 65263
+    },
+    {
+     "id": "p01-p5",
+     "order": 5,
+     "rect": [
+      0.05059,
+      0.665,
+      0.52941,
+      0.29917
+     ],
+     "type": "h3_full",
+     "role": "lead",
+     "content": "The boy holds his umbrella out over the girl, who looks up at him, with sparkles drawn above her head.",
+     "reason": "This is the climax of the page. Holding the umbrella out over her is a one-way offering gesture, and her look up shows the effect in the same panel.",
+     "timing_s": [
+      7.2,
+      9.6
+     ],
+     "action": "The boy on the right moves the arm holding the umbrella forward toward the screen left, tilting the umbrella further over the girl on the left until it covers her head. The girl on the left raises her face up toward him as the umbrella reaches over her.",
+     "magnitude": "large",
+     "mode": "f",
+     "emotion_source": "Line 入って。駅まで送る。 and the drawn sparkles above the girl's head",
+     "seed": 83945
+    }
+   ],
+   "bubbles": [
+    {
+     "id": "p01-b1",
+     "unit": "U3",
+     "panel": "p01-p1",
+     "rect": [
+      0.79882,
+      0.11833,
+      0.11882,
+      0.14167
+     ],
+     "text": "放課後、突然の雨。",
+     "order": 1,
+     "t_in": 0.6,
+     "anim": "fade"
+    },
+    {
+     "id": "p01-b2",
+     "unit": "U1",
+     "panel": "p01-p2",
+     "rect": [
+      0.54941,
+      0.3275,
+      0.18118,
+      0.17833
+     ],
+     "text": "傘、忘れた…",
+     "order": 2,
+     "t_in": 2.4,
+     "anim": "fade"
+    },
+    {
+     "id": "p01-b3",
+     "unit": "U2",
+     "panel": "p01-p3",
+     "rect": [
+      0.30824,
+      0.32333,
+      0.14706,
+      0.18333
+     ],
+     "text": "あれ、水瀬さん？",
+     "order": 3,
+     "t_in": 4.2,
+     "anim": "pop"
+    },
+    {
+     "id": "p01-b4",
+     "unit": "U4",
+     "panel": "p01-p4",
+     "rect": [
+      0.83059,
+      0.68167,
+      0.09412,
+      0.1575
+     ],
+     "text": "えっ…日向くん！？",
+     "order": 4,
+     "t_in": 6.0,
+     "anim": "shake"
+    },
+    {
+     "id": "p01-b5",
+     "unit": "U5",
+     "panel": "p01-p5",
+     "rect": [
+      0.39647,
+      0.66583,
+      0.10235,
+      0.14
+     ],
+     "text": "入って。駅まで送る。",
+     "order": 5,
+     "t_in": 7.8,
+     "anim": "pop"
+    }
+   ],
+   "fx": [
+    {
+     "id": "p01-f1",
+     "unit": "A5",
+     "panel": "p01-p2",
+     "rect": [
+      0.84,
+      0.505,
+      0.025,
+      0.025
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sparkle_blink",
+     "t_in": 2.1
+    },
+    {
+     "id": "p01-f2",
+     "unit": "A2",
+     "panel": "p01-p4",
+     "rect": [
+      0.64,
+      0.71,
+      0.065,
+      0.052
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "pop",
+     "t_in": 5.7
+    },
+    {
+     "id": "p01-f3",
+     "unit": "A3",
+     "panel": "p01-p4",
+     "rect": [
+      0.69,
+      0.85,
+      0.03,
+      0.025
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sparkle_blink",
+     "t_in": 6.1
+    },
+    {
+     "id": "p01-f4",
+     "unit": "A4",
+     "panel": "p01-p4",
+     "rect": [
+      0.89,
+      0.835,
+      0.03,
+      0.025
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sparkle_blink",
+     "t_in": 6.5
+    },
+    {
+     "id": "p01-f5",
+     "unit": "U8",
+     "panel": "p01-p5",
+     "rect": [
+      0.23294,
+      0.76333,
+      0.02118,
+      0.02083
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sparkle_blink",
+     "t_in": 7.5
+    },
+    {
+     "id": "p01-f6",
+     "unit": "A1",
+     "panel": "p01-p5",
+     "rect": [
+      0.105,
+      0.718,
+      0.085,
+      0.057
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sparkle_blink",
+     "t_in": 7.9
+    }
+   ]
+  },
+  {
+   "page": "p02",
+   "image": "p02.png",
+   "w": 850,
+   "h": 1200,
+   "story": "A girl and a boy walk together under one umbrella in the rain. She stays quiet with her heart racing at how close he is, and the narration says time slows down under the shared umbrella. He remarks that the rain won't stop, and she notices with a start that his shoulder is wet.",
+   "total_s": 10.0,
+   "must": [],
+   "panels": [
+    {
+     "id": "p02-p1",
+     "order": 1,
+     "rect": [
+      0.50824,
+      0.035,
+      0.44118,
+      0.2725
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The schoolgirl and the taller boy walk side by side under a clear umbrella he holds in the rain; she glances ahead silently.",
+     "reason": "Walking side by side is a character action, and the rain SFX animates, so the figures have to move too. Walking only goes one way, so it uses f.",
+     "timing_s": [
+      0.0,
+      2.4
+     ],
+     "action": "The girl on the left and the boy on the right walk slowly forward together under the umbrella, the boy's right hand holding the handle steady. The girl's eyes stay fixed ahead while her shoulders stay slightly stiff.",
+     "magnitude": "medium",
+     "mode": "f",
+     "emotion_source": "The silent '……' balloon and her stiff, forward-fixed gaze next to the calm boy",
+     "seed": 74167
+    },
+    {
+     "id": "p02-p2",
+     "order": 2,
+     "rect": [
+      0.05059,
+      0.0,
+      0.44118,
+      0.3075
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "Close-up of the girl in profile looking up toward the boy's chest and tie, thinking in a cloud balloon.",
+     "reason": "Her expression changes as the nervous closeness sinks in. A small up-and-back head movement shows the racing heart without overdoing it.",
+     "timing_s": [
+      1.8,
+      4.2
+     ],
+     "poly": [
+      [
+       0.49058823529411766,
+       0.035833333333333335
+      ],
+      [
+       0.44,
+       0.035833333333333335
+      ],
+      [
+       0.3658823529411765,
+       0.0
+      ],
+      [
+       0.2776470588235294,
+       0.035833333333333335
+      ],
+      [
+       0.05058823529411765,
+       0.035833333333333335
+      ],
+      [
+       0.05058823529411765,
+       0.30666666666666664
+      ],
+      [
+       0.49058823529411766,
+       0.30666666666666664
+      ]
+     ],
+     "action": "The girl on the left starts nearly still, lifts her chin a little to look up toward the boy's chest on the right and blinks with wide eyes, her shoulders rising slightly, then returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Thought balloon '近い…！心臓の音、聞こえそう' and her wide, upturned eyes",
+     "seed": 7879
+    },
+    {
+     "id": "p02-p3",
+     "order": 3,
+     "rect": [
+      0.12,
+      0.3075,
+      0.82941,
+      0.36667
+     ],
+     "type": "h3_full",
+     "role": "lead",
+     "content": "Wide borderless shot of the two standing close under the umbrella, the boy holding the handle, sparkles floating at the left.",
+     "reason": "This is the page's large key image of the two under one umbrella. A slow, shared look puts the 'time slows down' feeling into motion, so this is the lead panel.",
+     "timing_s": [
+      3.6,
+      6.0
+     ],
+     "action": "The girl on the left starts nearly still, slowly turns her face up toward the boy, and the boy on the right tilts his head down toward her while holding the umbrella handle, then both return to the starting pose. Her long hair shifts slightly with the movement.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Narration 'ひとつの傘の下、時間がゆっくり流れていく。' and the drawn sparkles beside the pair",
+     "seed": 11994
+    },
+    {
+     "id": "p02-p4",
+     "order": 4,
+     "rect": [
+      0.50824,
+      0.6925,
+      0.44118,
+      0.27167
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "Bust shot of the boy turning his head slightly, tie swinging, as he says the rain won't stop.",
+     "reason": "The drawing already shows a head turn and a tie swinging, so it moves. His face stays composed.",
+     "timing_s": [
+      5.4,
+      7.8
+     ],
+     "action": "The boy starts nearly still, turns his head slightly to the left of the screen while his tie swings out to the left, then his head and tie settle back to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "The calm line '雨、やまないな。' and the drawn swing of his tie",
+     "seed": 32362
+    },
+    {
+     "id": "p02-p5",
+     "order": 5,
+     "rect": [
+      0.05059,
+      0.67417,
+      0.44118,
+      0.29
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The girl raises a fingertip to her lips in surprise, her shoulder visibly wet with drops.",
+     "reason": "A change of expression into surprise along with a hand gesture. The balloon and the drip effects animate, so she has to move too.",
+     "timing_s": [
+      7.2,
+      9.6
+     ],
+     "poly": [
+      [
+       0.49058823529411766,
+       0.6925
+      ],
+      [
+       0.4011764705882353,
+       0.6741666666666667
+      ],
+      [
+       0.3517647058823529,
+       0.6925
+      ],
+      [
+       0.05058823529411765,
+       0.6925
+      ],
+      [
+       0.05058823529411765,
+       0.9633333333333334
+      ],
+      [
+       0.49058823529411766,
+       0.9633333333333334
+      ]
+     ],
+     "action": "The girl starts nearly still, gives a small start as she raises her right fingertip to her lips and her eyes widen while she glances toward her wet shoulder on the right, then returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Line '肩、濡れてる！' and the water drops drawn on her shoulder",
+     "seed": 6890
+    }
+   ],
+   "bubbles": [
+    {
+     "id": "p02-b1",
+     "unit": "U5",
+     "panel": "p02-p1",
+     "rect": [
+      0.56706,
+      0.05333,
+      0.03765,
+      0.075
+     ],
+     "text": "……",
+     "order": 1,
+     "t_in": 0.6,
+     "anim": "fade"
+    },
+    {
+     "id": "p02-b2",
+     "unit": "U1",
+     "panel": "p02-p2",
+     "rect": [
+      0.23765,
+      0.0,
+      0.24235,
+      0.21083
+     ],
+     "text": "近い…！心臓の音、聞こえそう",
+     "order": 2,
+     "t_in": 2.4,
+     "anim": "pop"
+    },
+    {
+     "id": "p02-b3",
+     "unit": "U2",
+     "panel": "p02-p3",
+     "rect": [
+      0.80118,
+      0.29,
+      0.15059,
+      0.20417
+     ],
+     "text": "ひとつの傘の下、時間がゆっくり流れていく。",
+     "order": 3,
+     "t_in": 4.2,
+     "anim": "fade"
+    },
+    {
+     "id": "p02-b4",
+     "unit": "U4",
+     "panel": "p02-p4",
+     "rect": [
+      0.54353,
+      0.69,
+      0.10118,
+      0.13833
+     ],
+     "text": "雨、やまないな。",
+     "order": 4,
+     "t_in": 6.0,
+     "anim": "fade"
+    },
+    {
+     "id": "p02-b5",
+     "unit": "U3",
+     "panel": "p02-p5",
+     "rect": [
+      0.32235,
+      0.66917,
+      0.14471,
+      0.18167
+     ],
+     "text": "肩、濡れてる！",
+     "order": 5,
+     "t_in": 7.8,
+     "anim": "pop"
+    }
+   ],
+   "fx": [
+    {
+     "id": "p02-f1",
+     "unit": "U6",
+     "panel": "p02-p1",
+     "rect": [
+      0.81294,
+      0.19583,
+      0.04588,
+      0.06083
+     ],
+     "text": "ザーッ",
+     "kind": "sfx",
+     "preset": "drop",
+     "t_in": 0.3
+    },
+    {
+     "id": "p02-f2",
+     "unit": "A1",
+     "panel": "p02-p3",
+     "rect": [
+      0.12,
+      0.36,
+      0.18,
+      0.1
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sparkle_blink",
+     "t_in": 3.9
+    },
+    {
+     "id": "p02-f3",
+     "unit": "A2",
+     "panel": "p02-p5",
+     "rect": [
+      0.12,
+      0.81,
+      0.035,
+      0.05
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "pop",
+     "t_in": 7.5
+    },
+    {
+     "id": "p02-f4",
+     "unit": "A3",
+     "panel": "p02-p5",
+     "rect": [
+      0.34,
+      0.88,
+      0.07,
+      0.08
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "drip",
+     "t_in": 7.9
+    }
+   ]
+  },
+  {
+   "page": "p03",
+   "image": "p03.png",
+   "w": 850,
+   "h": 1200,
+   "story": "Under a shared umbrella the girl insists the boy is getting wet, and he is caught off guard (\"Eh...!\"). A borderless station-platform shot with a narration caption says they have three minutes left until the station. Then he says a quiet thank-you and she answers \"Same here!\" with a bright, sparkling smile.",
+   "total_s": 10.0,
+   "must": [],
+   "panels": [
+    {
+     "id": "p03-p1",
+     "order": 1,
+     "rect": [
+      0.42,
+      0.03833,
+      0.52941,
+      0.35917
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The girl and the boy share an umbrella; she puts her hand on the handle and says he is getting wet, while he looks down at her.",
+     "reason": "She pushes the umbrella over to him in a flustered way. The shouted balloon animates, so the characters have to move as well.",
+     "timing_s": [
+      0.0,
+      2.4
+     ],
+     "action": "The girl on the left leans her upper body toward the boy on the right and pushes the umbrella handle toward him with both hands, while the boy turns his head down toward her. Starts nearly still, moves, returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Shouted line 日向くんが濡れちゃう! together with the drawn sweat/tear drops on her cheek and the surprise mark",
+     "seed": 16157
+    },
+    {
+     "id": "p03-p2",
+     "order": 2,
+     "rect": [
+      0.05059,
+      0.03583,
+      0.35412,
+      0.36167
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The boy is startled under the umbrella while the girl looks up at him with her mouth open.",
+     "reason": "A beat of surprise from the boy, with the girl reacting in the same panel. The balloon animates, so the figures must move too.",
+     "timing_s": [
+      1.8,
+      4.2
+     ],
+     "action": "The boy on the left jerks his head and shoulders back slightly in surprise, while the girl on the right keeps looking up at him and her mouth opens a little wider. Starts nearly still, moves, returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Line え…! and the girl's open mouth as she looks up",
+     "seed": 55821
+    },
+    {
+     "id": "p03-p3",
+     "order": 3,
+     "rect": [
+      0.05059,
+      0.3975,
+      0.89882,
+      0.295
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "An empty station platform with a pole and rails; a light-haired girl looks back from the right, next to a narration caption.",
+     "reason": "A quiet, subtle head turn keeps the wistful feeling of time running out. A character is present and the narration fades in, so the panel cannot stay frozen.",
+     "timing_s": [
+      3.6,
+      6.0
+     ],
+     "action": "The pale-haired girl on the right slowly turns her head a little toward the viewer, and her long hair shifts on her shoulders. Starts nearly still, moves, returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Narration 駅に着くまで、あと三分。 and her calm, wistful look back",
+     "seed": 92743
+    },
+    {
+     "id": "p03-p4",
+     "order": 4,
+     "rect": [
+      0.50824,
+      0.6925,
+      0.44118,
+      0.27167
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "Close-up of the boy smiling softly as he says thank you.",
+     "reason": "A change of expression in a large face close-up that carries the bashful thank-you.",
+     "timing_s": [
+      5.4,
+      7.8
+     ],
+     "action": "The boy tilts his head slightly to the right and his gentle smile widens a little, with a shy small dip of his chin. Starts nearly still, moves, returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Quiet line …ありがとな。 and his soft, shy smile",
+     "seed": 46629
+    },
+    {
+     "id": "p03-p5",
+     "order": 5,
+     "rect": [
+      0.05059,
+      0.6925,
+      0.44118,
+      0.27167
+     ],
+     "type": "h3_full",
+     "role": "lead",
+     "content": "Close-up of the girl beaming, hands clasped at her chest, surrounded by sparkles.",
+     "reason": "The emotional payoff of the page: a joyful whole upper-body reaction in a close-up.",
+     "timing_s": [
+      7.2,
+      9.6
+     ],
+     "action": "The girl lifts her shoulders and leans her upper body forward, bringing her clasped hands up to her chest as her open smile grows brighter, and tilts her head slightly to the left. Starts nearly still, moves, returns to the starting pose.",
+     "magnitude": "large",
+     "mode": "fl",
+     "emotion_source": "Line こちらこそ! with her beaming open-mouthed smile and the drawn sparkles around her face",
+     "seed": 54010
+    }
+   ],
+   "bubbles": [
+    {
+     "id": "p03-b1",
+     "unit": "U1",
+     "panel": "p03-p1",
+     "rect": [
+      0.61059,
+      0.0,
+      0.14588,
+      0.20583
+     ],
+     "text": "日向くんが濡れちゃう!",
+     "order": 1,
+     "t_in": 0.6,
+     "anim": "shake"
+    },
+    {
+     "id": "p03-b2",
+     "unit": "U4",
+     "panel": "p03-p2",
+     "rect": [
+      0.14471,
+      0.04667,
+      0.09529,
+      0.12333
+     ],
+     "text": "え…!",
+     "order": 2,
+     "t_in": 2.4,
+     "anim": "pop"
+    },
+    {
+     "id": "p03-b3",
+     "unit": "U2",
+     "panel": "p03-p3",
+     "rect": [
+      0.79882,
+      0.4525,
+      0.11882,
+      0.185
+     ],
+     "text": "駅に着くまで、あと三分。",
+     "order": 3,
+     "t_in": 4.2,
+     "anim": "fade"
+    },
+    {
+     "id": "p03-b4",
+     "unit": "U3",
+     "panel": "p03-p4",
+     "rect": [
+      0.80941,
+      0.69333,
+      0.08235,
+      0.1575
+     ],
+     "text": "…ありがとな。",
+     "order": 4,
+     "t_in": 6.0,
+     "anim": "fade"
+    },
+    {
+     "id": "p03-b5",
+     "unit": "U5",
+     "panel": "p03-p5",
+     "rect": [
+      0.36588,
+      0.7,
+      0.05882,
+      0.155
+     ],
+     "text": "こちらこそ!",
+     "order": 5,
+     "t_in": 7.8,
+     "anim": "pop"
+    }
+   ],
+   "fx": [
+    {
+     "id": "p03-f1",
+     "unit": "A1",
+     "panel": "p03-p1",
+     "rect": [
+      0.54,
+      0.17,
+      0.03,
+      0.04
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "pop",
+     "t_in": 0.3
+    },
+    {
+     "id": "p03-f2",
+     "unit": "A2",
+     "panel": "p03-p1",
+     "rect": [
+      0.61,
+      0.24,
+      0.07,
+      0.05
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "drip",
+     "t_in": 0.7
+    },
+    {
+     "id": "p03-f3",
+     "unit": "U6",
+     "panel": "p03-p2",
+     "rect": [
+      0.33412,
+      0.09,
+      0.03294,
+      0.02333
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sparkle_blink",
+     "t_in": 2.1
+    },
+    {
+     "id": "p03-f4",
+     "unit": "A3",
+     "panel": "p03-p2",
+     "rect": [
+      0.33,
+      0.27,
+      0.03,
+      0.03
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sparkle_blink",
+     "t_in": 2.5
+    },
+    {
+     "id": "p03-f5",
+     "unit": "A4",
+     "panel": "p03-p5",
+     "rect": [
+      0.08,
+      0.73,
+      0.1,
+      0.07
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sparkle_blink",
+     "t_in": 7.5
+    },
+    {
+     "id": "p03-f6",
+     "unit": "A5",
+     "panel": "p03-p5",
+     "rect": [
+      0.15,
+      0.78,
+      0.07,
+      0.06
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sparkle_blink",
+     "t_in": 7.9
+    },
+    {
+     "id": "p03-f7",
+     "unit": "A6",
+     "panel": "p03-p5",
+     "rect": [
+      0.37,
+      0.86,
+      0.04,
+      0.03
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sparkle_blink",
+     "t_in": 8.3
+    }
+   ]
+  },
+  {
+   "page": "p04",
+   "image": "p04.png",
+   "w": 850,
+   "h": 1200,
+   "story": "After the rain, the girl and the boy wave goodbye and promise to see each other tomorrow. A wide borderless panel then shows a rainbow and the girl's sparkling eyes under the caption \"雨のち、ひなた。\" Finally she rests her cheeks in her hands and hopes it won't rain tomorrow, imagining herself under an umbrella on a bench.",
+   "total_s": 10.3,
+   "must": [
+    {
+     "item": "Reading order of the bottom row",
+     "how": "The page is read right to left, so the bottom-right panel N2 (thought balloon) comes before the bottom-left panel P3."
+    },
+    {
+     "item": "Borderless middle panel N1",
+     "how": "Treat it as one panel covering the full width (x 0.05 to 0.95, y 0.38 to 0.67). Do not animate the rainbow, clouds or town. Only the girl's face and the sparkles may move."
+    }
+   ],
+   "panels": [
+    {
+     "id": "p04-p1",
+     "order": 1,
+     "rect": [
+      0.50824,
+      0.03583,
+      0.44118,
+      0.32583
+     ],
+     "type": "h3_full",
+     "role": "lead",
+     "content": "A long-haired schoolgirl in a sailor uniform smiles broadly and waves her raised left hand, with flowers and a building roof behind her.",
+     "reason": "A drawn farewell wave is a clear arm action and the emotional start of the page; the farewell line should land while her hand moves.",
+     "timing_s": [
+      0.0,
+      2.4
+     ],
+     "action": "The girl raises her hand on the left side of the screen and waves it from side to side at the wrist and forearm, with her head tilting a little toward it. She starts nearly still, waves twice, and returns to the starting pose with her open smile.",
+     "magnitude": "large",
+     "mode": "fl",
+     "emotion_source": "Line \"また明日ね!\" and her bright open-mouthed smile",
+     "seed": 32190
+    },
+    {
+     "id": "p04-p2",
+     "order": 2,
+     "rect": [
+      0.05059,
+      0.03583,
+      0.44118,
+      0.32583
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "A schoolboy in a blazer holds a closed umbrella over his shoulder and waves back with his raised left hand.",
+     "reason": "He waves back in reply. Moving his arm completes the exchange of goodbyes started in P1.",
+     "timing_s": [
+      1.8,
+      4.2
+     ],
+     "action": "The boy waves his raised hand on the right side of the screen from side to side, while his other hand keeps the umbrella on his shoulder. He starts nearly still, waves, and returns to the starting pose with a warm smile.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Line \"うん、また明日。\" and his warm open smile",
+     "seed": 76202
+    },
+    {
+     "id": "p04-p3",
+     "order": 3,
+     "rect": [
+      0.05059,
+      0.36167,
+      0.89882,
+      0.3125
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "A borderless wide view of a rainbow over a cloud and a town, with a close-up of the girl's sparkling eyes on the right and big sparkles in the sky.",
+     "reason": "The sparkles and caption animate and her face is in the panel, so she has to move as well. A slow blink is a quiet change of expression that suits the dreamy mood. The rainbow and town in the background stay still.",
+     "timing_s": [
+      3.6,
+      6.0
+     ],
+     "action": "The girl on the right blinks slowly once and lifts her gaze slightly upward toward the rainbow. She starts nearly still and returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Starry eyes in the close-up and the caption \"雨のち、ひなた。\"",
+     "seed": 72199
+    },
+    {
+     "id": "p04-p4",
+     "order": 4,
+     "rect": [
+      0.50824,
+      0.67417,
+      0.44118,
+      0.29
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The girl rests her cheeks in both hands and smiles dreamily, with hearts floating around her and a cloud-shaped thought balloon.",
+     "reason": "Her lovestruck daydream is shown by a gentle sway, and the hearts and thought balloon animate around her, so she has to move too.",
+     "timing_s": [
+      5.4,
+      8.1
+     ],
+     "action": "The girl, cheeks resting in both hands, sways her head and upper body gently to the left and then to the right. She starts nearly still, sways, and returns to the starting pose with her soft smile.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Floating hearts, blush, and the wistful thought \"明日も降らないかな…\"",
+     "seed": 76358
+    },
+    {
+     "id": "p04-p5",
+     "order": 5,
+     "rect": [
+      0.05059,
+      0.67417,
+      0.44118,
+      0.29
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "A chibi-style girl peeks out from under an open umbrella by a park bench while raindrops fall.",
+     "reason": "The raindrops are drawn motion. A small tilt makes the imagined rainy-day meeting she hopes for feel playful.",
+     "timing_s": [
+      7.5,
+      9.9
+     ],
+     "action": "The chibi girl under the umbrella tilts her head and the umbrella slightly to the right, then back. She starts nearly still and returns to the starting pose while raindrops fall around her.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Drawn falling raindrops and her wide-eyed small smile in the imagined scene",
+     "seed": 4684
+    }
+   ],
+   "bubbles": [
+    {
+     "id": "p04-b1",
+     "unit": "U4",
+     "panel": "p04-p1",
+     "rect": [
+      0.80706,
+      0.04417,
+      0.06118,
+      0.14917
+     ],
+     "text": "また明日ね!",
+     "order": 1,
+     "t_in": 0.6,
+     "anim": "pop"
+    },
+    {
+     "id": "p04-b2",
+     "unit": "U3",
+     "panel": "p04-p2",
+     "rect": [
+      0.11294,
+      0.055,
+      0.09059,
+      0.1175
+     ],
+     "text": "うん、また明日。",
+     "order": 2,
+     "t_in": 2.4,
+     "anim": "pop"
+    },
+    {
+     "id": "p04-b3",
+     "unit": "U2",
+     "panel": "p04-p3",
+     "rect": [
+      0.81647,
+      0.4125,
+      0.08471,
+      0.20833
+     ],
+     "text": "雨のち、ひなた。",
+     "order": 3,
+     "t_in": 4.2,
+     "anim": "fade"
+    },
+    {
+     "id": "p04-b4",
+     "unit": "U1",
+     "panel": "p04-p4",
+     "rect": [
+      0.73529,
+      0.61417,
+      0.18,
+      0.25
+     ],
+     "text": "明日も降らないかな…",
+     "order": 4,
+     "t_in": 6.0,
+     "anim": "fade"
+    }
+   ],
+   "fx": [
+    {
+     "id": "p04-f1",
+     "unit": "A1",
+     "panel": "p04-p1",
+     "rect": [
+      0.81,
+      0.27,
+      0.03,
+      0.04
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sparkle_blink",
+     "t_in": 0.3
+    },
+    {
+     "id": "p04-f2",
+     "unit": "U7",
+     "panel": "p04-p3",
+     "rect": [
+      0.49412,
+      0.53,
+      0.02706,
+      0.02833
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sparkle_blink",
+     "t_in": 3.9
+    },
+    {
+     "id": "p04-f3",
+     "unit": "A2",
+     "panel": "p04-p3",
+     "rect": [
+      0.18,
+      0.43,
+      0.1,
+      0.09
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sparkle_blink",
+     "t_in": 4.3
+    },
+    {
+     "id": "p04-f4",
+     "unit": "A3",
+     "panel": "p04-p3",
+     "rect": [
+      0.32,
+      0.49,
+      0.05,
+      0.04
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sparkle_blink",
+     "t_in": 4.7
+    },
+    {
+     "id": "p04-f5",
+     "unit": "U10",
+     "panel": "p04-p4",
+     "rect": [
+      0.56235,
+      0.73,
+      0.02588,
+      0.02833
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "pop",
+     "t_in": 5.7
+    },
+    {
+     "id": "p04-f6",
+     "unit": "A4",
+     "panel": "p04-p4",
+     "rect": [
+      0.58,
+      0.76,
+      0.04,
+      0.03
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "pulse",
+     "t_in": 6.1
+    },
+    {
+     "id": "p04-f7",
+     "unit": "A5",
+     "panel": "p04-p4",
+     "rect": [
+      0.58,
+      0.82,
+      0.04,
+      0.03
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "pulse",
+     "t_in": 6.5
+    },
+    {
+     "id": "p04-f8",
+     "unit": "A6",
+     "panel": "p04-p4",
+     "rect": [
+      0.85,
+      0.87,
+      0.03,
+      0.03
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "pulse",
+     "t_in": 6.9
+    },
+    {
+     "id": "p04-f9",
+     "unit": "A7",
+     "panel": "p04-p4",
+     "rect": [
+      0.56,
+      0.85,
+      0.03,
+      0.04
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sparkle_blink",
+     "t_in": 7.3
+    }
+   ]
+  }
+ ],
+ "provenance": {
+  "llm": "claude_cli:claude-opus-5-5",
+  "prompt_version": "p3",
+  "detector_versions": {
+   "panels": "classical-1",
+   "units": "segment-1"
+  }
+ }
+}

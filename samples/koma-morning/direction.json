@@ -1,0 +1,1199 @@
+{
+ "format": "ugoku-direction/1",
+ "work": "koma-morning",
+ "reading": "rtl",
+ "pages": [
+  {
+   "page": "p01",
+   "image": "p01.png",
+   "w": 850,
+   "h": 1200,
+   "story": "A two-column four-panel strip read right column first: at six in the morning the cat sits on the sleeping girl, pats her awake and yawns until she gets up (\"It's time for breakfast, nya.\"). In the left column the girl makes toast, the toast pops up, and while she pours tea the cat sneaks the toast away, so she ends up chasing it with her arms raised.",
+   "total_s": 12.0,
+   "must": [
+    {
+     "item": "Reading order",
+     "how": "This is a two-column four-panel strip: read the whole right column (P1-P4) first, then the left column (P5-P8). The code order already matches; keep it."
+    },
+    {
+     "item": "P4 black text panel",
+     "how": "No character is drawn. Keep the panel static and only fade in the white text U4."
+    }
+   ],
+   "panels": [
+    {
+     "id": "p01-p1",
+     "order": 1,
+     "rect": [
+      0.50824,
+      0.04,
+      0.43529,
+      0.22083
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "A girl sleeps in bed while a calico cat sits on her chest and looks toward the viewer; a caption says it is six in the morning.",
+     "reason": "The drawn head-motion marks call for a gentle head tilt that sets up the quiet morning before the cat starts its wake-up routine.",
+     "timing_s": [
+      0.0,
+      1.9
+     ],
+     "action": "The cat sitting on the girl's chest on the right tilts its head to the left and then to the right, blinking once. The sleeping girl on the left breathes slowly, her chest gently lifting and settling under the blanket. Starts nearly still, moves, returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Small curved motion marks beside the cat's head and the girl's closed, peaceful eyes; caption 朝六時。",
+     "seed": 74750
+    },
+    {
+     "id": "p01-p2",
+     "order": 2,
+     "rect": [
+      0.50824,
+      0.27333,
+      0.43529,
+      0.22083
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "Close-up of the cat with contented closed eyes as it pats the sleeping girl with its paw.",
+     "reason": "A drawn repeated action (patting) with cause and effect: the cat pats, the girl reacts in her sleep.",
+     "timing_s": [
+      1.4,
+      3.3
+     ],
+     "action": "The cat on the left raises its right front paw and pats the sleeping girl's cheek on the right twice in quick taps, its eyes staying smugly closed. The girl's head bobs slightly with each pat and her brow tightens. Starts nearly still, moves, returns to the starting pose.",
+     "magnitude": "large",
+     "mode": "fl",
+     "emotion_source": "SFX ぺしぺし, the raised paw mid-pat, the cat's contented closed eyes and the girl's slight frown",
+     "seed": 214
+    },
+    {
+     "id": "p01-p3",
+     "order": 3,
+     "rect": [
+      0.50824,
+      0.5,
+      0.43529,
+      0.22667
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The girl mumbles for five more minutes as the cat yawns hugely beside her.",
+     "reason": "A change of expression (the yawn) and the girl's startled reaction carry this beat; the balloon animates, so the characters must move too.",
+     "timing_s": [
+      2.8,
+      4.7
+     ],
+     "action": "The cat on the right opens its mouth wide in a big yawn, tilting its head back, then closes its mouth. The girl on the left flinches her shoulders up in surprise. Starts nearly still, moves, returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "The cat's huge yawn with closed eyes, the Z mark, and the line まだ五分… うわっ!?",
+     "seed": 78161
+    },
+    {
+     "id": "p01-p4",
+     "order": 4,
+     "rect": [
+      0.50824,
+      0.73917,
+      0.43529,
+      0.22083
+     ],
+     "type": "static",
+     "role": "hold",
+     "content": "Solid black panel with white text: 'It's time for breakfast, nya.'",
+     "reason": "Text-only black panel; the punchline works through stillness and the text simply fading in.",
+     "timing_s": [
+      4.2,
+      6.1
+     ],
+     "no_character": true
+    },
+    {
+     "id": "p01-p5",
+     "order": 5,
+     "rect": [
+      0.05647,
+      0.04333,
+      0.43529,
+      0.2175
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The girl cheerfully puts bread into a toaster while the small cat watches from the counter.",
+     "reason": "The drawn motion lines show the bread being pushed in; it is a character action with a cheerful mood.",
+     "timing_s": [
+      5.6,
+      7.5
+     ],
+     "action": "The girl on the left presses the slice of bread down into the toaster slot with her right hand until it sinks in, then lifts her hand away, smiling. The small cat on the right tilts its head slightly while watching.",
+     "magnitude": "medium",
+     "mode": "f",
+     "emotion_source": "The girl's smiling closed eyes, the line 今日はトースト!, and the small motion lines by the bread",
+     "seed": 83945
+    },
+    {
+     "id": "p01-p6",
+     "order": 6,
+     "rect": [
+      0.05647,
+      0.27333,
+      0.43529,
+      0.22083
+     ],
+     "type": "h3_full",
+     "role": "lead",
+     "content": "Toast pops out of the toaster as the cat stares at it with wide eyes.",
+     "reason": "A drawn object in mid-flight with pop lines; it is a one-way event with an immediate reaction from the cat.",
+     "timing_s": [
+      7.0,
+      8.9
+     ],
+     "action": "The slice of toast above the toaster on the left keeps rising, flips over in the air and starts to drop back toward the slot. The cat on the right widens its eyes and lifts its head to follow the toast up and then down.",
+     "magnitude": "large",
+     "mode": "f",
+     "emotion_source": "SFX チン!, the pop lines on both sides of the toast, and the cat's wide fixated eyes",
+     "seed": 70517
+    },
+    {
+     "id": "p01-p7",
+     "order": 7,
+     "rect": [
+      0.05647,
+      0.50583,
+      0.43529,
+      0.22083
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The girl sleepily pours tea from a pot while the cat eyes the plate of toast, which is being sneakily pulled away.",
+     "reason": "The sneaky theft is a one-way motion, and the girl's obliviousness sets up the chase.",
+     "timing_s": [
+      8.4,
+      10.3
+     ],
+     "action": "The cat on the right stretches its front paw down onto the table and slowly drags the plate of toast to the right, away from the girl, while its eyes glance sideways at her. The girl on the left keeps tilting the teapot to pour with her eyes closed, not noticing.",
+     "magnitude": "medium",
+     "mode": "f",
+     "emotion_source": "SFX ソロリ…, the cat's sly side-glance and the girl's drowsy closed eyes",
+     "seed": 14080
+    },
+    {
+     "id": "p01-p8",
+     "order": 8,
+     "rect": [
+      0.05647,
+      0.72833,
+      0.43529,
+      0.23167
+     ],
+     "type": "h3_full",
+     "role": "lead",
+     "content": "The cat runs off with the toast held up in its paw as the girl chases after it with both arms raised.",
+     "reason": "A drawn chase in mid-stride is the page's climax; running is one-way, so it uses first-frame-only mode.",
+     "timing_s": [
+      9.8,
+      11.7
+     ],
+     "poly": [
+      [
+       0.05647058823529412,
+       0.74
+      ],
+      [
+       0.058823529411764705,
+       0.9591666666666666
+      ],
+      [
+       0.49058823529411766,
+       0.9575
+      ],
+      [
+       0.4894117647058824,
+       0.7391666666666666
+      ],
+      [
+       0.18470588235294116,
+       0.7283333333333334
+      ]
+     ],
+     "action": "The cat on the left runs toward the left edge holding the toast up in its paw, legs pumping. The girl on the right runs after it with both arms raised, her legs taking big strides.",
+     "magnitude": "large",
+     "mode": "f",
+     "emotion_source": "Shout balloon あっ! わたしの朝食!, the raised arms and the mid-stride running poses with shadows",
+     "seed": 57542
+    }
+   ],
+   "bubbles": [
+    {
+     "id": "p01-b1",
+     "unit": "U6",
+     "panel": "p01-p1",
+     "rect": [
+      0.84118,
+      0.055,
+      0.07176,
+      0.10333
+     ],
+     "text": "朝六時。",
+     "order": 1,
+     "t_in": 0.47,
+     "anim": "fade"
+    },
+    {
+     "id": "p01-b2",
+     "unit": "U3",
+     "panel": "p01-p3",
+     "rect": [
+      0.57882,
+      0.49583,
+      0.12235,
+      0.15333
+     ],
+     "text": "まだ五分… うわっ!?",
+     "order": 2,
+     "t_in": 3.27,
+     "anim": "pop"
+    },
+    {
+     "id": "p01-b3",
+     "unit": "U4",
+     "panel": "p01-p4",
+     "rect": [
+      0.52706,
+      0.83083,
+      0.37765,
+      0.04167
+     ],
+     "text": "ごはんの時間だニャ。",
+     "order": 3,
+     "t_in": 4.68,
+     "anim": "fade"
+    },
+    {
+     "id": "p01-b4",
+     "unit": "U2",
+     "panel": "p01-p5",
+     "rect": [
+      0.12353,
+      0.0175,
+      0.12706,
+      0.15583
+     ],
+     "text": "今日はトースト!",
+     "order": 4,
+     "t_in": 6.08,
+     "anim": "pop"
+    },
+    {
+     "id": "p01-b5",
+     "unit": "U1",
+     "panel": "p01-p8",
+     "rect": [
+      0.09412,
+      0.72833,
+      0.18941,
+      0.15333
+     ],
+     "text": "あっ! わたしの朝食!",
+     "order": 5,
+     "t_in": 10.29,
+     "anim": "shake"
+    }
+   ],
+   "fx": [
+    {
+     "id": "p01-f1",
+     "unit": "A1",
+     "panel": "p01-p1",
+     "rect": [
+      0.68,
+      0.09,
+      0.025,
+      0.02
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sway",
+     "t_in": 0.23
+    },
+    {
+     "id": "p01-f2",
+     "unit": "U15",
+     "panel": "p01-p2",
+     "rect": [
+      0.54588,
+      0.4125,
+      0.13882,
+      0.03583
+     ],
+     "text": "ぺしぺし",
+     "kind": "sfx",
+     "preset": "repeat_pop",
+     "t_in": 1.64
+    },
+    {
+     "id": "p01-f3",
+     "unit": "U18",
+     "panel": "p01-p3",
+     "rect": [
+      0.72,
+      0.54583,
+      0.03294,
+      0.01917
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sway",
+     "t_in": 3.04
+    },
+    {
+     "id": "p01-f4",
+     "unit": "A2",
+     "panel": "p01-p5",
+     "rect": [
+      0.27,
+      0.165,
+      0.02,
+      0.02
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "jolt",
+     "t_in": 5.84
+    },
+    {
+     "id": "p01-f5",
+     "unit": "U16",
+     "panel": "p01-p6",
+     "rect": [
+      0.29647,
+      0.415,
+      0.11294,
+      0.04
+     ],
+     "text": "チン!",
+     "kind": "sfx",
+     "preset": "impact",
+     "t_in": 7.25
+    },
+    {
+     "id": "p01-f6",
+     "unit": "A3",
+     "panel": "p01-p6",
+     "rect": [
+      0.1,
+      0.343,
+      0.018,
+      0.015
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "jolt",
+     "t_in": 7.56
+    },
+    {
+     "id": "p01-f7",
+     "unit": "A4",
+     "panel": "p01-p6",
+     "rect": [
+      0.223,
+      0.354,
+      0.016,
+      0.014
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "jolt",
+     "t_in": 7.87
+    },
+    {
+     "id": "p01-f8",
+     "unit": "U5",
+     "panel": "p01-p7",
+     "rect": [
+      0.29059,
+      0.66583,
+      0.14824,
+      0.05417
+     ],
+     "text": "ソロリ…",
+     "kind": "sfx",
+     "preset": "creep",
+     "t_in": 8.65
+    },
+    {
+     "id": "p01-f9",
+     "unit": "A5",
+     "panel": "p01-p7",
+     "rect": [
+      0.262,
+      0.583,
+      0.016,
+      0.016
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "sway",
+     "t_in": 8.96
+    }
+   ]
+  },
+  {
+   "page": "p02",
+   "image": "p02.png",
+   "w": 850,
+   "h": 1200,
+   "story": "A girl in pajamas says goodbye while the cat watches from the door, eats breakfast on a bench, and walks along a street looking at her phone. A crow snatches her sandwich, and at her desk she yawns. Mike the cat bursts out of her bag, chases the crow away and brings the sandwich back, and she thanks Mike.",
+   "total_s": 12.0,
+   "must": [
+    {
+     "item": "P1/P2 merge",
+     "how": "The top-right panel is a single scene that extends to about x≈0.94. The door frame at x≈0.72 is not a panel border."
+    }
+   ],
+   "panels": [
+    {
+     "id": "p02-p1",
+     "order": 1,
+     "rect": [
+      0.50824,
+      0.035,
+      0.37176,
+      0.22583
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "A girl in a coat over her pajamas, carrying a handbag, waves goodbye at the front door while a calico cat sits next to the door looking worried.",
+     "reason": "The drawn waving hand is a natural back-and-forth motion, and the worried cat reacts to it.",
+     "timing_s": [
+      0.0,
+      1.9
+     ],
+     "action": "The girl on the left waves her raised hand on the screen-right side of her body from side to side beside her head. The cat on the right lowers its head slightly and droops its ears. Starts nearly still, moves, returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Line 'いってきます!' with the drawn raised waving hand; the cat's frowning face shows it feels lonely",
+     "seed": 74167
+    },
+    {
+     "id": "p02-p2",
+     "order": 2,
+     "rect": [
+      0.03765,
+      0.04,
+      0.45412,
+      0.22083
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The girl sits on a park bench under cherry blossoms, eating from a plate with a fork while two small birds perch on the backrest.",
+     "reason": "Eating is a gentle repeating action that sets up the relaxed mood. The balloon animates, so the character has to move too.",
+     "timing_s": [
+      1.4,
+      3.3
+     ],
+     "poly": [
+      [
+       0.05647058823529412,
+       0.041666666666666664
+      ],
+      [
+       0.03764705882352941,
+       0.0975
+      ],
+      [
+       0.05647058823529412,
+       0.11
+      ],
+      [
+       0.05764705882352941,
+       0.26
+      ],
+      [
+       0.49058823529411766,
+       0.25916666666666666
+      ],
+      [
+       0.48823529411764705,
+       0.04
+      ]
+     ],
+     "action": "The girl lifts the fork in her right hand to her mouth, chews with her eyes closed and gives a small happy sway of her head. The two small birds on the backrest hop in place. Starts nearly still, moves, returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Line 'いただきます♪' and her closed, content eyes",
+     "seed": 7879
+    },
+    {
+     "id": "p02-p3",
+     "order": 3,
+     "rect": [
+      0.50824,
+      0.26833,
+      0.43529,
+      0.22583
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The girl walks barefoot in pajamas along a street, looking at her phone under cherry blossoms.",
+     "reason": "The walking stride is drawn. A one-way walk needs mode f so it does not play backwards.",
+     "timing_s": [
+      2.8,
+      4.7
+     ],
+     "action": "The girl walks forward to the right in steady strides, looking down at the phone in both hands. Her legs and arms swing naturally as she moves a short way across the street.",
+     "magnitude": "medium",
+     "mode": "f",
+     "emotion_source": "Line 'いい天気だなあ', her calm half-closed eyes and the drawn walking stride",
+     "seed": 11994
+    },
+    {
+     "id": "p02-p4",
+     "order": 4,
+     "rect": [
+      0.05647,
+      0.27333,
+      0.43529,
+      0.22083
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "A crow on the bench bites the sandwich the girl is holding, and she stares in surprise.",
+     "reason": "A sudden snatch is a one-way action, with cause (the crow bites) and effect (the girl recoils) in the same panel.",
+     "timing_s": [
+      4.2,
+      6.1
+     ],
+     "action": "The crow on the left lunges its head forward and clamps its beak onto the sandwich, pulling it toward itself. The girl on the right jerks her head and shoulders back with wide eyes and her mouth open in surprise.",
+     "magnitude": "large",
+     "mode": "f",
+     "emotion_source": "SFX 'サッ!', the motion marks near the beak and her wide eyes and open mouth",
+     "seed": 32362
+    },
+    {
+     "id": "p02-p5",
+     "order": 5,
+     "rect": [
+      0.50824,
+      0.50083,
+      0.43529,
+      0.2225
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The girl sits at her desk with toast and coffee, yawning widely.",
+     "reason": "A change of expression that goes out and comes back; the yawn sells the sleepiness.",
+     "timing_s": [
+      5.6,
+      7.5
+     ],
+     "action": "The girl opens her mouth into a wide yawn as her shoulders rise and her head tilts back slightly, then she closes her mouth and her shoulders drop. Starts nearly still, moves, returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Line 'ふあ〜 ねむい…' and the drawn big yawn with closed eyes",
+     "seed": 6890
+    },
+    {
+     "id": "p02-p6",
+     "order": 6,
+     "rect": [
+      0.05647,
+      0.50583,
+      0.43529,
+      0.22083
+     ],
+     "type": "h3_full",
+     "role": "lead",
+     "content": "The calico cat leaps out of a paper bag, swiping a paw at a crow that flies away to the right.",
+     "reason": "This is the page's climax: a drawn leap and a fleeing crow, with the cat's attack and the crow's escape in one panel. It is a one-way action.",
+     "timing_s": [
+      7.0,
+      8.9
+     ],
+     "action": "The calico cat on the left springs out of the paper bag toward the right and swipes its raised paw on the screen-right side of its body forward. The crow on the right flaps its wings hard and flies away toward the upper right.",
+     "magnitude": "large",
+     "mode": "f",
+     "emotion_source": "SFX 'ダダダッ!', the speed lines behind the crow and the cat's excited open mouth",
+     "seed": 97828
+    },
+    {
+     "id": "p02-p7",
+     "order": 7,
+     "rect": [
+      0.50824,
+      0.72583,
+      0.43529,
+      0.23417
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The cat peeks out of a tote bag on the desk while the girl sits with her eyes closed.",
+     "reason": "An appearance (the cat emerging from the bag) is a one-way entrance. The shouted balloon needs a moving character.",
+     "timing_s": [
+      8.4,
+      10.3
+     ],
+     "poly": [
+      [
+       0.5094117647058823,
+       0.7258333333333333
+      ],
+      [
+       0.6011764705882353,
+       0.7266666666666667
+      ],
+      [
+       0.508235294117647,
+       0.74
+      ],
+      [
+       0.5105882352941177,
+       0.9591666666666666
+      ],
+      [
+       0.9423529411764706,
+       0.9575
+      ],
+      [
+       0.9423529411764706,
+       0.74
+      ],
+      [
+       0.6752941176470588,
+       0.7266666666666667
+      ],
+      [
+       0.9411764705882353,
+       0.7258333333333333
+      ]
+     ],
+     "action": "The cat's paws grip the rim of the tote bag on the left and its head pushes up out of the bag. The girl on the right turns her head slightly toward the bag.",
+     "magnitude": "medium",
+     "mode": "f",
+     "emotion_source": "Shouted line 'ミケ!? ついてきたの!?' and the small surprise marks near the bag",
+     "seed": 55855
+    },
+    {
+     "id": "p02-p8",
+     "order": 8,
+     "rect": [
+      0.05647,
+      0.73417,
+      0.43529,
+      0.22583
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The cat holds the rescued sandwich as the crow flies off behind it, and the girl presses her hands together in thanks.",
+     "reason": "A warm closing gesture of thanks that goes out and returns, which suits mode fl.",
+     "timing_s": [
+      9.8,
+      11.7
+     ],
+     "action": "The girl on the right presses her palms together and gives a small grateful bow of her head. The cat on the left hugs the sandwich and lifts its chin proudly. Starts nearly still, moves, returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Line 'えらい!ミケ!', her smile with closed eyes and her hands pressed together",
+     "seed": 46440
+    }
+   ],
+   "bubbles": [
+    {
+     "id": "p02-b1",
+     "unit": "U4",
+     "panel": "p02-p1",
+     "rect": [
+      0.57529,
+      0.03083,
+      0.12824,
+      0.12917
+     ],
+     "text": "いってきます!",
+     "order": 1,
+     "t_in": 0.47,
+     "anim": "pop"
+    },
+    {
+     "id": "p02-b2",
+     "unit": "U2",
+     "panel": "p02-p2",
+     "rect": [
+      0.03176,
+      0.06417,
+      0.31176,
+      0.0625
+     ],
+     "text": "いただきます♪",
+     "order": 2,
+     "t_in": 1.87,
+     "anim": "pop"
+    },
+    {
+     "id": "p02-b3",
+     "unit": "U5",
+     "panel": "p02-p3",
+     "rect": [
+      0.57529,
+      0.26417,
+      0.12706,
+      0.13
+     ],
+     "text": "いい天気だなあ",
+     "order": 3,
+     "t_in": 3.27,
+     "anim": "pop"
+    },
+    {
+     "id": "p02-b4",
+     "unit": "U3",
+     "panel": "p02-p5",
+     "rect": [
+      0.57529,
+      0.4975,
+      0.12941,
+      0.13
+     ],
+     "text": "ふあ〜 ねむい…",
+     "order": 4,
+     "t_in": 6.08,
+     "anim": "fade"
+    },
+    {
+     "id": "p02-b5",
+     "unit": "U1",
+     "panel": "p02-p7",
+     "rect": [
+      0.54353,
+      0.71667,
+      0.19059,
+      0.18167
+     ],
+     "text": "ミケ!? ついてきたの!?",
+     "order": 5,
+     "t_in": 8.88,
+     "anim": "shake"
+    },
+    {
+     "id": "p02-b6",
+     "unit": "U6",
+     "panel": "p02-p8",
+     "rect": [
+      0.12353,
+      0.72917,
+      0.12706,
+      0.13
+     ],
+     "text": "えらい!ミケ!",
+     "order": 6,
+     "t_in": 10.29,
+     "anim": "pop"
+    }
+   ],
+   "fx": [
+    {
+     "id": "p02-f1",
+     "unit": "U7",
+     "panel": "p02-p4",
+     "rect": [
+      0.28353,
+      0.29917,
+      0.1,
+      0.04417
+     ],
+     "text": "サッ",
+     "kind": "sfx",
+     "preset": "jolt",
+     "t_in": 4.44
+    },
+    {
+     "id": "p02-f2",
+     "unit": "A1",
+     "panel": "p02-p4",
+     "rect": [
+      0.39,
+      0.3,
+      0.03,
+      0.05
+     ],
+     "text": "",
+     "kind": "sfx",
+     "preset": "pop",
+     "t_in": 4.75
+    },
+    {
+     "id": "p02-f3",
+     "unit": "A2",
+     "panel": "p02-p4",
+     "rect": [
+      0.235,
+      0.375,
+      0.03,
+      0.04
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "line_stretch",
+     "t_in": 5.06
+    },
+    {
+     "id": "p02-f4",
+     "unit": "U9",
+     "panel": "p02-p6",
+     "rect": [
+      0.21059,
+      0.665,
+      0.15294,
+      0.03833
+     ],
+     "text": "ダダダ",
+     "kind": "sfx",
+     "preset": "repeat_pop",
+     "t_in": 7.25
+    },
+    {
+     "id": "p02-f5",
+     "unit": "U10",
+     "panel": "p02-p6",
+     "rect": [
+      0.43882,
+      0.6675,
+      0.01294,
+      0.0325
+     ],
+     "text": "!",
+     "kind": "sfx",
+     "preset": "impact",
+     "t_in": 7.56
+    },
+    {
+     "id": "p02-f6",
+     "unit": "U11",
+     "panel": "p02-p6",
+     "rect": [
+      0.37412,
+      0.67583,
+      0.03529,
+      0.025
+     ],
+     "text": "ッ",
+     "kind": "sfx",
+     "preset": "pop",
+     "t_in": 7.87
+    },
+    {
+     "id": "p02-f7",
+     "unit": "A3",
+     "panel": "p02-p6",
+     "rect": [
+      0.37,
+      0.57,
+      0.05,
+      0.03
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "line_stretch",
+     "t_in": 8.18
+    },
+    {
+     "id": "p02-f8",
+     "unit": "A4",
+     "panel": "p02-p7",
+     "rect": [
+      0.72,
+      0.86,
+      0.03,
+      0.03
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "pop",
+     "t_in": 8.65
+    }
+   ]
+  },
+  {
+   "page": "p03",
+   "image": "p03.png",
+   "w": 850,
+   "h": 1200,
+   "story": "Morning: the girl cooks while the cat waits on a stool, the cat stares hard at a raw fish on the cutting board, and she serves it a cooked fish, which it happily eats. Night: at 9 pm the two of them doze on the sofa with the cat, she strokes the purring cat, and the page ends on a black panel with the cat's line 'See you tomorrow too, nya.'",
+   "total_s": 11.8,
+   "must": [
+    {
+     "item": "U19 + U20 (じーっ)",
+     "how": "Treat them as one staring SFX that runs across the fish and the board in the merged P2."
+    }
+   ],
+   "panels": [
+    {
+     "id": "p03-p1",
+     "order": 1,
+     "rect": [
+      0.50824,
+      0.04,
+      0.43529,
+      0.29833
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The girl in an apron stirs food in a frying pan with a fork while a calico cat sits on a stool beside her, watching.",
+     "reason": "Cooking is an ongoing hand action, and moving it sets up the warm morning routine. The balloon pops in while she stirs.",
+     "timing_s": [
+      0.0,
+      2.4
+     ],
+     "action": "The girl in the center moves her right hand holding the fork in small circles, stirring the food in the pan on the left, while the cat on the stool at right tilts its head slightly toward her. Starts nearly still, stirs, and returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Her gentle closed-eye smile and the line 'もうすぐできるよ' (almost ready), with the cat's content smile",
+     "seed": 16157
+    },
+    {
+     "id": "p03-p2",
+     "order": 2,
+     "rect": [
+      0.50824,
+      0.35083,
+      0.43529,
+      0.29833
+     ],
+     "type": "h3_full",
+     "role": "lead",
+     "content": "Close-up of the calico cat with wide eyes and its paw on the table, staring at a raw fish on a cutting board.",
+     "reason": "This is the comic peak of the page. A slow lean toward the fish makes the stare land, and the stare SFX needs the cat to move with it.",
+     "timing_s": [
+      1.8,
+      4.2
+     ],
+     "action": "The cat leans its upper body forward toward the fish on the cutting board, and its paw on the table edge presses down, while its wide eyes stay fixed on the fish. Starts nearly still, leans in, and settles back to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "The wide, fixed eyes and the drawn staring SFX 'じー っ'",
+     "seed": 55821
+    },
+    {
+     "id": "p03-p3",
+     "order": 3,
+     "rect": [
+      0.50824,
+      0.66167,
+      0.43529,
+      0.29833
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The girl holds out a plate with a cooked fish while the cat, eyes closed, happily munches a fish held in its paw.",
+     "reason": "The happy chewing is the payoff of the stare in P2. Seeing the cat eat completes the cause and effect.",
+     "timing_s": [
+      3.6,
+      6.0
+     ],
+     "action": "The cat on the right chews with its head bobbing up and down while holding the fish to its mouth with its paw, and the girl on the left holds the plate out steadily. Starts nearly still, munches, and returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "The cat's blissful closed eyes and open chewing mouth, and the girl's line 'はい、どうぞ' (here you go) with her slight blush",
+     "seed": 92743
+    },
+    {
+     "id": "p03-p4",
+     "order": 4,
+     "rect": [
+      0.05647,
+      0.04,
+      0.43529,
+      0.29833
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "At night, two people in pajamas doze on a sofa with the calico cat curled asleep on one person's lap.",
+     "reason": "Gentle sleepy nodding carries the drowsy night mood, and the narration box fades in over it.",
+     "timing_s": [
+      5.4,
+      7.8
+     ],
+     "action": "The two people in pajamas slowly nod their heads forward as they doze, then lift them back up, while the cat curled on the lap between them gently swells and settles with slow breathing. Starts nearly still, nods, and returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "Everyone's closed sleepy eyes and the narration '夜九時。' (9 pm)",
+     "seed": 46629
+    },
+    {
+     "id": "p03-p5",
+     "order": 5,
+     "rect": [
+      0.05647,
+      0.35083,
+      0.43529,
+      0.29833
+     ],
+     "type": "h3_full",
+     "role": "support",
+     "content": "The girl, eyes closed and blushing, strokes the purring cat under its chin.",
+     "reason": "The stroking hand is the source of the purr. Moving it lets the ゴロゴロ rhythm and the blush play while the characters move.",
+     "timing_s": [
+      7.2,
+      9.6
+     ],
+     "action": "The girl's hand on the left strokes up and down under the cat's chin, and the cat tilts its head up into the hand with its eyes closed. Starts nearly still, strokes, and returns to the starting pose.",
+     "magnitude": "medium",
+     "mode": "fl",
+     "emotion_source": "The drawn purring SFX 'ゴロゴロ', the cat's blissful closed eyes, and the girl's blush",
+     "seed": 54010
+    },
+    {
+     "id": "p03-p6",
+     "order": 6,
+     "rect": [
+      0.05647,
+      0.66167,
+      0.43529,
+      0.29833
+     ],
+     "type": "static",
+     "role": "hold",
+     "content": "An all-black panel with white text: the cat's closing line.",
+     "reason": "A text-only black panel with no character. Its stillness is the quiet ending, and only the line fades in.",
+     "timing_s": [
+      9.0,
+      11.4
+     ],
+     "no_character": true
+    }
+   ],
+   "bubbles": [
+    {
+     "id": "p03-b1",
+     "unit": "U2",
+     "panel": "p03-p1",
+     "rect": [
+      0.57647,
+      0.05,
+      0.12471,
+      0.13
+     ],
+     "text": "もうすぐできるよ",
+     "order": 1,
+     "t_in": 0.6,
+     "anim": "pop"
+    },
+    {
+     "id": "p03-b2",
+     "unit": "U4",
+     "panel": "p03-p3",
+     "rect": [
+      0.58,
+      0.68333,
+      0.12,
+      0.105
+     ],
+     "text": "はい、どうぞ",
+     "order": 2,
+     "t_in": 4.2,
+     "anim": "pop"
+    },
+    {
+     "id": "p03-b3",
+     "unit": "U5",
+     "panel": "p03-p4",
+     "rect": [
+      0.39176,
+      0.07917,
+      0.06824,
+      0.10167
+     ],
+     "text": "夜九時。",
+     "order": 3,
+     "t_in": 6.0,
+     "anim": "fade"
+    },
+    {
+     "id": "p03-b4",
+     "unit": "U1",
+     "panel": "p03-p6",
+     "rect": [
+      0.07765,
+      0.79083,
+      0.37529,
+      0.045
+     ],
+     "text": "明日もよろしくニャ。",
+     "order": 4,
+     "t_in": 9.6,
+     "anim": "fade"
+    }
+   ],
+   "fx": [
+    {
+     "id": "p03-f1",
+     "unit": "U19",
+     "panel": "p03-p2",
+     "rect": [
+      0.71765,
+      0.56333,
+      0.11176,
+      0.04333
+     ],
+     "text": "じー",
+     "kind": "sfx",
+     "preset": "creep",
+     "t_in": 2.1
+    },
+    {
+     "id": "p03-f2",
+     "unit": "U20",
+     "panel": "p03-p2",
+     "rect": [
+      0.84471,
+      0.57417,
+      0.02706,
+      0.0325
+     ],
+     "text": "っ",
+     "kind": "sfx",
+     "preset": "pop",
+     "t_in": 2.5
+    },
+    {
+     "id": "p03-f3",
+     "unit": "U3",
+     "panel": "p03-p5",
+     "rect": [
+      0.25882,
+      0.52917,
+      0.19882,
+      0.06417
+     ],
+     "text": "ゴロゴロ",
+     "kind": "sfx",
+     "preset": "rhythm",
+     "t_in": 7.5
+    },
+    {
+     "id": "p03-f4",
+     "unit": "A1",
+     "panel": "p03-p5",
+     "rect": [
+      0.29,
+      0.44,
+      0.1,
+      0.03
+     ],
+     "text": "",
+     "kind": "manpu",
+     "preset": "pulse",
+     "t_in": 7.9
+    }
+   ]
+  }
+ ],
+ "provenance": {
+  "llm": "claude_cli:claude-opus-5-5",
+  "prompt_version": "p3",
+  "detector_versions": {
+   "panels": "classical-1",
+   "units": "segment-1"
+  }
+ }
+}

@@ -1,0 +1,79 @@
+[
+ {
+  "page": "p01",
+  "repairs": 0,
+  "critic_rounds": 2,
+  "critic_changes": [
+   {
+    "issues": 2,
+    "panels_changed": 2,
+    "rules": [
+     "fl must describe motion that returns to ",
+     "fl must describe motion that returns to "
+    ]
+   }
+  ],
+  "degraded": [],
+  "issues": [],
+  "redirect": true,
+  "panel_log": [
+   "drop P1",
+   "add N1"
+  ],
+  "order_overrides": 0,
+  "valid": true,
+  "valid_without_degrade": true
+ },
+ {
+  "page": "p02",
+  "repairs": 0,
+  "critic_rounds": 1,
+  "critic_changes": [],
+  "degraded": [],
+  "issues": [],
+  "redirect": false,
+  "panel_log": [
+   "add N1",
+   "add N2"
+  ],
+  "order_overrides": 0,
+  "valid": true,
+  "valid_without_degrade": true
+ },
+ {
+  "page": "p03",
+  "repairs": 1,
+  "critic_rounds": 1,
+  "critic_changes": [],
+  "degraded": [],
+  "issues": [
+   "warn rect_in_panel [p03-b1] bubble rect not inside its panel (5% tolerance)"
+  ],
+  "redirect": false,
+  "panel_log": [
+   "add N1"
+  ],
+  "order_overrides": 0,
+  "valid": true,
+  "valid_without_degrade": true
+ },
+ {
+  "page": "p04",
+  "repairs": 0,
+  "critic_rounds": 1,
+  "critic_changes": [],
+  "degraded": [],
+  "issues": [
+   "warn one_way_fl [p04-p5] one-way verb 'fall' with mode fl (the clip returns to the start pose)",
+   "warn rect_in_panel [p04-b4] bubble rect not inside its panel (5% tolerance)"
+  ],
+  "redirect": false,
+  "panel_log": [
+   "add N1",
+   "add N2"
+  ],
+  "order_overrides": 0,
+  "valid": true,
+  "valid_without_degrade": true
+ }
+]

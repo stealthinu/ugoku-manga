@@ -1,0 +1,137 @@
+{
+ "type": "object",
+ "properties": {
+  "issues": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "target_id": {
+      "type": "string"
+     },
+     "rule": {
+      "type": "string"
+     },
+     "severity": {
+      "enum": [
+       "error",
+       "warn"
+      ]
+     },
+     "explanation": {
+      "type": "string"
+     },
+     "fix_patch": {
+      "type": "object",
+      "properties": {
+       "type": {
+        "enum": [
+         "h3_full",
+         "static",
+         "none"
+        ]
+       },
+       "role": {
+        "enum": [
+         "lead",
+         "support",
+         "hold",
+         "none"
+        ]
+       },
+       "action": {
+        "type": "string"
+       },
+       "magnitude": {
+        "enum": [
+         "medium",
+         "large",
+         "none"
+        ]
+       },
+       "mode": {
+        "enum": [
+         "f",
+         "fl",
+         "none"
+        ]
+       },
+       "anim": {
+        "enum": [
+         "pop",
+         "fade",
+         "shake",
+         "slide",
+         "none"
+        ]
+       },
+       "preset": {
+        "enum": [
+         "impact",
+         "jolt",
+         "tremble",
+         "pulse",
+         "sway",
+         "creep",
+         "slide",
+         "drop",
+         "repeat_pop",
+         "rhythm",
+         "tick",
+         "drip",
+         "pop",
+         "stretch",
+         "line_stretch",
+         "sparkle_blink",
+         "flicker",
+         "mail_slide",
+         "none"
+        ]
+       },
+       "kind": {
+        "enum": [
+         "dialogue",
+         "narration",
+         "sfx",
+         "manpu",
+         "screen",
+         "noise",
+         "none"
+        ]
+       },
+       "panel_id": {
+        "type": "string"
+       }
+      },
+      "required": [
+       "type",
+       "role",
+       "action",
+       "magnitude",
+       "mode",
+       "anim",
+       "preset",
+       "kind",
+       "panel_id"
+      ],
+      "additionalProperties": false
+     }
+    },
+    "required": [
+     "target_id",
+     "rule",
+     "severity",
+     "explanation",
+     "fix_patch"
+    ],
+    "additionalProperties": false
+   }
+  }
+ },
+ "required": [
+  "issues"
+ ],
+ "additionalProperties": false,
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "ugoku-critic"
+}

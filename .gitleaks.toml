@@ -1,0 +1,4 @@
+title = "ugoku gitleaks config"
+
+[extend]
+useDefault = true

@@ -1,0 +1,45 @@
+{
+  "name": "ugoku sample works",
+  "license": "CC0-1.0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/legalcode",
+  "provenance": "samples/LICENSE",
+  "checksums": "samples/MANIFEST.sha256",
+  "note": "Original fiction written for this repository. Panel art from Qwen-Image (Apache-2.0); lettering, layout and effects drawn by tools/sample_gen.",
+  "works": [
+    {
+      "id": "koma-morning",
+      "title": "ミケとわたしの朝",
+      "reading": "rtl",
+      "pages": [
+        "koma-morning/pages/p01.png",
+        "koma-morning/pages/p02.png",
+        "koma-morning/pages/p03.png"
+      ],
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "shojo-afterschool",
+      "title": "雨のち、ひなた",
+      "reading": "rtl",
+      "pages": [
+        "shojo-afterschool/pages/p01.png",
+        "shojo-afterschool/pages/p02.png",
+        "shojo-afterschool/pages/p03.png",
+        "shojo-afterschool/pages/p04.png"
+      ],
+      "license": "CC0-1.0"
+    },
+    {
+      "id": "shonen-rooftop",
+      "title": "屋根の上のランナー",
+      "reading": "rtl",
+      "pages": [
+        "shonen-rooftop/pages/p01.png",
+        "shonen-rooftop/pages/p02.png",
+        "shonen-rooftop/pages/p03.png",
+        "shonen-rooftop/pages/p04.png"
+      ],
+      "license": "CC0-1.0"
+    }
+  ]
+}

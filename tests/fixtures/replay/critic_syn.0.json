@@ -1,0 +1,21 @@
+{
+ "issues": [
+  {
+   "target_id": "P2",
+   "rule": "one-way motion must use mode f",
+   "severity": "error",
+   "explanation": "walking past does not return",
+   "fix_patch": {
+    "type": "none",
+    "role": "none",
+    "action": "",
+    "magnitude": "none",
+    "mode": "f",
+    "anim": "none",
+    "preset": "none",
+    "kind": "none",
+    "panel_id": ""
+   }
+  }
+ ]
+}

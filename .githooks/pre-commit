@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+bash scripts/deny_grep.sh && python3 scripts/check_repo.py

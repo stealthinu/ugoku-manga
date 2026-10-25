@@ -1,0 +1,86 @@
+work: koma-morning
+title: ミケとわたしの朝
+reading: rtl
+seed: 33
+style:
+  font: maru
+  fs: 21
+  border: 3
+  pitch: 5.0
+  black: 0.26
+  white: 0.84
+  gamma: 1.0
+art:
+  use_space: false   # asking this model for free space makes it draw empty caption boxes
+  prefix: "simple cute black and white 4-koma manga illustration, clean rounded lines, flat light screentone, friendly cartoon style, plain background, "
+  suffix: ", no text, no letters, no speech bubbles, no captions"
+  prefix_color: "simple cute 4-koma manga illustration in soft flat colors, clean rounded outlines, friendly cartoon style, plain background, "
+  negative: "text, letters, words, numbers, speech bubble, caption, watermark, signature, logo, photograph, 3d render, blurry"
+characters:
+  yuki: "Yuki, a young woman with a short bob haircut, pajamas, sleepy round eyes"
+  mike: "Mike, a chubby calico cat with a round face and a small bell collar"
+pages:
+  - id: p01
+    layout: koma
+    strips: 2
+    koma: 4
+    header: 0
+    panels:
+      - {id: a1, seed: 2101, space: top, prompt: "<yuki> asleep in bed with a blanket, morning light from the window, <mike> sitting on her chest staring at her"}
+      - {id: a2, seed: 2102, space: top, prompt: "<mike> patting <yuki>'s face with a paw, <yuki> still asleep"}
+      - {id: a3, seed: 2103, space: top, prompt: "<yuki> waking up with a startled face, <mike> meowing with an open mouth"}
+      - {id: a4, seed: 2104, fill: black}
+      - {id: b1, seed: 2105, space: top, prompt: "<yuki> in the kitchen putting a slice of bread into a toaster, <mike> watching from the counter"}
+      - {id: b2, seed: 2106, space: top, prompt: "the toaster popping up a golden slice of toast, <mike> staring at it with wide eyes"}
+      - {id: b3, seed: 2107, space: top, prompt: "<yuki> turning her back to pour tea, <mike> sneaking toward the plate of toast with a mischievous face"}
+      - {id: b4, seed: 2108, space: top, prompt: "<mike> running away with the whole toast in his mouth, <yuki> chasing him with her arms up"}
+    items:
+      - {kind: balloon, panel: a1, id: n0, shape: box, at: [0.85, 0.3], font: serif, text: "朝六時。", vertical: true}
+      - {kind: sfx, panel: a2, id: s1, at: [0.3, 0.7], font: mochiy, size: 40, text: "ぺしぺし"}
+      - {kind: balloon, panel: a3, id: b1, shape: oval, at: [0.3, 0.3], tail: [0.55, 0.6], text: "まだ五分…\nうわっ！？"}
+      - {kind: balloon, panel: a4, id: b2, shape: none, color: white, at: [0.5, 0.5], text: "ごはんの時間だニャ。", vertical: false, fs: 30}
+      - {kind: balloon, panel: b1, id: b3, shape: oval, at: [0.3, 0.25], text: "今日は\nトースト！"}
+      - {kind: sfx, panel: b2, id: s2, at: [0.7, 0.75], font: mochiy, size: 38, text: "チン！"}
+      - {kind: sfx, panel: b3, id: s3, at: [0.7, 0.8], font: yusei, size: 34, text: "ソロリ…"}
+      - {kind: balloon, panel: b4, id: b4, shape: burst, at: [0.3, 0.3], tail: [0.5, 0.55], text: "あっ！\nわたしの\n朝食！", fs: 19}
+  - id: p02
+    layout: koma
+    strips: 2
+    koma: 4
+    color: true
+    panels:
+      - {id: a1, seed: 2201, color: true, space: top, prompt: "<yuki> leaving the apartment in a trench coat with a bag, waving, <mike> sitting at the door looking sad"}
+      - {id: a2, seed: 2202, color: true, space: top, prompt: "<yuki> walking down the street under cherry blossoms, checking her phone"}
+      - {id: a3, seed: 2203, color: true, space: top, prompt: "<yuki> at the office desk with a big yawn, a cup of coffee, an empty plate of toast crumbs on the desk"}
+      - {id: a4, seed: 2204, color: true, space: top, prompt: "<mike> the cat peeking out of <yuki>'s bag on the desk, a crumb on his whiskers"}
+      - {id: b1, seed: 2205, color: true, space: top, prompt: "<yuki> eating lunch at a park bench, spring day, birds nearby"}
+      - {id: b2, seed: 2206, color: true, space: top, prompt: "a crow stealing a sandwich from the bench, <yuki> looking shocked, wide eyes"}
+      - {id: b3, seed: 2207, color: true, space: top, prompt: "<mike> the cat jumping out of the bag and chasing the crow, determined face"}
+      - {id: b4, seed: 2208, color: true, space: top, prompt: "<mike> proudly holding the sandwich in his mouth while the crow flies off, <yuki> clapping"}
+    items:
+      - {kind: balloon, panel: a1, id: b1, shape: oval, at: [0.3, 0.25], text: "いって\nきます！"}
+      - {kind: balloon, panel: a2, id: b2, shape: oval, at: [0.3, 0.25], text: "いい天気\nだなあ"}
+      - {kind: balloon, panel: a3, id: b3, shape: oval, at: [0.3, 0.25], text: "ふあ〜…\nねむい"}
+      - {kind: balloon, panel: a4, id: b4, shape: burst, at: [0.3, 0.3], tail: [0.5, 0.6], text: "ミケ！？\nついて\nきたの！？", fs: 19}
+      - {kind: balloon, panel: b1, id: b5, shape: oval, at: [0.3, 0.25], text: "いただきます♪", vertical: false}
+      - {kind: sfx, panel: b2, id: s1, at: [0.7, 0.2], font: mochiy, size: 44, text: "サッ！"}
+      - {kind: sfx, panel: b3, id: s2, at: [0.65, 0.8], font: reggae, size: 46, text: "ダダダッ！"}
+      - {kind: balloon, panel: b4, id: b6, shape: oval, at: [0.3, 0.25], text: "えらい！\nミケ！"}
+  - id: p03
+    layout: koma
+    strips: 2
+    koma: 3
+    panels:
+      - {id: a1, seed: 2301, space: top, prompt: "<yuki> at home in the evening cooking dinner in an apron, <mike> sitting on a stool beside her"}
+      - {id: a2, seed: 2302, space: top, prompt: "<mike> staring at a fish on the cutting board with huge sparkling eyes"}
+      - {id: a3, seed: 2303, space: top, prompt: "<yuki> holding a small plate of fish and <mike> eating happily, <yuki> smiling"}
+      - {id: b1, seed: 2304, space: top, prompt: "<yuki> on the sofa at night in pajamas, <mike> curled up on her lap, TV glow"}
+      - {id: b2, seed: 2305, space: top, prompt: "close-up of <mike> purring with closed eyes, <yuki>'s hand petting him"}
+      - {id: b3, seed: 2306, fill: black}
+    items:
+      - {kind: balloon, panel: a1, id: b1, shape: oval, at: [0.3, 0.25], text: "もうすぐ\nできるよ"}
+      - {kind: sfx, panel: a2, id: s1, at: [0.7, 0.75], font: yusei, size: 38, text: "じーっ"}
+      - {kind: balloon, panel: a3, id: b2, shape: oval, at: [0.3, 0.25], text: "はい、\nどうぞ"}
+      - {kind: balloon, panel: b1, id: n1, shape: box, at: [0.85, 0.3], font: serif, text: "夜九時。"}
+      - {kind: sfx, panel: b2, id: s2, at: [0.7, 0.7], font: mochiy, size: 38, text: "ゴロゴロ"}
+      - {kind: balloon, panel: b3, id: b3, shape: none, color: white, at: [0.5, 0.5], text: "明日もよろしくニャ。", vertical: false, fs: 30}

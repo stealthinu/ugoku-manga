@@ -1,0 +1,209 @@
+{
+ "type": "object",
+ "properties": {
+  "page_story": {
+   "type": "string"
+  },
+  "panel_fixes": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "op": {
+      "enum": [
+       "confirm",
+       "not_panel",
+       "merge",
+       "split",
+       "add"
+      ]
+     },
+     "ids": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "axis": {
+      "enum": [
+       "x",
+       "y",
+       "none"
+      ]
+     },
+     "approx_pos": {
+      "type": "number"
+     },
+     "approx_rect": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     },
+     "note": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "op",
+     "ids",
+     "axis",
+     "approx_pos",
+     "approx_rect",
+     "note"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "panels": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "content": {
+      "type": "string"
+     },
+     "who": {
+      "type": "string"
+     },
+     "face_size": {
+      "enum": [
+       "none",
+       "tiny",
+       "small",
+       "medium",
+       "large"
+      ]
+     },
+     "expression": {
+      "type": "string"
+     },
+     "drawn_motion": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      }
+     },
+     "emotion": {
+      "type": "string"
+     },
+     "no_character": {
+      "type": "boolean"
+     }
+    },
+    "required": [
+     "id",
+     "content",
+     "who",
+     "face_size",
+     "expression",
+     "drawn_motion",
+     "emotion",
+     "no_character"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "units": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "id": {
+      "type": "string"
+     },
+     "kind": {
+      "enum": [
+       "dialogue",
+       "narration",
+       "sfx",
+       "manpu",
+       "screen",
+       "noise"
+      ]
+     },
+     "text": {
+      "type": "string"
+     },
+     "panel_id": {
+      "type": "string"
+     },
+     "shout": {
+      "type": "boolean"
+     }
+    },
+    "required": [
+     "id",
+     "kind",
+     "text",
+     "panel_id",
+     "shout"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "add_units": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "panel_id": {
+      "type": "string"
+     },
+     "approx_rect": {
+      "type": "array",
+      "items": {
+       "type": "number"
+      }
+     },
+     "kind": {
+      "enum": [
+       "sfx",
+       "manpu",
+       "screen"
+      ]
+     }
+    },
+    "required": [
+     "panel_id",
+     "approx_rect",
+     "kind"
+    ],
+    "additionalProperties": false
+   }
+  },
+  "must": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "item": {
+      "type": "string"
+     },
+     "how": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "item",
+     "how"
+    ],
+    "additionalProperties": false
+   }
+  }
+ },
+ "required": [
+  "page_story",
+  "panel_fixes",
+  "panels",
+  "units",
+  "add_units",
+  "must"
+ ],
+ "additionalProperties": false,
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "title": "ugoku-observe"
+}

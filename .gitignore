@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+*.toml.local
+eval-out/
+work/
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/

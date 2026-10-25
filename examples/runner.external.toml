@@ -1,0 +1,21 @@
+# Example [runner] settings for a GPU that lives on another machine or behind a job queue.
+# Copy the table into ~/.config/ugoku/config.toml and adapt the commands. Nothing here is a real host.
+# Template variables: {stage_dir} {remote_dir} {job_id} {n_panels} {expect_s} {python} {queue_id} plus every key of [runner.vars].
+[runner]
+kind = "external_command"
+python = "python3"                       # interpreter on the GPU machine
+remote_dir = "ugoku/{job_id}"            # directory on the GPU machine
+poll_s = 60
+queue_id_regex = "queued (\\S+)"         # how to find the queue id in the output of `command`
+state_regex = "state: (\\w+)"            # how to find the state in the output of `status`
+done_states = ["done"]
+failed_states = ["failed", "cancelled", "timeout"]
+sync_in = "ssh {host} 'mkdir -p {remote_dir}' && tar cf - -C {stage_dir} in spec.json comfy_h3_job.py SHA256SUMS | ssh {host} 'tar xf - -C {remote_dir}'"
+command = "ssh {host} 'cd {remote_dir} && my-queue submit --vram 24G --expect {expect_s} -- {python} comfy_h3_job.py --root .'"
+status = "ssh {host} 'my-queue show {queue_id}'"
+sync_out = "mkdir -p {stage_dir}/result && ssh {host} 'cd {remote_dir} && tar cf - manifest.json REPORT.md out' | tar xf - -C {stage_dir}/result"
+[runner.vars]
+host = "gpu-box"
+# the job script reads UGOKU_COMFY_DIR (ComfyUI checkout), UGOKU_COMFY_EXTRA (extra_model_paths.yaml), UGOKU_COMFY_DATA, UGOKU_GPU_NAME from its environment
+
+# Local GPU instead: kind = "local" and set the same variables in [runner.env].

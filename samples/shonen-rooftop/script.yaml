@@ -1,0 +1,81 @@
+work: shonen-rooftop
+title: 屋根の上のランナー
+reading: rtl
+seed: 11
+style:
+  font: sans
+  fs: 27
+  border: 5
+  margin: 40
+  gutter: 14
+  pitch: 6.0
+  black: 0.24
+  white: 0.80
+  gamma: 0.85
+art:
+  use_space: false   # asking this model for free space makes it draw empty caption boxes
+  prefix: "black and white manga illustration, bold thick ink lines, high contrast, dynamic action composition, hatching and shadow, clean line art, pure ink on white paper, "
+  suffix: ", no text, no letters, no speech bubbles, no captions"
+  negative: "text, letters, words, numbers, speech bubble, caption, watermark, signature, logo, color, photograph, 3d render, blurry"
+characters:
+  ren: "Ren, a teenage boy courier with short spiky black hair, a long scarf, a sleeveless jacket and fingerless gloves, lean athletic build, determined eyes"
+  garo: "Garo, a huge muscular man with a cracked iron half-mask over the upper face, a heavy long coat, very wide shoulders and short hair"
+pages:
+  - id: p01
+    rows: [{h: 0.28, cols: [1]}, {h: 0.36, cols: [1, 1]}, {h: 0.36, cols: [3, 2]}]
+    panels:
+      - {id: a, seed: 101, space: right, prompt: "very wide establishing shot of a city skyline at sunset seen from a rooftop, water tanks and antennas, a tiny figure of <ren> standing far away on a rooftop edge"}
+      - {id: b, seed: 102, space: top-left, prompt: "close-up of <ren>'s face, serious determined eyes, scarf blowing in the wind"}
+      - {id: c, seed: 103, space: top, prompt: "low angle shot of <garo> standing with arms crossed on a rooftop, blocking the way, ominous"}
+      - {id: d, seed: 104, space: top, prompt: "<ren> crouching in a sprinter's start on a rooftop, side view facing left, one hand touching the ground"}
+      - {id: e, seed: 105, space: none, prompt: "<ren> sprinting fast toward the left across rooftops, side view, scarf streaming behind, dynamic motion, speed lines"}
+    items:
+      - {kind: balloon, panel: a, id: n1, shape: box, at: [0.88, 0.5], font: serif, text: "日没の街。\n屋根の上が\nおれの道だ。"}
+      - {kind: balloon, panel: b, id: b1, shape: oval, at: [0.2, 0.3], tail: [0.4, 0.62], text: "届けるぞ、\n必ず！"}
+      - {kind: balloon, panel: c, id: b2, shape: oval, at: [0.78, 0.26], tail: [0.55, 0.55], text: "ここは\n通さんぞ、\n小僧。"}
+      - {kind: sfx, panel: d, id: s1, at: [0.3, 0.2], font: reggae, size: 70, vertical: true, text: "グッ", angle: 0}
+      - {kind: sfx, panel: e, id: s2, at: [0.55, 0.78], font: dela, size: 120, text: "ダッ！！", angle: -8}
+  - id: p02
+    rows: [{h: 0.4, cols: [1]}, {h: 0.3, cols: [1, 1]}, {h: 0.3, cols: [2, 3]}]
+    panels:
+      - {id: a, seed: 201, space: top, prompt: "<ren> in a flying punch toward the right and <garo> swinging his fist toward the left, their fists about to collide in the middle, dramatic side view, mid-air, impact lines"}
+      - {id: b, seed: 202, space: left, prompt: "close-up of <garo>'s huge fist swinging toward the camera, motion blur lines"}
+      - {id: c, seed: 203, space: right, prompt: "<ren> ducking under a punch with his scarf flying, body low, side view facing right"}
+      - {id: d, seed: 204, space: top, prompt: "<garo> staggering backward with a surprised face, half-mask, cracks on the mask"}
+      - {id: e, seed: 205, space: top-left, prompt: "<ren> landing on one knee on the rooftop, looking up with a confident grin, dust around"}
+    items:
+      - {kind: manpu, panel: a, id: m1, type: speedlines, at: [0.5, 0.55], inner: 0.2, n: 80, seed: 5}
+      - {kind: sfx, panel: a, id: s1, at: [0.5, 0.52], font: dela, size: 150, text: "ドンッ！！", angle: -6}
+      - {kind: balloon, panel: a, id: b1, shape: burst, at: [0.18, 0.2], tail: [0.35, 0.45], text: "くらえっ！", vertical: true}
+      - {kind: balloon, panel: b, id: b2, shape: oval, at: [0.8, 0.22], text: "ぬうっ！？"}
+      - {kind: balloon, panel: c, id: b3, shape: oval, at: [0.3, 0.2], tail: [0.5, 0.5], text: "遅いっ！"}
+      - {kind: balloon, panel: d, id: b4, shape: oval, at: [0.78, 0.25], text: "なん…だと？"}
+      - {kind: sfx, panel: e, id: s2, at: [0.7, 0.8], font: rampart, size: 70, vertical: true, text: "ザザッ"}
+  - id: p03
+    rows: [{h: 0.3, cols: [1, 1]}, {h: 0.42, cols: [1]}, {h: 0.28, cols: [1, 1]}]
+    panels:
+      - {id: a, seed: 301, space: top, prompt: "<ren> spinning in the air preparing a kick, seen from below, scarf whirling, sunset sky behind"}
+      - {id: b, seed: 302, space: top, prompt: "<garo> turning around with his guard open, shocked face, looking at the left"}
+      - {id: c, seed: 303, space: top, prompt: "<ren> on the left delivering a powerful flying kick that hits <garo> in the chest on the right, side view, <garo> is bent over and being pushed to the right, impact shock lines"}
+      - {id: d, seed: 304, space: top, prompt: "<garo> flying through the air to the right, thrown backward over the rooftops, coat flapping, clouds"}
+      - {id: e, seed: 305, space: top, prompt: "a rooftop water tank crashing and breaking apart with debris flying, dust cloud, dramatic"}
+    items:
+      - {kind: balloon, panel: a, id: b1, shape: burst, at: [0.28, 0.28], tail: [0.5, 0.55], text: "せりゃあっ！"}
+      - {kind: balloon, panel: b, id: b2, shape: oval, at: [0.78, 0.25], text: "しまっ…"}
+      - {kind: manpu, panel: c, id: m1, type: speedlines, at: [0.5, 0.5], inner: 0.28, n: 90, seed: 8}
+      - {kind: sfx, panel: c, id: s1, at: [0.5, 0.45], font: dela, size: 125, text: "バキィッ！！", angle: 5}
+      - {kind: balloon, panel: c, id: b3, shape: oval, at: [1.0, 1.02], tail: [0.62, 0.7], text: "おれの道を\n塞ぐなっ！"}
+      - {kind: sfx, panel: e, id: s2, at: [0.5, 0.45], font: rampart, size: 56, text: "ガシャーン！", angle: -4}
+  - id: p04
+    rows: [{h: 0.34, cols: [1]}, {h: 0.34, cols: [1, 1]}, {h: 0.32, cols: [1]}]
+    panels:
+      - {id: a, seed: 401, space: top, prompt: "<garo> lying on his back among the wreckage of a water tank on a rooftop, the iron mask cracked in half, dazed"}
+      - {id: b, seed: 402, space: top, prompt: "<ren> reaching out a hand toward the viewer with a friendly smile, scarf in the wind"}
+      - {id: c, seed: 403, space: top, prompt: "<garo> looking up with a small surprised smile, mask broken, showing his scarred face"}
+      - {id: d, seed: 404, space: top, prompt: "wide shot of <ren> running away along the rooftops toward the setting sun, small figure, long shadow"}
+    items:
+      - {kind: balloon, panel: a, id: b1, shape: oval, at: [0.2, 0.3], text: "…おれの\n負けか。"}
+      - {kind: balloon, panel: b, id: b2, shape: oval, at: [0.25, 0.25], tail: [0.5, 0.5], text: "まだやるか？"}
+      - {kind: balloon, panel: c, id: b3, shape: oval, at: [0.75, 0.25], text: "いや…\n行け、小僧。"}
+      - {kind: balloon, panel: d, id: b4, shape: box, at: [0.9, 0.4], font: serif, text: "配達は\nまだ途中だ。"}
+      - {kind: sfx, panel: d, id: s1, at: [0.4, 0.2], font: reggae, size: 70, text: "タタタッ", angle: -4}

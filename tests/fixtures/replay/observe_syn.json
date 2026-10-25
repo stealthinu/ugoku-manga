@@ -1,0 +1,76 @@
+{
+ "page_story": "A short beat across three panels.",
+ "panel_fixes": [
+  {
+   "op": "confirm",
+   "ids": [
+    "P1",
+    "P2",
+    "P3"
+   ],
+   "axis": "none",
+   "approx_pos": 0,
+   "approx_rect": [],
+   "note": ""
+  }
+ ],
+ "panels": [
+  {
+   "id": "P1",
+   "content": "A figure raises an arm.",
+   "who": "one person",
+   "face_size": "medium",
+   "expression": "surprised",
+   "drawn_motion": [],
+   "emotion": "surprise",
+   "no_character": false
+  },
+  {
+   "id": "P2",
+   "content": "A figure walks past another.",
+   "who": "two people",
+   "face_size": "small",
+   "expression": "calm",
+   "drawn_motion": [
+    "speed lines"
+   ],
+   "emotion": "calm",
+   "no_character": false
+  },
+  {
+   "id": "P3",
+   "content": "A wide empty hall.",
+   "who": "nobody",
+   "face_size": "none",
+   "expression": "",
+   "drawn_motion": [],
+   "emotion": "quiet",
+   "no_character": true
+  }
+ ],
+ "units": [
+  {
+   "id": "U1",
+   "kind": "dialogue",
+   "text": "Hello",
+   "panel_id": "P1",
+   "shout": false
+  },
+  {
+   "id": "U2",
+   "kind": "dialogue",
+   "text": "Stop!",
+   "panel_id": "P1",
+   "shout": true
+  },
+  {
+   "id": "U3",
+   "kind": "sfx",
+   "text": "Boom",
+   "panel_id": "P2",
+   "shout": false
+  }
+ ],
+ "add_units": [],
+ "must": []
+}
