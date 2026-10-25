@@ -1,0 +1,71 @@
+[
+ {
+  "page": "p01",
+  "warn": [
+   "possible leftover text: 1 blobs [[274, 1096, 39, 35]]"
+  ],
+  "baked": [
+   "f:p01-f4"
+  ],
+  "text_only": [
+   "p01-b2 d51 flat0.05",
+   "p01-b4 d51 flat0.63",
+   "p01-b5 d68 flat0.78",
+   "extra-4 shape-not-found"
+  ],
+  "unassigned": [
+   [
+    247,
+    799,
+    373,
+    864
+   ],
+   [
+    189,
+    467,
+    224,
+    545
+   ]
+  ],
+  "n_layers": 15,
+  "stage": [
+   "p01-p1",
+   "p01-p2",
+   "p01-p6",
+   "p01-p8"
+  ]
+ },
+ {
+  "page": "p02",
+  "warn": [],
+  "baked": [
+   "f:p02-f3",
+   "f:p02-f7"
+  ],
+  "text_only": [
+   "p02-b1 d52 flat0.65",
+   "p02-b5 d69 flat0.66",
+   "p02-b6 d51 flat0.70"
+  ],
+  "unassigned": [],
+  "n_layers": 12,
+  "stage": [
+   "p02-p6"
+  ]
+ },
+ {
+  "page": "p03",
+  "warn": [
+   "possible leftover text: 9 blobs [[579, 475, 23, 32], [596, 493, 13, 20], [606, 563, 17, 22], [179, 597, 25, 10], [127, 604, 23, 12], [157, 605, 24, 26]]"
+  ],
+  "baked": [],
+  "text_only": [
+   "p03-b2 d51 flat0.68"
+  ],
+  "unassigned": [],
+  "n_layers": 8,
+  "stage": [
+   "p03-p2"
+  ]
+ }
+]

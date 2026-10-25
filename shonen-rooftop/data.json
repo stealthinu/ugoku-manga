@@ -1,0 +1,982 @@
+{
+ "title": "ugoku",
+ "works": [
+  {
+   "id": "shonen-rooftop",
+   "title": "shonen-rooftop"
+  }
+ ],
+ "pages": [
+  {
+   "id": "p01",
+   "work": "shonen-rooftop",
+   "label": "p01",
+   "image": "pages/p01.png",
+   "thumb": "thumbs/p01.jpg",
+   "w": 850,
+   "h": 1200,
+   "total_s": 7.21,
+   "panels": [
+    {
+     "id": "p01-p1",
+     "rect": [
+      0.04352941176470588,
+      0.030833333333333334,
+      0.9129411764705883,
+      0.26
+     ],
+     "start": 0.0,
+     "action": "The boy at the ledge starts nearly still, turns his head slightly further to the right as both ends of his scarf flap to the left behind him, then returns to th",
+     "mp4": "media/p01-p1.mp4",
+     "webm": "media/p01-p1.webm",
+     "src_rect": [
+      37,
+      37,
+      813,
+      349
+     ],
+     "mode": "fl"
+    },
+    {
+     "id": "p01-p5",
+     "rect": [
+      0.04352941176470588,
+      0.6366666666666667,
+      0.5388235294117647,
+      0.33166666666666667
+     ],
+     "start": 5.04,
+     "action": "The boy runs to the left across the roof tiles, pumping both fists and pushing off with his legs, while his scarf streams back to the right behind him. He keeps",
+     "mp4": "media/p01-p5.mp4",
+     "webm": "media/p01-p5.webm",
+     "src_rect": [
+      37,
+      764,
+      495,
+      1162
+     ],
+     "mode": "f"
+    },
+    {
+     "id": "p01-p2",
+     "rect": [
+      0.5047058823529412,
+      0.2975,
+      0.45176470588235296,
+      0.33166666666666667
+     ],
+     "start": 1.26,
+     "action": "The boy starts nearly still, tightens the raised fist on screen-right and pulls it slightly closer to his chest while his gaze hardens, then returns to the star",
+     "mp4": "media/p01-p2.mp4",
+     "webm": "media/p01-p2.webm",
+     "src_rect": [
+      429,
+      357,
+      813,
+      755
+     ],
+     "mode": "fl"
+    },
+    {
+     "id": "p01-p3",
+     "static": true,
+     "rect": [
+      0.04353,
+      0.29167,
+      0.45176,
+      0.33833
+     ],
+     "reason": "The threat lands harder if the blocker leans in while he speaks. The coat hem is already drawn flari"
+    },
+    {
+     "id": "p01-p4",
+     "static": true,
+     "rect": [
+      0.59412,
+      0.63667,
+      0.36235,
+      0.3325
+     ],
+     "reason": "This is the wind-up before the dash. Visibly gathering strength builds tension and matches the anima"
+    }
+   ],
+   "layers": [
+    {
+     "id": "p01-L0",
+     "ref": "p01-b1",
+     "kind": "bubble",
+     "text": "日没の街。屋根の上がおれの道だ。",
+     "order": 1,
+     "t_in": 0.42,
+     "src": "layers/p01-L0.png",
+     "rect": [
+      0.7835294117647059,
+      0.08833333333333333,
+      0.1223529411764706,
+      0.13833333333333334
+     ],
+     "panel": "p01-p1",
+     "mode": "text",
+     "anim": "fade"
+    },
+    {
+     "id": "p01-L1",
+     "ref": "p01-b2",
+     "kind": "bubble",
+     "text": "届けるぞ、必ず！",
+     "order": 2,
+     "t_in": 1.68,
+     "src": "layers/p01-L1.png",
+     "rect": [
+      0.5541176470588235,
+      0.3358333333333333,
+      0.08470588235294117,
+      0.11583333333333333
+     ],
+     "panel": "p01-p2",
+     "mode": "text",
+     "anim": "fade"
+    },
+    {
+     "id": "p01-L2",
+     "ref": "p01-b3",
+     "kind": "bubble",
+     "text": "ここは通さんぞ、小僧。",
+     "order": 3,
+     "t_in": 2.94,
+     "src": "layers/p01-L2.png",
+     "rect": [
+      0.33176470588235296,
+      0.3233333333333333,
+      0.12352941176470589,
+      0.115
+     ],
+     "panel": "p01-p3",
+     "mode": "text",
+     "anim": "fade"
+    },
+    {
+     "id": "p01-L3",
+     "ref": "p01-f1",
+     "kind": "sfx",
+     "text": "グッ",
+     "order": 50,
+     "t_in": 3.99,
+     "src": "layers/p01-L3.png",
+     "rect": [
+      0.6376470588235295,
+      0.6408333333333334,
+      0.12352941176470589,
+      0.0725
+     ],
+     "panel": "p01-p4",
+     "mode": "full",
+     "preset": "tremble"
+    },
+    {
+     "id": "p01-L4",
+     "ref": "p01-f2",
+     "kind": "manpu",
+     "text": "",
+     "order": 50,
+     "t_in": 4.27,
+     "src": "layers/p01-L4.png",
+     "rect": [
+      0.6823529411764706,
+      0.7158333333333333,
+      0.0611764705882353,
+      0.0425
+     ],
+     "panel": "p01-p4",
+     "mode": "full",
+     "preset": "jolt"
+    },
+    {
+     "id": "p01-L5",
+     "ref": "p01-f3",
+     "kind": "sfx",
+     "text": "!!",
+     "order": 50,
+     "t_in": 5.25,
+     "src": "layers/p01-L5.png",
+     "rect": [
+      0.3164705882352941,
+      0.8383333333333334,
+      0.31411764705882356,
+      0.1375
+     ],
+     "panel": "p01-p5",
+     "mode": "full",
+     "preset": "impact"
+    },
+    {
+     "id": "p01-L6",
+     "ref": "p01-f4",
+     "kind": "sfx",
+     "text": "ダ",
+     "order": 50,
+     "t_in": 5.53,
+     "src": "layers/p01-L6.png",
+     "rect": [
+      0.10235294117647059,
+      0.8416666666666667,
+      0.10235294117647059,
+      0.04083333333333333
+     ],
+     "panel": "p01-p5",
+     "mode": "full",
+     "preset": "impact"
+    },
+    {
+     "id": "p01-L7",
+     "ref": "p01-f5",
+     "kind": "sfx",
+     "text": "ッ",
+     "order": 50,
+     "t_in": 5.81,
+     "src": "layers/p01-L7.png",
+     "rect": [
+      0.1952941176470588,
+      0.8508333333333333,
+      0.1623529411764706,
+      0.09083333333333334
+     ],
+     "panel": "p01-p5",
+     "mode": "full",
+     "preset": "impact"
+    },
+    {
+     "id": "p01-L8",
+     "ref": "p01-f6",
+     "kind": "sfx",
+     "text": "ダ",
+     "order": 50,
+     "t_in": 6.09,
+     "src": "layers/p01-L8.png",
+     "rect": [
+      0.1,
+      0.8791666666666667,
+      0.06,
+      0.03916666666666667
+     ],
+     "panel": "p01-p5",
+     "mode": "full",
+     "preset": "impact"
+    }
+   ],
+   "overlays": []
+  },
+  {
+   "id": "p02",
+   "work": "shonen-rooftop",
+   "label": "p02",
+   "image": "pages/p02.png",
+   "thumb": "thumbs/p02.jpg",
+   "w": 850,
+   "h": 1200,
+   "total_s": 7.0,
+   "panels": [
+    {
+     "id": "p02-p1",
+     "rect": [
+      0.04352941176470588,
+      0.030833333333333334,
+      0.9129411764705883,
+      0.375
+     ],
+     "start": 0.0,
+     "action": "The boy on the left drives his right fist forward into the masked man's fist on the right, and the masked man's arm and upper body jolt back from the hit. Debri",
+     "mp4": "media/p02-p1.mp4",
+     "webm": "media/p02-p1.webm",
+     "src_rect": [
+      37,
+      37,
+      813,
+      487
+     ],
+     "mode": "f"
+    },
+    {
+     "id": "p02-p2",
+     "static": true,
+     "rect": [
+      0.50471,
+      0.40917,
+      0.45176,
+      0.28167
+     ],
+     "reason": "The follow-up punch is drawn coming toward the camera. A one-way thrust sells the attack before the "
+    },
+    {
+     "id": "p02-p3",
+     "static": true,
+     "rect": [
+      0.04353,
+      0.40917,
+      0.45176,
+      0.275
+     ],
+     "reason": "A dodge is one-way body motion, and the drawn twist and trailing scarf call for motion. The shouted "
+    },
+    {
+     "id": "p02-p4",
+     "static": true,
+     "rect": [
+      0.41647,
+      0.69333,
+      0.54,
+      0.27583
+     ],
+     "reason": "The lurch and the change to shock are drawn. Motion makes his disbelief land, and the balloon needs "
+    },
+    {
+     "id": "p02-p5",
+     "static": true,
+     "rect": [
+      0.04353,
+      0.69167,
+      0.36235,
+      0.2775
+     ],
+     "reason": "The skidding landing is drawn one-way motion with SFX. It closes the exchange on the boy's cocky con"
+    }
+   ],
+   "layers": [
+    {
+     "id": "p02-L0",
+     "ref": "p02-b1",
+     "kind": "bubble",
+     "text": "くらえっ!",
+     "order": 1,
+     "t_in": 0.42,
+     "src": "layers/p02-L0.png",
+     "rect": [
+      0.13647058823529412,
+      0.0,
+      0.14,
+      0.22583333333333333
+     ],
+     "panel": "p02-p1",
+     "mode": "text",
+     "anim": "shake"
+    },
+    {
+     "id": "p02-L1",
+     "ref": "p02-b2",
+     "kind": "bubble",
+     "text": "ぬうっ!?",
+     "order": 2,
+     "t_in": 1.68,
+     "src": "layers/p02-L1.png",
+     "rect": [
+      0.84,
+      0.4083333333333333,
+      0.04823529411764706,
+      0.125
+     ],
+     "panel": "p02-p2",
+     "mode": "text",
+     "anim": "shake"
+    },
+    {
+     "id": "p02-L2",
+     "ref": "p02-b3",
+     "kind": "bubble",
+     "text": "遅いっ!",
+     "order": 3,
+     "t_in": 2.94,
+     "src": "layers/p02-L2.png",
+     "rect": [
+      0.15529411764705883,
+      0.4141666666666667,
+      0.04941176470588235,
+      0.1025
+     ],
+     "panel": "p02-p3",
+     "mode": "text",
+     "anim": "shake"
+    },
+    {
+     "id": "p02-L3",
+     "ref": "p02-b4",
+     "kind": "bubble",
+     "text": "なん…だと?",
+     "order": 4,
+     "t_in": 4.2,
+     "src": "layers/p02-L3.png",
+     "rect": [
+      0.8117647058823529,
+      0.6891666666666667,
+      0.04823529411764706,
+      0.14916666666666667
+     ],
+     "panel": "p02-p4",
+     "mode": "text",
+     "anim": "fade"
+    },
+    {
+     "id": "p02-L4",
+     "ref": "p02-f1",
+     "kind": "sfx",
+     "text": "トンッ",
+     "order": 50,
+     "t_in": 0.21,
+     "src": "layers/p02-L4.png",
+     "rect": [
+      0.3623529411764706,
+      0.16916666666666666,
+      0.24941176470588236,
+      0.11333333333333333
+     ],
+     "panel": "p02-p1",
+     "mode": "full",
+     "preset": "impact"
+    },
+    {
+     "id": "p02-L5",
+     "ref": "p02-f2",
+     "kind": "sfx",
+     "text": "!",
+     "order": 50,
+     "t_in": 0.49,
+     "src": "layers/p02-L5.png",
+     "rect": [
+      0.6023529411764705,
+      0.17166666666666666,
+      0.14,
+      0.14083333333333334
+     ],
+     "panel": "p02-p1",
+     "mode": "full",
+     "preset": "jolt"
+    },
+    {
+     "id": "p02-L6",
+     "ref": "p02-f3",
+     "kind": "sfx",
+     "text": "!",
+     "order": 50,
+     "t_in": 0.77,
+     "src": "layers/p02-L6.png",
+     "rect": [
+      0.7894117647058824,
+      0.18583333333333332,
+      0.16588235294117648,
+      0.14333333333333334
+     ],
+     "panel": "p02-p1",
+     "mode": "full",
+     "preset": "jolt"
+    },
+    {
+     "id": "p02-L7",
+     "ref": "p02-f4",
+     "kind": "sfx",
+     "text": "ザザッ",
+     "order": 50,
+     "t_in": 5.25,
+     "src": "layers/p02-L7.png",
+     "rect": [
+      0.24705882352941178,
+      0.8241666666666667,
+      0.10352941176470588,
+      0.17583333333333334
+     ],
+     "panel": "p02-p5",
+     "mode": "full",
+     "preset": "slide"
+    },
+    {
+     "id": "p02-L8",
+     "ref": "p02-f5",
+     "kind": "manpu",
+     "text": "",
+     "order": 50,
+     "t_in": 5.53,
+     "src": "layers/p02-L8.png",
+     "rect": [
+      0.10352941176470588,
+      0.7091666666666666,
+      0.023529411764705882,
+      0.0175
+     ],
+     "panel": "p02-p5",
+     "mode": "full",
+     "preset": "line_stretch"
+    }
+   ],
+   "overlays": []
+  },
+  {
+   "id": "p03",
+   "work": "shonen-rooftop",
+   "label": "p03",
+   "image": "pages/p03.png",
+   "thumb": "thumbs/p03.jpg",
+   "w": 850,
+   "h": 1200,
+   "total_s": 7.21,
+   "panels": [
+    {
+     "id": "p03-p3",
+     "rect": [
+      0.04352941176470588,
+      0.31583333333333335,
+      0.9552941176470588,
+      0.38666666666666666
+     ],
+     "start": 2.52,
+     "action": "The youth on the left drives his right fist forward into the mask of the man on the right, and the man's head snaps back toward the right as fragments burst fro",
+     "mp4": "media/p03-p3.mp4",
+     "webm": "media/p03-p3.webm",
+     "src_rect": [
+      37,
+      379,
+      849,
+      843
+     ],
+     "mode": "f"
+    },
+    {
+     "id": "p03-p1",
+     "static": true,
+     "rect": [
+      0.50471,
+      0.03333,
+      0.45176,
+      0.275
+     ],
+     "reason": "A drawn flying kick is one-way motion, and the shout balloon animates, so the youth must move."
+    },
+    {
+     "id": "p03-p2",
+     "static": true,
+     "rect": [
+      0.04353,
+      0.02417,
+      0.45176,
+      0.28417
+     ],
+     "reason": "A change of expression (being caught off guard) that sets up the hit, and the balloon appears here."
+    },
+    {
+     "id": "p03-p4",
+     "static": true,
+     "rect": [
+      0.50471,
+      0.70917,
+      0.49529,
+      0.26
+     ],
+     "reason": "The counter-swing is a drawn one-way action, and the shout balloon animates, so the character must m"
+    },
+    {
+     "id": "p03-p5",
+     "static": true,
+     "rect": [
+      0.04353,
+      0.70917,
+      0.45176,
+      0.26
+     ],
+     "reason": "No character is in the panel, but there is drawn destruction (rubble, dust, a spreading crack) that "
+    }
+   ],
+   "layers": [
+    {
+     "id": "p03-L0",
+     "ref": "p03-b1",
+     "kind": "bubble",
+     "text": "せりゃあっ!",
+     "order": 1,
+     "t_in": 0.42,
+     "src": "layers/p03-L0.png",
+     "rect": [
+      0.6082352941176471,
+      0.03666666666666667,
+      0.04823529411764706,
+      0.14916666666666667
+     ],
+     "panel": "p03-p1",
+     "mode": "text",
+     "anim": "shake"
+    },
+    {
+     "id": "p03-L1",
+     "ref": "p03-b2",
+     "kind": "bubble",
+     "text": "しまっ…",
+     "order": 2,
+     "t_in": 1.68,
+     "src": "layers/p03-L1.png",
+     "rect": [
+      0.37411764705882355,
+      0.051666666666666666,
+      0.04352941176470588,
+      0.10166666666666667
+     ],
+     "panel": "p03-p2",
+     "mode": "text",
+     "anim": "fade"
+    },
+    {
+     "id": "p03-L2",
+     "ref": "p03-b3",
+     "kind": "bubble",
+     "text": "おれの道を塞ぐなっ!",
+     "order": 3,
+     "t_in": 4.41,
+     "src": "layers/p03-L2.png",
+     "rect": [
+      0.8741176470588236,
+      0.6108333333333333,
+      0.12588235294117647,
+      0.19416666666666665
+     ],
+     "panel": "p03-p4",
+     "mode": "full",
+     "anim": "shake"
+    },
+    {
+     "id": "p03-L3",
+     "ref": "p03-f1",
+     "kind": "sfx",
+     "text": "!",
+     "order": 50,
+     "t_in": 2.73,
+     "src": "layers/p03-L3.png",
+     "rect": [
+      0.6764705882352942,
+      0.425,
+      0.08470588235294117,
+      0.11416666666666667
+     ],
+     "panel": "p03-p3",
+     "mode": "full",
+     "preset": "jolt"
+    },
+    {
+     "id": "p03-L4",
+     "ref": "p03-f2",
+     "kind": "sfx",
+     "text": "!",
+     "order": 50,
+     "t_in": 3.01,
+     "src": "layers/p03-L4.png",
+     "rect": [
+      0.8235294117647058,
+      0.4241666666666667,
+      0.09647058823529411,
+      0.15416666666666667
+     ],
+     "panel": "p03-p3",
+     "mode": "full",
+     "preset": "jolt"
+    },
+    {
+     "id": "p03-L5",
+     "ref": "p03-f3",
+     "kind": "sfx",
+     "text": "キィッ",
+     "order": 50,
+     "t_in": 3.29,
+     "src": "layers/p03-L5.png",
+     "rect": [
+      0.17411764705882352,
+      0.45166666666666666,
+      0.47058823529411764,
+      0.13083333333333333
+     ],
+     "panel": "p03-p3",
+     "mode": "full",
+     "preset": "impact"
+    },
+    {
+     "id": "p03-L6",
+     "ref": "p03-f4",
+     "kind": "sfx",
+     "text": "バ",
+     "order": 50,
+     "t_in": 3.57,
+     "src": "layers/p03-L6.png",
+     "rect": [
+      0.08588235294117647,
+      0.5458333333333333,
+      0.10235294117647059,
+      0.051666666666666666
+     ],
+     "panel": "p03-p3",
+     "mode": "full",
+     "preset": "impact"
+    },
+    {
+     "id": "p03-L7",
+     "ref": "p03-f5",
+     "kind": "manpu",
+     "text": "",
+     "order": 50,
+     "t_in": 3.85,
+     "src": "layers/p03-L7.png",
+     "rect": [
+      0.4623529411764706,
+      0.4508333333333333,
+      0.05176470588235294,
+      0.021666666666666667
+     ],
+     "panel": "p03-p3",
+     "mode": "full",
+     "preset": "pop"
+    },
+    {
+     "id": "p03-L8",
+     "ref": "p03-f6",
+     "kind": "manpu",
+     "text": "",
+     "order": 50,
+     "t_in": 4.2,
+     "src": "layers/p03-L8.png",
+     "rect": [
+      0.8458823529411764,
+      0.8283333333333334,
+      0.05647058823529412,
+      0.07416666666666667
+     ],
+     "panel": "p03-p4",
+     "mode": "full",
+     "preset": "pop"
+    },
+    {
+     "id": "p03-L9",
+     "ref": "p03-f7",
+     "kind": "sfx",
+     "text": "シャーン!",
+     "order": 50,
+     "t_in": 5.46,
+     "src": "layers/p03-L9.png",
+     "rect": [
+      0.1388235294117647,
+      0.7708333333333334,
+      0.31882352941176473,
+      0.09916666666666667
+     ],
+     "panel": "p03-p5",
+     "mode": "full",
+     "preset": "impact"
+    },
+    {
+     "id": "p03-L10",
+     "ref": "p03-f8",
+     "kind": "sfx",
+     "text": "ガ",
+     "order": 50,
+     "t_in": 5.74,
+     "src": "layers/p03-L10.png",
+     "rect": [
+      0.07058823529411765,
+      0.7933333333333333,
+      0.08235294117647059,
+      0.056666666666666664
+     ],
+     "panel": "p03-p5",
+     "mode": "full",
+     "preset": "impact"
+    }
+   ],
+   "overlays": []
+  },
+  {
+   "id": "p04",
+   "work": "shonen-rooftop",
+   "label": "p04",
+   "image": "pages/p04.png",
+   "thumb": "thumbs/p04.jpg",
+   "w": 850,
+   "h": 1200,
+   "total_s": 5.74,
+   "panels": [
+    {
+     "id": "p04-p4",
+     "rect": [
+      0.04352941176470588,
+      0.6733333333333333,
+      0.9129411764705883,
+      0.295
+     ],
+     "start": 3.78,
+     "action": "The boy runs toward the right across the tiled rooftops, his arms pumping and his legs striding forward. His scarf streams back to the left behind him as he mov",
+     "mp4": "media/p04-p4.mp4",
+     "webm": "media/p04-p4.webm",
+     "src_rect": [
+      37,
+      808,
+      813,
+      1162
+     ],
+     "mode": "f"
+    },
+    {
+     "id": "p04-p1",
+     "static": true,
+     "rect": [
+      0.04353,
+      0.03083,
+      0.91294,
+      0.32167
+     ],
+     "reason": "His balloon animates, so he has to move too. A slow defeated exhale fits the resignation, and the dr"
+    },
+    {
+     "id": "p04-p2",
+     "static": true,
+     "rect": [
+      0.50471,
+      0.355,
+      0.45176,
+      0.31083
+     ],
+     "reason": "An offered hand is a clear action and the scarf flutter is drawn, so reaching and returning sells th"
+    },
+    {
+     "id": "p04-p3",
+     "static": true,
+     "rect": [
+      0.04353,
+      0.355,
+      0.45176,
+      0.31083
+     ],
+     "reason": "His balloon animates, so he has to move too. A small nod turns his surprise into acceptance without "
+    }
+   ],
+   "layers": [
+    {
+     "id": "p04-L0",
+     "ref": "p04-b1",
+     "kind": "bubble",
+     "text": "…おれの負けか。",
+     "order": 1,
+     "t_in": 0.42,
+     "src": "layers/p04-L0.png",
+     "rect": [
+      0.18470588235294116,
+      0.075,
+      0.08588235294117647,
+      0.10416666666666667
+     ],
+     "panel": "p04-p1",
+     "mode": "text",
+     "anim": "fade"
+    },
+    {
+     "id": "p04-L1",
+     "ref": "p04-b2",
+     "kind": "bubble",
+     "text": "まだやるか?",
+     "order": 2,
+     "t_in": 1.68,
+     "src": "layers/p04-L1.png",
+     "rect": [
+      0.5670588235294117,
+      0.31916666666666665,
+      0.10588235294117647,
+      0.225
+     ],
+     "panel": "p04-p2",
+     "mode": "full",
+     "anim": "pop"
+    },
+    {
+     "id": "p04-L2",
+     "ref": "p04-b3",
+     "kind": "bubble",
+     "text": "いや…行け、小僧。",
+     "order": 3,
+     "t_in": 2.94,
+     "src": "layers/p04-L2.png",
+     "rect": [
+      0.3376470588235294,
+      0.35833333333333334,
+      0.08470588235294117,
+      0.13916666666666666
+     ],
+     "panel": "p04-p3",
+     "mode": "text",
+     "anim": "fade"
+    },
+    {
+     "id": "p04-L3",
+     "ref": "p04-b4",
+     "kind": "bubble",
+     "text": "配達はまだ途中だ。",
+     "order": 4,
+     "t_in": 4.2,
+     "src": "layers/p04-L3.png",
+     "rect": [
+      0.7988235294117647,
+      0.705,
+      0.12823529411764706,
+      0.17416666666666666
+     ],
+     "panel": "p04-p4",
+     "mode": "full",
+     "anim": "fade"
+    },
+    {
+     "id": "p04-L4",
+     "ref": "p04-f1",
+     "kind": "sfx",
+     "text": "タ",
+     "order": 50,
+     "t_in": 3.99,
+     "src": "layers/p04-L4.png",
+     "rect": [
+      0.2447058823529412,
+      0.6875,
+      0.08823529411764706,
+      0.07583333333333334
+     ],
+     "panel": "p04-p4",
+     "mode": "full",
+     "preset": "rhythm"
+    },
+    {
+     "id": "p04-L5",
+     "ref": "p04-f2",
+     "kind": "sfx",
+     "text": "タ",
+     "order": 50,
+     "t_in": 4.27,
+     "src": "layers/p04-L5.png",
+     "rect": [
+      0.3270588235294118,
+      0.7025,
+      0.08588235294117647,
+      0.065
+     ],
+     "panel": "p04-p4",
+     "mode": "full",
+     "preset": "rhythm"
+    },
+    {
+     "id": "p04-L6",
+     "ref": "p04-f3",
+     "kind": "sfx",
+     "text": "タッ",
+     "order": 50,
+     "t_in": 4.55,
+     "src": "layers/p04-L6.png",
+     "rect": [
+      0.40705882352941175,
+      0.7066666666666667,
+      0.16823529411764707,
+      0.0675
+     ],
+     "panel": "p04-p4",
+     "mode": "full",
+     "preset": "pop"
+    }
+   ],
+   "overlays": []
+  }
+ ]
+}

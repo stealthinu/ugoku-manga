@@ -1,0 +1,813 @@
+{
+ "title": "ugoku",
+ "works": [
+  {
+   "id": "shojo-afterschool",
+   "title": "shojo-afterschool"
+  }
+ ],
+ "pages": [
+  {
+   "id": "p01",
+   "work": "shojo-afterschool",
+   "label": "p01",
+   "image": "pages/p01.png",
+   "thumb": "thumbs/p01.jpg",
+   "w": 850,
+   "h": 1200,
+   "total_s": 7.0,
+   "panels": [
+    {
+     "id": "p01-p5",
+     "rect": [
+      0.05058823529411765,
+      0.665,
+      0.5294117647058824,
+      0.29833333333333334
+     ],
+     "start": 5.04,
+     "action": "The boy on the right moves the arm holding the umbrella forward toward the screen left, tilting the umbrella further over the girl on the left until it covers h",
+     "mp4": "media/p01-p5.mp4",
+     "webm": "media/p01-p5.webm",
+     "src_rect": [
+      43,
+      798,
+      493,
+      1156
+     ],
+     "mode": "f"
+    },
+    {
+     "id": "p01-p2",
+     "rect": [
+      0.508235294117647,
+      0.3025,
+      0.44,
+      0.3516666666666667
+     ],
+     "start": 1.26,
+     "action": "The girl on the right starts nearly still, lifts her chin a little to look further up at the eaves while her hand on the bag strap at chest height tightens slig",
+     "mp4": "media/p01-p2.mp4",
+     "webm": "media/p01-p2.webm",
+     "src_rect": [
+      432,
+      363,
+      806,
+      785
+     ],
+     "mode": "fl"
+    },
+    {
+     "id": "p01-p1",
+     "rect": [
+      0.42,
+      0.06416666666666666,
+      0.5294117647058824,
+      0.2633333333333333
+     ],
+     "start": 0.0,
+     "action": "The girl on the right starts nearly still, slowly blinks and tilts her head slightly to the left, then returns to the starting pose. The thin rain streaks in fr",
+     "mp4": "media/p01-p1.mp4",
+     "webm": "media/p01-p1.webm",
+     "src_rect": [
+      357,
+      77,
+      807,
+      393
+     ],
+     "mode": "fl"
+    },
+    {
+     "id": "p01-p3",
+     "static": true,
+     "rect": [
+      0.05059,
+      0.32833,
+      0.44118,
+      0.32583
+     ],
+     "reason": "He is calling out to her. A head turn and a smile tie the motion to his speech balloon, so the lette"
+    },
+    {
+     "id": "p01-p4",
+     "static": true,
+     "rect": [
+      0.59529,
+      0.665,
+      0.35412,
+      0.29917
+     ],
+     "reason": "This is a change of expression into startled surprise. The shout and the surprise marks need the fac"
+    }
+   ],
+   "layers": [
+    {
+     "id": "p01-L0",
+     "ref": "p01-b1",
+     "kind": "bubble",
+     "text": "放課後、突然の雨。",
+     "order": 1,
+     "t_in": 0.42,
+     "src": "layers/p01-L0.png",
+     "rect": [
+      0.8176470588235294,
+      0.13083333333333333,
+      0.08235294117647059,
+      0.10916666666666666
+     ],
+     "panel": "p01-p1",
+     "mode": "text",
+     "anim": "fade"
+    },
+    {
+     "id": "p01-L1",
+     "ref": "p01-b2",
+     "kind": "bubble",
+     "text": "傘、忘れた…",
+     "order": 2,
+     "t_in": 1.68,
+     "src": "layers/p01-L1.png",
+     "rect": [
+      0.548235294117647,
+      0.3275,
+      0.18588235294117647,
+      0.18416666666666667
+     ],
+     "panel": "p01-p2",
+     "mode": "full",
+     "anim": "fade"
+    },
+    {
+     "id": "p01-L2",
+     "ref": "p01-b3",
+     "kind": "bubble",
+     "text": "あれ、水瀬さん？",
+     "order": 3,
+     "t_in": 2.94,
+     "src": "layers/p01-L2.png",
+     "rect": [
+      0.2964705882352941,
+      0.325,
+      0.1635294117647059,
+      0.18166666666666667
+     ],
+     "panel": "p01-p3",
+     "mode": "full",
+     "anim": "pop"
+    },
+    {
+     "id": "p01-L3",
+     "ref": "p01-b4",
+     "kind": "bubble",
+     "text": "えっ…日向くん！？",
+     "order": 4,
+     "t_in": 4.2,
+     "src": "layers/p01-L3.png",
+     "rect": [
+      0.831764705882353,
+      0.685,
+      0.08823529411764706,
+      0.14416666666666667
+     ],
+     "panel": "p01-p4",
+     "mode": "full",
+     "anim": "shake"
+    },
+    {
+     "id": "p01-L4",
+     "ref": "p01-b5",
+     "kind": "bubble",
+     "text": "入って。駅まで送る。",
+     "order": 5,
+     "t_in": 5.46,
+     "src": "layers/p01-L4.png",
+     "rect": [
+      0.4023529411764706,
+      0.6691666666666667,
+      0.09411764705882353,
+      0.13416666666666666
+     ],
+     "panel": "p01-p5",
+     "mode": "full",
+     "anim": "pop"
+    },
+    {
+     "id": "p01-L5",
+     "ref": "p01-f6",
+     "kind": "manpu",
+     "text": "",
+     "order": 50,
+     "t_in": 5.53,
+     "src": "layers/p01-L5.png",
+     "rect": [
+      0.1,
+      0.7141666666666666,
+      0.09411764705882353,
+      0.06416666666666666
+     ],
+     "panel": "p01-p5",
+     "mode": "full",
+     "preset": "sparkle_blink"
+    }
+   ],
+   "overlays": []
+  },
+  {
+   "id": "p02",
+   "work": "shojo-afterschool",
+   "label": "p02",
+   "image": "pages/p02.png",
+   "thumb": "thumbs/p02.jpg",
+   "w": 850,
+   "h": 1200,
+   "total_s": 7.0,
+   "panels": [
+    {
+     "id": "p02-p3",
+     "rect": [
+      0.12,
+      0.3075,
+      0.8282352941176471,
+      0.36666666666666664
+     ],
+     "start": 2.52,
+     "action": "The girl on the left starts nearly still, slowly turns her face up toward the boy, and the boy on the right tilts his head down toward her while holding the umb",
+     "mp4": "media/p02-p3.mp4",
+     "webm": "media/p02-p3.webm",
+     "src_rect": [
+      102,
+      369,
+      806,
+      809
+     ],
+     "mode": "fl"
+    },
+    {
+     "id": "p02-p1",
+     "static": true,
+     "rect": [
+      0.50824,
+      0.035,
+      0.44118,
+      0.2725
+     ],
+     "reason": "Walking side by side is a character action, and the rain SFX animates, so the figures have to move t"
+    },
+    {
+     "id": "p02-p2",
+     "static": true,
+     "rect": [
+      0.05059,
+      0.0,
+      0.44118,
+      0.3075
+     ],
+     "reason": "Her expression changes as the nervous closeness sinks in. A small up-and-back head movement shows th"
+    },
+    {
+     "id": "p02-p4",
+     "static": true,
+     "rect": [
+      0.50824,
+      0.6925,
+      0.44118,
+      0.27167
+     ],
+     "reason": "The drawing already shows a head turn and a tie swinging, so it moves. His face stays composed."
+    },
+    {
+     "id": "p02-p5",
+     "static": true,
+     "rect": [
+      0.05059,
+      0.67417,
+      0.44118,
+      0.29
+     ],
+     "reason": "A change of expression into surprise along with a hand gesture. The balloon and the drip effects ani"
+    }
+   ],
+   "layers": [
+    {
+     "id": "p02-L0",
+     "ref": "p02-b1",
+     "kind": "bubble",
+     "text": "……",
+     "order": 1,
+     "t_in": 0.42,
+     "src": "layers/p02-L0.png",
+     "rect": [
+      0.571764705882353,
+      0.07416666666666667,
+      0.029411764705882353,
+      0.05416666666666667
+     ],
+     "panel": "p02-p1",
+     "mode": "full",
+     "anim": "fade"
+    },
+    {
+     "id": "p02-L1",
+     "ref": "p02-b2",
+     "kind": "bubble",
+     "text": "近い…！心臓の音、聞こえそう",
+     "order": 2,
+     "t_in": 1.68,
+     "src": "layers/p02-L1.png",
+     "rect": [
+      0.3023529411764706,
+      0.04583333333333333,
+      0.11411764705882353,
+      0.11916666666666667
+     ],
+     "panel": "p02-p2",
+     "mode": "text",
+     "anim": "fade"
+    },
+    {
+     "id": "p02-L2",
+     "ref": "p02-b3",
+     "kind": "bubble",
+     "text": "ひとつの傘の下、時間がゆっくり流れていく。",
+     "order": 3,
+     "t_in": 2.94,
+     "src": "layers/p02-L2.png",
+     "rect": [
+      0.8188235294117647,
+      0.30333333333333334,
+      0.11529411764705882,
+      0.17166666666666666
+     ],
+     "panel": "p02-p3",
+     "mode": "text",
+     "anim": "fade"
+    },
+    {
+     "id": "p02-L3",
+     "ref": "p02-b4",
+     "kind": "bubble",
+     "text": "雨、やまないな。",
+     "order": 4,
+     "t_in": 4.2,
+     "src": "layers/p02-L3.png",
+     "rect": [
+      0.5529411764705883,
+      0.6925,
+      0.08823529411764706,
+      0.13166666666666665
+     ],
+     "panel": "p02-p4",
+     "mode": "full",
+     "anim": "fade"
+    },
+    {
+     "id": "p02-L4",
+     "ref": "p02-b5",
+     "kind": "bubble",
+     "text": "肩、濡れてる！",
+     "order": 5,
+     "t_in": 5.46,
+     "src": "layers/p02-L4.png",
+     "rect": [
+      0.35294117647058826,
+      0.7033333333333334,
+      0.08235294117647059,
+      0.11833333333333333
+     ],
+     "panel": "p02-p5",
+     "mode": "text",
+     "anim": "fade"
+    },
+    {
+     "id": "p02-L5",
+     "ref": "p02-f1",
+     "kind": "sfx",
+     "text": "ザーッ",
+     "order": 50,
+     "t_in": 0.21,
+     "src": "layers/p02-L5.png",
+     "rect": [
+      0.8047058823529412,
+      0.19,
+      0.06235294117647059,
+      0.0725
+     ],
+     "panel": "p02-p1",
+     "mode": "full",
+     "preset": "drop"
+    },
+    {
+     "id": "p02-L6",
+     "ref": "p02-f2",
+     "kind": "manpu",
+     "text": "",
+     "order": 50,
+     "t_in": 2.73,
+     "src": "layers/p02-L6.png",
+     "rect": [
+      0.12117647058823529,
+      0.3625,
+      0.1811764705882353,
+      0.08583333333333333
+     ],
+     "panel": "p02-p3",
+     "mode": "full",
+     "preset": "sparkle_blink"
+    }
+   ],
+   "overlays": []
+  },
+  {
+   "id": "p03",
+   "work": "shojo-afterschool",
+   "label": "p03",
+   "image": "pages/p03.png",
+   "thumb": "thumbs/p03.jpg",
+   "w": 850,
+   "h": 1200,
+   "total_s": 7.0,
+   "panels": [
+    {
+     "id": "p03-p5",
+     "rect": [
+      0.05058823529411765,
+      0.6925,
+      0.44,
+      0.27166666666666667
+     ],
+     "start": 5.04,
+     "action": "The girl lifts her shoulders and leans her upper body forward, bringing her clasped hands up to her chest as her open smile grows brighter, and tilts her head s",
+     "mp4": "media/p03-p5.mp4",
+     "webm": "media/p03-p5.webm",
+     "src_rect": [
+      43,
+      831,
+      417,
+      1157
+     ],
+     "mode": "fl"
+    },
+    {
+     "id": "p03-p1",
+     "static": true,
+     "rect": [
+      0.42,
+      0.03833,
+      0.52941,
+      0.35917
+     ],
+     "reason": "She pushes the umbrella over to him in a flustered way. The shouted balloon animates, so the charact"
+    },
+    {
+     "id": "p03-p2",
+     "static": true,
+     "rect": [
+      0.05059,
+      0.03583,
+      0.35412,
+      0.36167
+     ],
+     "reason": "A beat of surprise from the boy, with the girl reacting in the same panel. The balloon animates, so "
+    },
+    {
+     "id": "p03-p3",
+     "static": true,
+     "rect": [
+      0.05059,
+      0.3975,
+      0.89882,
+      0.295
+     ],
+     "reason": "A quiet, subtle head turn keeps the wistful feeling of time running out. A character is present and "
+    },
+    {
+     "id": "p03-p4",
+     "static": true,
+     "rect": [
+      0.50824,
+      0.6925,
+      0.44118,
+      0.27167
+     ],
+     "reason": "A change of expression in a large face close-up that carries the bashful thank-you."
+    }
+   ],
+   "layers": [
+    {
+     "id": "p03-L0",
+     "ref": "p03-b1",
+     "kind": "bubble",
+     "text": "日向くんが濡れちゃう!",
+     "order": 1,
+     "t_in": 0.42,
+     "src": "layers/p03-L0.png",
+     "rect": [
+      0.6435294117647059,
+      0.0325,
+      0.08235294117647059,
+      0.14083333333333334
+     ],
+     "panel": "p03-p1",
+     "mode": "text",
+     "anim": "shake"
+    },
+    {
+     "id": "p03-L1",
+     "ref": "p03-b2",
+     "kind": "bubble",
+     "text": "え…!",
+     "order": 2,
+     "t_in": 1.68,
+     "src": "layers/p03-L1.png",
+     "rect": [
+      0.16941176470588235,
+      0.0725,
+      0.04352941176470588,
+      0.075
+     ],
+     "panel": "p03-p2",
+     "mode": "text",
+     "anim": "fade"
+    },
+    {
+     "id": "p03-L2",
+     "ref": "p03-b3",
+     "kind": "bubble",
+     "text": "駅に着くまで、あと三分。",
+     "order": 3,
+     "t_in": 2.94,
+     "src": "layers/p03-L2.png",
+     "rect": [
+      0.7835294117647059,
+      0.44916666666666666,
+      0.14,
+      0.19333333333333333
+     ],
+     "panel": "p03-p3",
+     "mode": "full",
+     "anim": "fade"
+    },
+    {
+     "id": "p03-L3",
+     "ref": "p03-b4",
+     "kind": "bubble",
+     "text": "…ありがとな。",
+     "order": 4,
+     "t_in": 4.2,
+     "src": "layers/p03-L3.png",
+     "rect": [
+      0.8188235294117647,
+      0.6925,
+      0.07058823529411765,
+      0.15833333333333333
+     ],
+     "panel": "p03-p4",
+     "mode": "full",
+     "anim": "fade"
+    },
+    {
+     "id": "p03-L4",
+     "ref": "p03-b5",
+     "kind": "bubble",
+     "text": "こちらこそ!",
+     "order": 5,
+     "t_in": 5.46,
+     "src": "layers/p03-L4.png",
+     "rect": [
+      0.36823529411764705,
+      0.705,
+      0.04941176470588235,
+      0.14333333333333334
+     ],
+     "panel": "p03-p5",
+     "mode": "full",
+     "anim": "pop"
+    },
+    {
+     "id": "p03-L5",
+     "ref": "p03-f1",
+     "kind": "manpu",
+     "text": "",
+     "order": 50,
+     "t_in": 0.21,
+     "src": "layers/p03-L5.png",
+     "rect": [
+      0.5376470588235294,
+      0.17,
+      0.03058823529411765,
+      0.03166666666666667
+     ],
+     "panel": "p03-p1",
+     "mode": "full",
+     "preset": "pop"
+    },
+    {
+     "id": "p03-L6",
+     "ref": "p03-f3",
+     "kind": "manpu",
+     "text": "",
+     "order": 50,
+     "t_in": 1.47,
+     "src": "layers/p03-L6.png",
+     "rect": [
+      0.3305882352941176,
+      0.0875,
+      0.04,
+      0.029166666666666667
+     ],
+     "panel": "p03-p2",
+     "mode": "full",
+     "preset": "sparkle_blink"
+    }
+   ],
+   "overlays": []
+  },
+  {
+   "id": "p04",
+   "work": "shojo-afterschool",
+   "label": "p04",
+   "image": "pages/p04.png",
+   "thumb": "thumbs/p04.jpg",
+   "w": 850,
+   "h": 1200,
+   "total_s": 7.21,
+   "panels": [
+    {
+     "id": "p04-p1",
+     "rect": [
+      0.508235294117647,
+      0.035833333333333335,
+      0.44,
+      0.325
+     ],
+     "start": 0.0,
+     "action": "The girl raises her hand on the left side of the screen and waves it from side to side at the wrist and forearm, with her head tilting a little toward it. She s",
+     "mp4": "media/p04-p1.mp4",
+     "webm": "media/p04-p1.webm",
+     "src_rect": [
+      432,
+      43,
+      806,
+      433
+     ],
+     "mode": "fl"
+    },
+    {
+     "id": "p04-p2",
+     "static": true,
+     "rect": [
+      0.05059,
+      0.03583,
+      0.44118,
+      0.32583
+     ],
+     "reason": "He waves back in reply. Moving his arm completes the exchange of goodbyes started in P1."
+    },
+    {
+     "id": "p04-p3",
+     "static": true,
+     "rect": [
+      0.05059,
+      0.36167,
+      0.89882,
+      0.3125
+     ],
+     "reason": "The sparkles and caption animate and her face is in the panel, so she has to move as well. A slow bl"
+    },
+    {
+     "id": "p04-p4",
+     "static": true,
+     "rect": [
+      0.50824,
+      0.67417,
+      0.44118,
+      0.29
+     ],
+     "reason": "Her lovestruck daydream is shown by a gentle sway, and the hearts and thought balloon animate around"
+    },
+    {
+     "id": "p04-p5",
+     "static": true,
+     "rect": [
+      0.05059,
+      0.67417,
+      0.44118,
+      0.29
+     ],
+     "reason": "The raindrops are drawn motion. A small tilt makes the imagined rainy-day meeting she hopes for feel"
+    }
+   ],
+   "layers": [
+    {
+     "id": "p04-L0",
+     "ref": "p04-b1",
+     "kind": "bubble",
+     "text": "また明日ね!",
+     "order": 1,
+     "t_in": 0.42,
+     "src": "layers/p04-L0.png",
+     "rect": [
+      0.8129411764705883,
+      0.04583333333333333,
+      0.05176470588235294,
+      0.13083333333333333
+     ],
+     "panel": "p04-p1",
+     "mode": "full",
+     "anim": "pop"
+    },
+    {
+     "id": "p04-L1",
+     "ref": "p04-b2",
+     "kind": "bubble",
+     "text": "うん、また明日。",
+     "order": 2,
+     "t_in": 1.68,
+     "src": "layers/p04-L1.png",
+     "rect": [
+      0.11764705882352941,
+      0.056666666666666664,
+      0.08588235294117647,
+      0.11333333333333333
+     ],
+     "panel": "p04-p2",
+     "mode": "full",
+     "anim": "pop"
+    },
+    {
+     "id": "p04-L2",
+     "ref": "p04-b3",
+     "kind": "bubble",
+     "text": "雨のち、ひなた。",
+     "order": 3,
+     "t_in": 2.94,
+     "src": "layers/p04-L2.png",
+     "rect": [
+      0.7964705882352942,
+      0.4141666666666667,
+      0.11647058823529412,
+      0.21
+     ],
+     "panel": "p04-p3",
+     "mode": "full",
+     "anim": "fade"
+    },
+    {
+     "id": "p04-L3",
+     "ref": "p04-b4",
+     "kind": "bubble",
+     "text": "明日も降らないかな…",
+     "order": 4,
+     "t_in": 4.2,
+     "src": "layers/p04-L3.png",
+     "rect": [
+      0.7847058823529411,
+      0.6583333333333333,
+      0.08,
+      0.15916666666666668
+     ],
+     "panel": "p04-p4",
+     "mode": "text",
+     "anim": "fade"
+    },
+    {
+     "id": "p04-L4",
+     "ref": "p04-f2",
+     "kind": "manpu",
+     "text": "",
+     "order": 50,
+     "t_in": 2.73,
+     "src": "layers/p04-L4.png",
+     "rect": [
+      0.4894117647058824,
+      0.5275,
+      0.036470588235294116,
+      0.03333333333333333
+     ],
+     "panel": "p04-p3",
+     "mode": "full",
+     "preset": "sparkle_blink"
+    },
+    {
+     "id": "p04-L5",
+     "ref": "p04-f5",
+     "kind": "manpu",
+     "text": "",
+     "order": 50,
+     "t_in": 3.99,
+     "src": "layers/p04-L5.png",
+     "rect": [
+      0.5588235294117647,
+      0.7275,
+      0.03294117647058824,
+      0.03333333333333333
+     ],
+     "panel": "p04-p4",
+     "mode": "full",
+     "preset": "pop"
+    }
+   ],
+   "overlays": []
+  }
+ ]
+}

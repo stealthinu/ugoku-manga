@@ -1,0 +1,82 @@
+[
+ {
+  "page": "p01",
+  "warn": [],
+  "baked": [
+   "f:p01-f1",
+   "f:p01-f2",
+   "f:p01-f3",
+   "f:p01-f4",
+   "f:p01-f5"
+  ],
+  "text_only": [
+   "p01-b1 d49 flat0.70"
+  ],
+  "unassigned": [],
+  "n_layers": 6,
+  "stage": [
+   "p01-p1",
+   "p01-p2",
+   "p01-p5"
+  ]
+ },
+ {
+  "page": "p02",
+  "warn": [],
+  "baked": [
+   "f:p02-f3",
+   "f:p02-f4"
+  ],
+  "text_only": [
+   "p02-b2 d97 flat0.83",
+   "p02-b3 d62 flat0.69",
+   "p02-b5 d59 flat0.63"
+  ],
+  "unassigned": [],
+  "n_layers": 7,
+  "stage": [
+   "p02-p3"
+  ]
+ },
+ {
+  "page": "p03",
+  "warn": [],
+  "baked": [
+   "f:p03-f2",
+   "f:p03-f4",
+   "f:p03-f5",
+   "f:p03-f6",
+   "f:p03-f7"
+  ],
+  "text_only": [
+   "p03-b1 d59 flat0.65",
+   "p03-b2 d40 flat0.59"
+  ],
+  "unassigned": [],
+  "n_layers": 7,
+  "stage": [
+   "p03-p5"
+  ]
+ },
+ {
+  "page": "p04",
+  "warn": [],
+  "baked": [
+   "f:p04-f1",
+   "f:p04-f3",
+   "f:p04-f4",
+   "f:p04-f6",
+   "f:p04-f7",
+   "f:p04-f8",
+   "f:p04-f9"
+  ],
+  "text_only": [
+   "p04-b4 d61 flat0.75"
+  ],
+  "unassigned": [],
+  "n_layers": 6,
+  "stage": [
+   "p04-p1"
+  ]
+ }
+]
